@@ -1,0 +1,91 @@
+<style type="text/css">
+
+/* everything */
+body {
+	font-family: 'Calibri', 'sans-serif';
+	font-size: 11pt;
+	line-height: 1.4;
+	min-width: 612pt;
+	max-width: 612pt;
+}
+* {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/* title */
+h1 {
+	font-size: 14pt;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 10pt;
+}
+h1:hover {
+	background-color: #CCC;
+}
+
+/* category */
+h2 {
+	font-size: 12pt;
+	text-align:center;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-bottom: 8pt;
+}
+h2:hover {
+	background-color: #DDD;
+	margin-bottom: 5pt;
+}
+
+/* contact info */
+h3 {
+	font-size: 11pt;
+	font-weight: normal;
+	text-align: center;
+	margin-bottom: 5pt;
+}
+
+/* lists */
+li {
+}
+
+/* links */
+a {
+}
+
+/* horizontal lines */
+hr {
+	border-top: 1pt solid #000;
+	margin-top: 10pt;
+	margin-bottom: 10pt;
+}
+
+/* right alignment */
+p right {
+	float: right;
+}
+
+/* indent */
+p ih {
+	position: absolute;
+	left: 4%;
+}
+p i1 {
+	position: absolute;
+	left: 8%;
+}
+p i2 {
+	position: absolute;
+	left: 15%;
+}
+p i3 {
+	position: absolute;
+	left: 24%;
+}
+p i4 {
+	position: absolute;
+	left: 32%;
+}
+
+</style>
+
