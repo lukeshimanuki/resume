@@ -7,64 +7,66 @@
 ## TECHNICAL ##
 
 **Languages:**  
-<ih> Proficient: </ih> <i2> C, C++                                                 </i2>  
-<ih> Familiar:   </ih> <i2> Assembly (x86, ADSP-214xx), Java, Markdown, UNIX Shell </i2>  
-<ih> Exposed:    </ih> <i2> CSS, Javascript, Python                                </i2>  
-**Platforms:**         <i2> Linux (Debian, Ubuntu, Linux Mint), Windows (Vista, 7) </i2>  
-**Libraries:**         <i2> OpenCV, OpenGL                                         </i2>  
+<i05> Proficient: </i05> <i15> C, C++                             </i15>  
+<i05> Familiar:   </i05> <i15> C#, Java, UNIX Shell, x86 Assembly </i15>  
+<i05> Exposed:    </i05> <i15> CSS, Javascript, Markdown, Python  </i15>  
+**Platforms:**           <i15> Linux, Windows                     </i15>  
+**Libraries:**           <i15> OpenCV, OpenGL                     </i15>  
 
 --------------------------------------------------------------------------------
 
 ## PROJECTS ##
 
-- (AVBotz) microcontroller system to execute submarine movement and actions
-- (AVBotz) mission control system for underwater vision processing and navigation
-- (AVBotz) microcontroller system to sample hydrophones and multilaterate pinger
 - C compiler to convert C code to x86 assembly (GAS syntax)
+- neural network to determine if the 'e' in a word is silent
 - Chinese Chess game with a terminal interface and computer AI
 - substitution based cryptography program to encrypt/decrypt with a password
 - gesture based typing interface for touchscreen devices
 - gridded workspace manager for the i3 Window Manager
 - Wavefront object library to parse .obj files and draw them through OpenGL
-- Android abstraction layer to simplify the drawing of dynamic sprites
-- Chromium extension to customize CSS colors
 
 --------------------------------------------------------------------------------
 
-## ACCOMPLISHMENTS ##
+## ACTIVITIES ##
 
-**USACO Silver Division** <i4> 1000 </i4> <right> December 2014 </right>  
+**Software Lead**                              <right> 2014 - Present </right>  
+**Programmer**                                 <right> 2012 - 2014    </right>  
+*AVBotz, Pleasanton, California*  
 
---------------------------------------------------------------------------------
-
-## EXPERIENCE ##
-
-**Software Lead** <right> 2014 - Present </right>  
-**Programmer**    <right> 2012 - 2014    </right>  
-*AVBotz , Pleasanton, CA*  
-
-- Managed the software team developing an autonomous submarine.
-- Wrote object detection, image recognition, signal processing, and PID heuristics.
+- Managed the software team (~8 members) in developing an autonomous submarine.
+- Wrote object detection, image recognition, signal processing, and PID
+  heuristics.
 
 <br>
-**Chief Branch Director**              <right> 2014 - Present </right>  
-**Volunteer Teacher for Java and C++** <right> 2013 - 2014    </right>  
-*ACE Coding, Pleasanton, CA*  
+**Chief Branch Director**                      <right> 2014 - Present </right>  
+**Volunteer Teacher for Java and C++**         <right> 2013 - 2014    </right>  
+*ACE Coding, Pleasanton, California*  
 
-- Managed and performed the teaching of programming to middle school students.
-- Designed lesson plans and coordinated between volunteer teachers, students, and school administrators.
+- Managed and taught weekly programming lessons to ~40 middle school students.
+- Designed lesson plans and coordinated between volunteer teachers, students,
+  and school administrators.
+- Organized ACE Code Day, an 8 hour event attracting ~300 students with
+  representatives from major technology companies.
+
+<br>
+**Canada \/ USA Mathcamp**                     <right> Summer 2013    </right>  
+*Colby College, Waterville, Maine*  
+
+--------------------------------------------------------------------------------
+
+## AWARDS ##
+
+- USA Computing Olympiad Gold Division
+- 36 (out of 36) on ACT, 2330 (out of 2400) on SAT
+- 5 (out of 5) on AP Computer Science A, AP Calculus BC, AP Chemistry, and AP
+  Biology exams
 
 --------------------------------------------------------------------------------
 
 ## EDUCATION ##
 
-**Amador Valley High School** <right> 2012 - Present </right>  
+**Amador Valley High School**                  <right> 2012 - Present </right>  
 
-GPA: <i1> Unweighted: </i1> <i3> 4.0 </i3>  
-     <i1> Weighted:   </i1> <i3> 4.3 </i3>  
-<br>
-**Canada \/ USA Mathcamp** <right> 2013 </right>  
-
-Courses: <i2> Machine Learning                        </i2>  
-         <i2> Primality Algorithms in Polynomial Time </i2>  
+GPA: <i10> Unweighted: </i10> <i25> 4.0 </i25>  
+     <i10> Weighted:   </i10> <i25> 4.3 </i25>  
 
