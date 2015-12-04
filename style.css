@@ -3,7 +3,7 @@
 /* everything */
 body {
 	font-family: 'Calibri', 'sans-serif';
-	font-size: 11pt;
+	font-size: 10pt;
 	line-height: 1.4;
 	min-width: 612pt;
 	max-width: 612pt;
@@ -15,7 +15,7 @@ body {
 
 /* title */
 h1 {
-	font-size: 14pt;
+	font-size: 12pt;
 	text-align: center;
 	font-weight: bold;
 	margin-bottom: 10pt;
@@ -27,7 +27,7 @@ h1:hover
 
 /* category */
 h2 {
-	font-size: 12pt;
+	font-size: 11pt;
 	text-align:center;
 	font-weight: bold;
 	text-decoration: underline;
@@ -39,7 +39,7 @@ h2:hover {
 
 /* contact info */
 h3 {
-	font-size: 11pt;
+	font-size: 10pt;
 	font-weight: normal;
 	text-align: center;
 	margin-bottom: 5pt;

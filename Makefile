@@ -1,9 +1,7 @@
 all: resume.html resume.pdf
 
-MARGIN=0.8in
-
 resume.pdf: resume.html
-	wkhtmltopdf --encoding utf-8 --grayscale --page-size Letter --margin-top $(MARGIN) --margin-bottom $(MARGIN) --margin-left $(MARGIN) --margin-right $(MARGIN) resume.html resume.pdf
+	wkhtmltopdf --encoding utf-8 --grayscale --page-size Letter --margin-top 0.5in --margin-bottom 0.5in --margin-left 1.0in --margin-right 1.0in resume.html resume.pdf
 
 resume.html: resume.md style.css
 	pandoc  --standalone -H style.css resume.md -o resume.html
