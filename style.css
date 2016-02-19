@@ -3,7 +3,7 @@
 /* everything */
 body {
 	font-family: 'Calibri', 'sans-serif';
-	font-size: 10pt;
+	font-size: 10.5pt;
 	line-height: 1.4;
 	min-width: 612pt;
 	max-width: 612pt;
@@ -13,21 +13,26 @@ body {
 	margin-bottom: 0;
 }
 
-/* title */
-h1 {
-	font-size: 12pt;
-	text-align: center;
-	font-weight: bold;
-	margin-bottom: 10pt;
+table {
+	width: 100%;
 }
-h1:hover
+td {
+	vertical-align: top;
+}
+
+.name {
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 14pt;
+}
+.name:hover
 {
 	background-color: #CCC;
 }
 
 /* category */
 h2 {
-	font-size: 11pt;
+	font-size: 12pt;
 	text-align:center;
 	font-weight: bold;
 	text-decoration: underline;
@@ -39,7 +44,7 @@ h2:hover {
 
 /* contact info */
 h3 {
-	font-size: 10pt;
+	font-size: 12pt;
 	font-weight: normal;
 	text-align: center;
 	margin-bottom: 5pt;
@@ -55,7 +60,7 @@ hr {
 }
 
 /* right alignment */
-p right {
+table right {
 	float: right;
 }
 /* indent (i## indicates ##% */
