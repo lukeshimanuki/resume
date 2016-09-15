@@ -1,36 +1,55 @@
-|                         |                                          |                            |
-|:------------------------|:----------------------------------------:|---------------------------:|  
-| 4404 Sutter Gate Avenue |                                          |          \(925\) 331\-0577 |  
-| Pleasanton, CA 94566    | <span class="name">LUKE SHIMANUKI</span> | luke\.shimanuki@gmail\.com |  
+|                             |                                          |                            |
+|:----------------------------|:----------------------------------------:|---------------------------:|  
+| 290 Massachusetts Ave #325s | <span class="name">LUKE SHIMANUKI</span> |          \(925\) 331\-0577 |  
+| Cambridge, MA 02139         |                                          |         lshimanuki@mit.edu |  
 
 --------------------------------------------------------------------------------
 
 +-----------------+------------------------------------------------------------+
 | EDUCATION       |                                                            |
 |                 | **Massachusetts Institute of Technology**                  |
-|                 |                             <right>2016 - Present</right> \|
-|                 | Course 6-3 (Computer Science and Engineering)             \|
+|                 |                                <right>2016 - 2020</right> \|
+|                 | Candidate for a Bachelor of Science in Computer Science    |
+|                 |   and Engineering                                         \|
 |                 | Coursework:                                                |
-|                 |   Machine Learning                                        \|
+|                 |   Machine Learning (graduate level course)                \|
 |                 |                                                           \|
-|                 | *                                                          |
-|                 | Proficient in:                                             |
+|                 | **Amador Valley High School**  <right>2012 - 2016</right> \|
+|                 | Weighted GPA: 4.4                                         \|
+|                 | Unweighted GPA: 4.0                                       \|
+|                 |                                                           \|
+|                 | **Online Coursework**          <right>Spring 2016</right> \|
+|                 | edX: Differential Equations                               \|
+|                 | Coursera: Machine Learning                                \|
+|                 |                                                           \|
+|                 | **Diablo Valley College**        <right>Fall 2015</right> \|
+|                 | Coursework:                                                |
+|                 |   Linear Algebra,                                          |
+|                 |   Program Design and Data Structures                      \|
+|                 | GPA: 4.0                                                  \|
+|                 |                                                           \|
++-----------------+------------------------------------------------------------+
+| SKILLS          |                                                            |
+|                 | Proficient in                                              |
 |                 |   C,                                                       |
 |                 |   C++,                                                     |
 |                 |   Python,                                                  |
 |                 |   Scala,                                                   |
 |                 |   UNIX Shell,                                              |
 |                 |   LabView,                                                 |
+|                 |   and                                                      |
 |                 |   Java                                                    \|
-|                 | Familiar with:                                             |
+|                 | <hr>                                                       |
+|                 | Familiar with                                              |
 |                 |   C#,                                                      |
 |                 |   x86 and ADSP-21469 Assembly,                             |
 |                 |   Matlab,                                                  |
+|                 |   and                                                      |
 |                 |   JavaScript                                              \|
+|                 | <hr>                                                       |
 |                 | Libraries:                                                 |
 |                 |   Tensorflow,                                              |
 |                 |   OpenCV                                                  \|
-|                 | *                                                          |
 |                 |                                                           \|
 +-----------------+------------------------------------------------------------+
 | EXPERIENCE      |                                                            |
@@ -39,24 +58,18 @@
 |                 | California*                                               \|
 |                 | <hr>                                                       |
 |                 | Researched and developed distributed machine learning      |
-|                 |   system in                                                |
-|                 |   TensorFlow to predict market patterns using recurrent    |
-|                 |   neural networks (LSTMs).                                 |
-|                 | <hr>                                                       |
-|                 | Automated batch server provisioning with PowerShell        |
-|                 |   scripts.                                                \|
+|                 |   system in TensorFlow to predict market patterns using    |
+|                 |   recurrent neural networks (LSTMs).                      \|
 |                 |                                                           \|
 |                 | **Research Intern**            <right>Summer 2015</right> \|
 |                 | *Autonomous Systems Laboratory, Stanford, California*     \|
 |                 | <hr>                                                       |
-|                 | Developed original algorithm to optimize vehicle routing   |
-|                 |   in an urban mobility-on-demand system by formulating the |
-|                 |   problem as an integer linear program,                    |
-|                 |   improving on state-of-the-art methods in simulations by  |
-|                 |   as much as 16%.                                         \|
+|                 | Developed original algorithm utilizing integer linear      |
+|                 |   programming to optimize vehicle routing in an urban      |
+|                 |   mobility-on-demand system.                              \|
 |                 | <hr>                                                       |
-|                 | Designed Matlab simulations to compare the performance of  |
-|                 |   various dispatch algorithms.                            \|
+|                 | Designed Matlab simulations demonstrating improvement by   |
+|                 |   as much as as 16% over state-of-the-art methods.        \|
 |                 |                                                           \|
 +-----------------+------------------------------------------------------------+
 | ACTIVITIES      |                                                            |
@@ -81,16 +94,53 @@
 |                 | <hr>                                                       |
 |                 | International finalist at RoboSub 2015.                   \|
 |                 |                                                           \|
+|                 | **Co-President**              <right>2015 - 2016</right>  \|
+|                 | **Chief Branch Director**     <right>2014 - 2015</right>  \|
+|                 | **Volunteer Teacher for Java and C++**                     |
+|                 |                               <right>2013 - 2014</right>  \|
+|                 | *ACE Coding, Pleasanton, California*                      \|
+|                 | <hr>                                                       |
+|                 | Managed and taught weekly programming lessons to ~40       |
+|                 |   middle school students.                                 \|
+|                 | <hr>                                                       |
+|                 | Designed lesson plans and coordinated between volunteer    |
+|                 |   teachers, students, and school administrators.          \|
+|                 | <hr>                                                       |
+|                 | Organized ACE Code Day, an annual 8 hour event attracting  |
+|                 |   ~300 students with representatives from major technology |
+|                 |   companies.                                              \|
+|                 |                                                           \|
 +-----------------+------------------------------------------------------------+
-| ACCOMPLISHMENTS |                                                            |
+| ACHIEVEMENTS    |                                                            |
 |                 | USA Computing Olympiad Platinum Division                  \|
 |                 | <hr>                                                       |
 |                 | Intel Science Talent Search 2016 Semifinalist             \|
+|                 | <hr>                                                       |
+|                 | Eagle Scout                                               \|
 |                 | <hr>                                                       |
 |                 | MIT Battlecode 2016                                        |
 |                 |   7th in Seeding Tournament                                |
 |                 |   and                                                      |
 |                 |   10th in Armageddon Round                                \|
+|                 | <hr>                                                       |
+|                 | 36 (out of 36) on ACT,                                     |
+|                 | <hr>                                                       |
+|                 | 2330 (out of 2400) on SAT                                 \|
+|                 | <hr>                                                       |
+|                 | 800 (out of 800) on SAT II                                 |
+|                 |   Math 2,                                                  |
+|                 |   Physics,                                                 |
+|                 |   and                                                      |
+|                 |   Chemistry                                               \|
+|                 | <hr>                                                       |
+|                 | 5 (out of 5) on 11 AP tests, including                     |
+|                 |   Computer Science A,                                      |
+|                 |   Calculus BC,                                             |
+|                 |   Chemistry,                                               |
+|                 |   Biology,                                                 |
+|                 |   Physics C: Electricity & Magnetism,                      |
+|                 |   and                                                      |
+|                 |   Physics C: Mechanics                                    \|
 |                 |                                                           \|
 +-----------------+------------------------------------------------------------+
 | PROJECTS        |                                                            |
