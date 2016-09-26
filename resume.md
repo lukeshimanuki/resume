@@ -92,7 +92,7 @@
 |                 |   audio signal processing                                  |
 |                 |   algorithms.                                             \|
 |                 | <hr>                                                       |
-|                 | International finalist at RoboSub 2015.                   \|
+|                 | International finalist (7th Place) at RoboSub 2015.       \|
 |                 |                                                           \|
 |                 | **Co-President**              <right>2015 - 2016</right>  \|
 |                 | **Chief Branch Director**     <right>2014 - 2015</right>  \|
@@ -108,7 +108,7 @@
 |                 | <hr>                                                       |
 |                 | Organized ACE Code Day, an annual 8 hour event attracting  |
 |                 |   ~300 students with representatives from major technology |
-|                 |   companies.                                              \|
+|                 |   companies. Also taught advanced machine vision workshop.\|
 |                 |                                                           \|
 +-----------------+------------------------------------------------------------+
 | ACHIEVEMENTS    |                                                            |
@@ -144,6 +144,10 @@
 |                 |                                                           \|
 +-----------------+------------------------------------------------------------+
 | PROJECTS        |                                                            |
+|                 | (Python) collaborative filtering to make course            |
+|                 |   recommendations based on past ratings and ratings by     |
+|                 |   other students                                          \|
+|                 | <hr>                                                       |
 |                 | \(C) lightweight web browser using Chromium's rendering    |
 |                 |   engine with configurable vi-like key bindings           \|
 |                 | <hr>                                                       |
