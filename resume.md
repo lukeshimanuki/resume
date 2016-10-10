@@ -81,13 +81,13 @@
 |                 |   the software (C, C++, Python, LabView, and Assembly) for |
 |                 |   an autonomous submarine.                                \|
 |                 | <hr>                                                       |
-|                 | Designed and implemented                                   |
+|                 | Designed entire distributed software stack from the ground |
+|                 |   up, including                                            |
 |                 |   machine vision,                                          |
 |                 |   Bayesian mapping,                                        |
-|                 |   machine learning,                                        |
 |                 |   mission planning and optimization,                       |
-|                 |   interprocess communication,                              |
-|                 |   control systems,                                         |
+|                 |   state estimation and control,                            |
+|                 |   machine learning,                                        |
 |                 |   and                                                      |
 |                 |   audio signal processing                                  |
 |                 |   algorithms.                                             \|
