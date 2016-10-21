@@ -1,7 +1,8 @@
-|                             |                                          |                            |
-|:----------------------------|:----------------------------------------:|---------------------------:|  
-| 290 Massachusetts Ave #325s | <span class="name">LUKE SHIMANUKI</span> |          \(925\) 331\-0577 |  
-| Cambridge, MA 02139         |                                          |         lshimanuki@mit.edu |  
+|                                |                                          |                            |
+|:-------------------------------|:----------------------------------------:|---------------------------:|
+| 290 Massachusetts Ave #325s    | <span class="name">LUKE SHIMANUKI</span> |          \(925\) 331\-0577 |
+| Cambridge, MA 02139            |                                          |         lshimanuki@mit.edu |
+| linkedin.com/in/luke-shimanuki |                                          |   github.com/lukeshimanuki |
 
 --------------------------------------------------------------------------------
 
@@ -54,8 +55,7 @@
 +-----------------+------------------------------------------------------------+
 | EXPERIENCE      |                                                            |
 |                 | **Developer**                  <right>2015 - 2016</right> \|
-|                 | *Tanius Technology (Proprietary Trading Company), Alamo,   |
-|                 | California*                                               \|
+|                 | *Tanius Technology, Alamo, California*                    \|
 |                 | <hr>                                                       |
 |                 | Researched and developed distributed machine learning      |
 |                 |   system in TensorFlow to predict market patterns using    |
@@ -68,14 +68,12 @@
 |                 |   programming to optimize vehicle routing in an urban      |
 |                 |   mobility-on-demand system.                              \|
 |                 | <hr>                                                       |
-|                 | Designed Matlab simulations demonstrating improvement by   |
+|                 | Designed Matlab simulations, demonstrating improvement by  |
 |                 |   as much as as 16% over state-of-the-art methods.        \|
 |                 |                                                           \|
 +-----------------+------------------------------------------------------------+
 | ACTIVITIES      |                                                            |
-|                 | **Software Lead**              <right>2014 - 2016</right> \|
-|                 | **Programmer**                 <right>2012 - 2014</right> \|
-|                 | *AVBotz, Pleasanton, California*                          \|
+|                 | **AVBotz (Software Lead)**     <right>2012 - 2016</right> \|
 |                 | <hr>                                                       |
 |                 | Managed the programming team (~12 members) in developing   |
 |                 |   the software (C, C++, Python, LabView, and Assembly) for |
@@ -94,21 +92,15 @@
 |                 | <hr>                                                       |
 |                 | International finalist (7th Place) at RoboSub 2015.       \|
 |                 |                                                           \|
-|                 | **Co-President**              <right>2015 - 2016</right>  \|
-|                 | **Chief Branch Director**     <right>2014 - 2015</right>  \|
-|                 | **Volunteer Teacher for Java and C++**                     |
-|                 |                               <right>2013 - 2014</right>  \|
-|                 | *ACE Coding, Pleasanton, California*                      \|
+|                 | **ACE Coding (Co-President,                                |
+|                 |   Chief Branch Director of HPMS)**                         |
+|                 |                               <right>2013 - 2016</right>  \|
 |                 | <hr>                                                       |
-|                 | Managed and taught weekly programming lessons to ~40       |
-|                 |   middle school students.                                 \|
+|                 | Managed ~16 volunteers to teach weekly programming lessons |
+|                 |   to ~40 middle school students.                          \|
 |                 | <hr>                                                       |
-|                 | Designed lesson plans and coordinated between volunteer    |
-|                 |   teachers, students, and school administrators.          \|
-|                 | <hr>                                                       |
-|                 | Organized ACE Code Day, an annual 8 hour event attracting  |
-|                 |   ~300 students with representatives from major technology |
-|                 |   companies. Also taught advanced machine vision workshop.\|
+|                 | Organized ACE Code Day, an 8 hour event attracting ~300    |
+|                 |   students. Taught machine vision workshop.               \|
 |                 |                                                           \|
 +-----------------+------------------------------------------------------------+
 | ACHIEVEMENTS    |                                                            |
