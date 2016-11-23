@@ -9,11 +9,15 @@
 +-----------------+------------------------------------------------------------+
 | EDUCATION       |                                                            |
 |                 | **Massachusetts Institute of Technology**                  |
-|                 |                                <right>2016 - 2020</right> \|
-|                 | Candidate for a Bachelor of Science in Computer Science    |
-|                 |   and Engineering                                         \|
+|                 |                             <right>2016 - Present</right> \|
+|                 | 108 units (out of ~384) towards                            |
+|                 |   Bachelor of Science in                                   |
+|                 |   Computer Science and Engineering                        \|
+|                 | 12 units (out of ~90) towards                              |
+|                 |   Master of Engineering in                                 |
+|                 |   Electrical Engineering and Computer Science             \|
 |                 | Coursework:                                                |
-|                 |   Machine Learning (graduate level course)                \|
+|                 |   Machine Learning (graduate level, in progress)          \|
 |                 |                                                           \|
 |                 | **Amador Valley High School**  <right>2012 - 2016</right> \|
 |                 | Weighted GPA: 4.4                                         \|
@@ -69,26 +73,35 @@
 |                 |   mobility-on-demand system.                              \|
 |                 | <hr>                                                       |
 |                 | Designed Matlab simulations, demonstrating improvement by  |
-|                 |   as much as as 16% over state-of-the-art methods.        \|
+|                 |   as much as 16% over state-of-the-art methods.           \|
+|                 | <hr>                                                       |
+|                 | Acknowledged in                                            |
+|                 |   "Model Predictive Control                                |
+|                 |   of Autonomous Mobility-on-Demand Systems"                |
+|                 |   (R. Zhang, F. Rossi, and M. Pavone).                    \|
 |                 |                                                           \|
 +-----------------+------------------------------------------------------------+
 | ACTIVITIES      |                                                            |
+|                 | **MIT UAV Team (Perception Subteam)**                      |
+|                 |                             <right>2016 - Present</right> \|
+|                 | <hr>                                                       |
 |                 | **AVBotz (Software Lead)**     <right>2012 - 2016</right> \|
 |                 | <hr>                                                       |
 |                 | Managed the programming team (~12 members) in developing   |
 |                 |   the software (C, C++, Python, LabView, and Assembly) for |
-|                 |   an autonomous submarine.                                \|
+|                 |   an autonomous submarine                                  |
+|                 |   capable of                                               |
+|                 |     identifying and manipulating objects,                  |
+|                 |     aiming and shooting torpedoes,                         |
+|                 |     and navigating around obstacles.                      \|
 |                 | <hr>                                                       |
-|                 | Designed entire distributed software stack from the ground |
-|                 |   up, including                                            |
-|                 |   machine vision,                                          |
-|                 |   Bayesian mapping,                                        |
-|                 |   mission planning and optimization,                       |
-|                 |   state estimation and control,                            |
-|                 |   machine learning,                                        |
-|                 |   and                                                      |
-|                 |   audio signal processing                                  |
-|                 |   algorithms.                                             \|
+|                 | Designed entire software stack including                   |
+|                 |   visual and audio signal processing,                      |
+|                 |   neural network based image segmentation,                 |
+|                 |   dynamic path planning optimization,                      |
+|                 |   PID control systems                                      |
+|                 |     with extended Kalman filter state estimation,          |
+|                 |   and Bayesian mapping of surroundings.                   \|
 |                 | <hr>                                                       |
 |                 | International finalist (7th Place) at RoboSub 2015.       \|
 |                 |                                                           \|
