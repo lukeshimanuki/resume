@@ -10,14 +10,14 @@
 | EDUCATION       |                                                            |
 |                 | **Massachusetts Institute of Technology**                  |
 |                 |                             <right>2016 - Present</right> \|
-|                 | 108 units (out of ~384) towards                            |
+|                 | 144 units (out of ~384) towards                            |
 |                 |   Bachelor of Science in                                   |
 |                 |   Computer Science and Engineering                        \|
-|                 | 12 units (out of ~90) towards                              |
+|                 | 24 units (out of ~90) towards                              |
 |                 |   Master of Engineering in                                 |
 |                 |   Electrical Engineering and Computer Science             \|
 |                 | Coursework:                                                |
-|                 |   Machine Learning (graduate level, in progress)          \|
+|                 |   Machine Learning (graduate level)                       \|
 |                 |                                                           \|
 |                 | **Amador Valley High School**  <right>2012 - 2016</right> \|
 |                 | Weighted GPA: 4.4                                         \|
