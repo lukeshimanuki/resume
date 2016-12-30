@@ -55,6 +55,11 @@
 |                 |                                                           \|
 +-----------------+------------------------------------------------------------+
 | EXPERIENCE      |                                                            |
+|                 | **Extern**                    <right>January 2017</right> \|
+|                 | *RightHad Robotics, Somerville, Massachusetts*            \|
+|                 | <hr>                                                       |
+|                 | <insert description here>                                 \|
+|                 |                                                           \|
 |                 | **Developer**                  <right>2015 - 2016</right> \|
 |                 | *Tanius Technology, Alamo, California*                    \|
 |                 | <hr>                                                       |
