@@ -10,9 +10,8 @@
 | EDUCATION       |                                                            |
 |                 | **Massachusetts Institute of Technology**                  |
 |                 |                             <right>2016 - Present</right> \|
-|                 | 168 units (out of ~384) towards                            |
-|                 |   Bachelor of Science in                                   |
-|                 |   Computer Science and Engineering                        \|
+|                 | Computer Science and Engineering                          \|
+|                 | 189 units (out of ~384) towards degree                    \|
 |                 | Coursework:                                                |
 |                 |   Machine Learning (graduate level)                       \|
 |                 |                                                           \|
@@ -56,7 +55,7 @@
 +-----------------+------------------------------------------------------------+
 | EXPERIENCE      |                                                            |
 |                 | **Extern**                    <right>January 2017</right> \|
-|                 | *RightHad Robotics, Somerville, Massachusetts*            \|
+|                 | *RightHand Robotics, Somerville, Massachusetts*           \|
 |                 | <hr>                                                       |
 |                 | <insert description here>                                 \|
 |                 |                                                           \|
