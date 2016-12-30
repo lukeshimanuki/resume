@@ -10,12 +10,9 @@
 | EDUCATION       |                                                            |
 |                 | **Massachusetts Institute of Technology**                  |
 |                 |                             <right>2016 - Present</right> \|
-|                 | 144 units (out of ~384) towards                            |
+|                 | 168 units (out of ~384) towards                            |
 |                 |   Bachelor of Science in                                   |
 |                 |   Computer Science and Engineering                        \|
-|                 | 24 units (out of ~90) towards                              |
-|                 |   Master of Engineering in                                 |
-|                 |   Electrical Engineering and Computer Science             \|
 |                 | Coursework:                                                |
 |                 |   Machine Learning (graduate level)                       \|
 |                 |                                                           \|
