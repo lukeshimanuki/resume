@@ -85,6 +85,12 @@
 |                 | **MIT UAV Team (Perception Subteam)**                      |
 |                 |                             <right>2016 - Present</right> \|
 |                 | <hr>                                                       |
+|                 | Wrote algorithms to identify and track moving robots       |
+|                 |   from a live video feed                                   |
+|                 |   using OpenCV.                                           \|
+|                 | <hr>                                                       |
+|                 | Optimized software for embedded platforms (ARM + GPU).    \|
+|                 |                                                           \|
 |                 | **AVBotz (Software Lead)**     <right>2012 - 2016</right> \|
 |                 | <hr>                                                       |
 |                 | Managed the programming team (~12 members) in developing   |
