@@ -50,14 +50,16 @@
 |                 | <hr>                                                       |
 |                 | Libraries:                                                 |
 |                 |   TensorFlow,                                              |
+|                 |   Theano,                                                  |
 |                 |   OpenCV                                                  \|
 |                 |                                                           \|
 +-----------------+------------------------------------------------------------+
 | EXPERIENCE      |                                                            |
-|                 | **Extern**                    <right>January 2017</right> \|
+|                 | **Software Intern**           <right>January 2017</right> \|
 |                 | *RightHand Robotics, Somerville, Massachusetts*           \|
 |                 | <hr>                                                       |
-|                 | <insert description here>                                 \|
+|                 | Implement deep learning methods for                        |
+|                 |   robotic vision and grasping.                            \|
 |                 |                                                           \|
 |                 | **Developer**                  <right>2015 - 2016</right> \|
 |                 | *Tanius Technology, Alamo, California*                    \|
