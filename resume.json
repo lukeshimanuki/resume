@@ -1,0 +1,336 @@
+{
+	"name" : "LUKE SHIMANUKI",
+	"email" : "lshimanuki@mit.edu",
+	"phone" : "(925) 331-0577",
+	"address" : "290 Massachusetts Ave #325s",
+	"city" : "Cambridge, MA 02139",
+	"github" : "github.com/lukeshimanuki",
+	"linkedin" : "linkedin.com/in/luke-shimanuki",
+
+	"education" : [
+		{
+			"school" : "Massachusetts Institute of Technology",
+			"time" : "2016 - Present",
+			"description" : [
+				"Computer Science and Engineering",
+				"189 units (out of ~384) towards degree",
+				""
+			],
+			"coursework" : [
+				"Machine Learning (graduate level)",
+				""
+			],
+			"" : ""
+		},
+		{
+			"school" : "Amador Valley High School",
+			"time" : "2012 - 2016",
+			"description" : [
+				"Weighted GPA: 4.4",
+				"Unweighted GPA: 4.0",
+				""
+			],
+			"" : ""
+		},
+		{
+			"school" : "Online Coursework",
+			"time" : "Spring 2016",
+			"description" : [
+				"edX: Differential Equations",
+				"Coursera: Machine Learning",
+				""
+			],
+			"" : ""
+		},
+		{
+			"school" : "Diablo Valley College",
+			"time" : "Fall 2015",
+			"description" : [
+				"GPA: 4.0",
+				""
+			],
+			"coursework" : [
+				"Linear Algebra",
+				"Program Design and Data Structures",
+				""
+			],
+			"" : ""
+		},
+		{}
+	],
+
+	"skills" : {
+		"proficient" : [
+			"C",
+			"C++",
+			"Python",
+			"Scala",
+			"UNIX Shell",
+			"LabView",
+			"Java",
+			""
+		],
+		"familiar" : [
+			"C#",
+			"x86 and ADSP-21469 Assembly",
+			"Matlab",
+			"JavaScript",
+			""
+		],
+		"libraries" : [
+			"TensorFlow",
+			"Theano",
+			"OpenCV",
+			""
+		],
+		"" : []
+	},
+
+	"experience" : [
+		{
+			"group" : "RightHand Robotics",
+			"role" : "Software Intern",
+			"time" : "January 2017",
+			"city" : "Somerville, Massachusetts",
+			"description" : [
+				[
+					"Implement deep learning methods",
+						"for robotic vision and grasping",
+					""
+				],
+				[]
+			],
+			"" : ""
+		},
+		{
+			"group" : "Tanius Technology",
+			"role" : "Developer",
+			"time" : "2015 - 2016",
+			"city" : "Alamo, California",
+			"description" : [
+				[
+					"Researched and developed distributed machine learning system",
+						"in TensorFlow",
+						"to predict market patterns",
+						"using recurrent neural networks (LSTMs)",
+					""
+				],
+				[]
+			],
+			"" : ""
+		},
+		{
+			"group" : "Autonomous Systems Laboratory",
+			"role" : "Research Intern",
+			"time" : "Summer 2015",
+			"city" : "Stanford, California",
+			"description" : [
+				[
+					"Developed original algorithm utilizing integer linear programming",
+						"to optimize vehicle routing",
+						"in an urban mobility-on-demand system",
+					""
+				],
+				[
+					"Designed Matlab simulations,",
+						"demonstrating improvement by as much as 16%",
+						"over state-of-the-art methods",
+					""
+				],
+				[
+					"Acknowledged in",
+						"\"Model Predictive Control of Autonomous Mobility-on-Demand Systems\"",
+						"(R. Zhang, F. Rossi, and M. Pavone)",
+					""
+				],
+				[]
+			],
+			"" : ""
+		},
+		{}
+	],
+
+	"activities" : [
+		{
+			"group" : "MIT UAV Team",
+			"role" : "Perception Subteam",
+			"time" : "2016 - Present",
+			"description" : [
+				[
+					"Wrote algorithms to identify and track moving robots",
+						"from a live video feed",
+						"using OpenCV",
+					""
+				],
+				[
+					"Optimized software for embedded platforms",
+						"(ARM + GPU)",
+					""
+				],
+				[]
+			],
+			"" : ""
+		},
+		{
+			"group" : "AVBotz",
+			"role" : "Software Lead",
+			"time" : "2012 - 2016",
+			"description" : [
+				[
+					"Managed the programming team (~12 members)",
+						"in developing the software (C, C++, Python, LabView, and Assembly)",
+						"for autonomous submarine",
+						"capable of",
+							"identifying and manipulating objects,",
+							"aiming and shooting torpedoes,",
+							"and navigating around obstacles",
+					""
+				],
+				[
+					"Designed entire software stack including",
+						"visual and audio signal processing,",
+						"neural network based image segmentation,",
+						"dynamic path planning optimization,",
+						"PID control systems",
+							"with extended Kalman filter state estimation,",
+						"and Bayesian mapping of surroundings",
+					""
+				],
+				[
+					"International finalist (7th Place) at RoboSub 2015",
+					""
+				],
+				[]
+			],
+			"" : ""
+		},
+		{
+			"group" : "ACE Coding",
+			"role" : "Co-President, Chief Branch Director of HPMS",
+			"time" : "2013 - 2016",
+			"description" : [
+				[
+					"Managed ~16 volunteers to teach weekly programming lessons",
+						"to ~40 middle school students",
+					""
+				],
+				[
+					"Organized ACE Code Day,",
+					"an 8 hour event attracting ~300 students.",
+						"Taught machine vision workshop",
+					""
+				],
+				[]
+			],
+			"" : ""
+		},
+		{}
+	],
+
+	"achievements" : [
+		[
+			"USA Computing Olympiad",
+				"Platinum Division",
+			""
+		],
+		[
+			"Intel",
+				"Science Talent Search",
+				"2016 Semifinalist",
+			""
+		],
+		[
+			"Eagle Scout",
+			""
+		],
+		[
+			"MIT Battlecode 2016",
+				"7th in Seeding Tournament",
+					"and",
+				"10th in Armageddon Round",
+			""
+		],
+		[
+			"36",
+				"(out of 36)",
+				"on ACT",
+			""
+		],
+		[
+			"2330",
+				"(out of 2400)",
+				"on SAT",
+			""
+		],
+		[
+			"800 (out of 800) on SAT II",
+				"Math 2",
+				"Physics",
+					"and",
+				"Chemistry",
+			""
+		],
+		[
+			"5 (out of 5) on 11 AP tests, including",
+				"Computer Science A",
+				"Calculus BC",
+				"Chemistry",
+				"Biology",
+				"Physics C: Electricity & Magnetism",
+					"and",
+				"Physics C: Mechanics",
+			""
+		],
+		[]
+	],
+
+	"projects" : [
+		{
+			"language" : "Python",
+			"description" : [
+				"collaborative filtering to make course recommendations",
+					"based on past ratings",
+					"and ratings by other students",
+				""
+			]
+		},
+		{
+			"language" : "C",
+			"description" : [
+				"lightweight web browser",
+					"using Chromium's rendering engine",
+					"with configurable vi-like key bindings",
+				""
+			]
+		},
+		{
+			"language" : "C",
+			"description" : [
+				"C compiler",
+					"to convert C code to x86 assembly",
+					"(GAS syntax)",
+				""
+			]
+		},
+		{
+			"language" : "Java",
+			"description" : [
+				"artificial neural network based",
+					"AI for a basic platform fighting game",
+				""
+			]
+		},
+		{
+			"language" : "Python",
+			"description" : [
+				"gridded workspace manager",
+					"for the i3 Window Manager",
+				""
+			]
+		},
+		{}
+	],
+
+	"" : ""
+}
+
