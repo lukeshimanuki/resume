@@ -10,14 +10,18 @@
 	"education" : [
 		{
 			"school" : "Massachusetts Institute of Technology",
+			"field" : "Computer Science and Engineering",
 			"time" : "2016 - Present",
 			"description" : [
-				"Computer Science and Engineering",
 				"189 units (out of ~384) towards degree",
 				""
 			],
 			"coursework" : [
+				"Computation Structures",
+				"Robotics Science and Systems",
 				"Machine Learning (graduate level)",
+				"Embedded Systems",
+				"Design and Analysis of Algorithms",
 				""
 			],
 			"" : ""
@@ -51,7 +55,7 @@
 			],
 			"coursework" : [
 				"Linear Algebra",
-				"Program Design and Data Structures",
+				"Data Structures",
 				""
 			],
 			"" : ""
@@ -66,21 +70,21 @@
 			"Python",
 			"Scala",
 			"UNIX Shell",
-			"LabView",
 			"Java",
 			""
 		],
 		"familiar" : [
 			"C#",
-			"x86 and ADSP-21469 Assembly",
+			"LabView",
 			"Matlab",
 			"JavaScript",
+			"x86 Assembly",
 			""
 		],
 		"libraries" : [
+			"OpenCV",
 			"TensorFlow",
 			"Theano",
-			"OpenCV",
 			""
 		],
 		"" : []
@@ -94,7 +98,9 @@
 			"city" : "Somerville, Massachusetts",
 			"description" : [
 				[
-					"Implement deep learning methods",
+					"Designed, implemented, and trained",
+						"deep learning architectures",
+						"in Theano",
 						"for robotic vision and grasping",
 					""
 				],
@@ -120,7 +126,7 @@
 			"" : ""
 		},
 		{
-			"group" : "Autonomous Systems Laboratory",
+			"group" : "Stanford Autonomous Systems Laboratory",
 			"role" : "Research Intern",
 			"time" : "Summer 2015",
 			"city" : "Stanford, California",
@@ -187,7 +193,7 @@
 					""
 				],
 				[
-					"Designed entire software stack including",
+					"Designed entire software stack, including",
 						"visual and audio signal processing,",
 						"neural network based image segmentation,",
 						"dynamic path planning optimization,",
@@ -206,7 +212,7 @@
 		},
 		{
 			"group" : "ACE Coding",
-			"role" : "Co-President, Chief Branch Director of HPMS",
+			"role" : "Co-President, HPMS Branch Director",
 			"time" : "2013 - 2016",
 			"description" : [
 				[
@@ -286,15 +292,6 @@
 
 	"projects" : [
 		{
-			"language" : "Python",
-			"description" : [
-				"collaborative filtering to make course recommendations",
-					"based on past ratings",
-					"and ratings by other students",
-				""
-			]
-		},
-		{
 			"language" : "C",
 			"description" : [
 				"lightweight web browser",
@@ -317,6 +314,15 @@
 			"description" : [
 				"artificial neural network based",
 					"AI for a basic platform fighting game",
+				""
+			]
+		},
+		{
+			"language" : "Python",
+			"description" : [
+				"collaborative filtering to make course recommendations",
+					"based on past ratings",
+					"and ratings by other students",
 				""
 			]
 		},
