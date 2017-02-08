@@ -26,27 +26,27 @@ def toHTML(data):
 		'<table>\n'
 			'<tbody>\n'
 				'<tr>\n'
-					'<td><p>EDUCATION</p></td>\n'
+					'<td><table><tr><td>EDUCATION</td></tr></table></td>\n'
 					'<td>\n{}\n</td>\n'
 				'</tr>\n'
 				'<tr>\n'
-					'<td><p>SKILLS</p></td>\n'
-					'<td>\n{}\n<br>\n</td>\n'
+					'<td><table><tr><td>SKILLS</td></tr></table></td>\n'
+					'<td>\n{}\n\n</td>\n'
 				'</tr>\n'
 				'<tr>\n'
-					'<td><p>EXPERIENCE</p></td>\n'
-					'<td>\n{}\n<br>\n</td>\n'
+					'<td><table><tr><td>EXPERIENCE</td></tr></table></td>\n'
+					'<td>\n{}\n</td>\n'
 				'</tr>\n'
 				'<tr>\n'
-					'<td><p>ACTIVITIES</p></td>\n'
-					'<td>\n{}\n<br>\n</td>\n'
+					'<td><table><tr><td>ACTIVITIES</td></tr></table></td>\n'
+					'<td>\n{}\n</td>\n'
 				'</tr>\n'
 				'<tr>\n'
 					'<td><p>ACHIEVEMENTS</p></td>\n'
-					'<td>\n{}\n<br>\n</td>\n'
+					'<td>\n{}\n\n</td>\n'
 				'</tr>\n'
 				'<tr>\n'
-					'<td><p>PROJECTS</p></td>\n'
+					'<td><table><tr><td>PROJECTS</td></tr></table></td>\n'
 					'<td>\n{}\n</td>\n'
 				'</tr>\n'
 			'</tbody>\n'
@@ -59,36 +59,79 @@ def toHTML(data):
 		data['email'],
 		data['linkedin'],
 		data['github'],
+		'<table>\n' +
 		'\n'.join([
-			"<strong>{}</strong> <right>{}</right> <br>\n".format(
-				school['school'],
-				school['time'],
-			) +
+			'<tr><td colspan=3>\n' +
+			'<table>\n<tr>\n' +
+			"<td><strong>{}</strong></td>".format(school['school']) +
 			(
-				"{}\n".format('<br>\n'.join(school['description'][:-1]))
+				"<td>{}</td>".format(school['field'])
+				if 'field' in school else ''
+			) +
+			"<td><right>{}</right></td>\n".format(school['time']) +
+			'</tr></table>\n' +
+			(
+				"{}<br>\n".format('<br>\n'.join(school['description'][:-1]))
 				if 'description' in school else ''
 			) +
-			'<br>' +
+			'</td></tr>\n' +
 			(
-				"Coursework: {}<br>\n".format(', '.join(school['coursework'][:-1]))
+				'\n'.join([
+					'<tr>\n' +
+					'\n'.join([
+						'<td>{}</td>\n'.format(course)
+						for course in school['coursework'][i:i+3]
+					]) +
+					'</tr>\n'
+					for i in range(0, len(school['coursework']) - 1, 3)
+				])
 				if 'coursework' in school else ''
 			) +
-			'<br>' +
+			'<tr><td></td></tr>\n' +
 			''
 			for school in data['education'] if 'school' in school
-		]),
-		"Proficient in {}<br><hr>\nFamiliar with {}<br><hr>\nLanguages: {}<br>\n".format(
-			', '.join(data['skills']['proficient'][:-1]),
-			', '.join(data['skills']['familiar'][:-1]),
-			', '.join(data['skills']['libraries'][:-1]),
+		]) +
+		'</table>\n',
+		(
+			'<table>\n'
+				'<tr>\n'
+					'<td>Proficient in:</td>\n'
+					'<td>{}</td>\n'
+				'</tr>\n'
+				'<tr>\n'
+					'<td>Familiar with:</td>\n'
+					'<td>{}</td>\n'
+				'</tr>\n'
+				'<tr>\n'
+					'<td>Libraries:</td>\n'
+					'<td colspan=2>{}</td>\n'
+				'</tr>\n'
+			'</table>\n'
+		).format(
+			'</td><td>'.join(data['skills']['proficient'][:-1]),
+			'</td><td>'.join(data['skills']['familiar'][:-1]),
+			'</td><td colspan=2>'.join(data['skills']['libraries'][:-1]),
 		),
-		'<br>\n'.join([
-			"<strong>{}</strong> <right>{}</right> <br>\n <em>{}, {}</em> <br>\n".format(
+		'<table>\n' +
+		'\n'.join([
+			(
+				'<tr>\n'
+					'<td>\n'
+						"<strong>{}</strong>"
+					'</td>\n'
+					'<td>\n'
+						"<ex>{}</em>"
+					'</td>\n'
+					'<td>\n'
+						"<right>{}</right> <br>\n"
+					'</td>\n'
+				'</tr>\n'
+			).format(
 				job['role'],
-				job['time'],
 				job['group'],
-				job['city'],
+				job['time'],
 			) +
+			'<tr><td colspan=3>\n' +
 			'<hr>' +
 			(
 				'<br><hr>\n'.join([
@@ -97,16 +140,32 @@ def toHTML(data):
 				])
 				if 'description' in job else ''
 			) +
-			'<br>\n' +
+			'<br><hr>\n' +
+			'</td></tr>\n' +
 			''
 			for job in data['experience'] if len(job) > 0
-		]),
+		]) +
+		'</table>\n',
+		'<table>\n' +
 		'\n'.join([
-			"<strong>{} ({})</strong> <right>{}</right> <br>\n".format(
-				group['group'],
+			(
+				'<tr>\n'
+					'<td>\n'
+						"<strong>{}</strong>"
+					'</td>\n'
+					'<td>\n'
+						"<ex>{}</em>"
+					'</td>\n'
+					'<td>\n'
+						"<right>{}</right> <br>\n"
+					'</td>\n'
+				'</tr>\n'
+			).format(
 				group['role'],
+				group['group'],
 				group['time'],
 			) +
+			'<tr><td colspan=3>\n' +
 			'<hr>' +
 			(
 				'<br><hr>\n'.join([
@@ -116,21 +175,27 @@ def toHTML(data):
 				if 'description' in group else ''
 			) +
 			'<br><hr>\n' +
+			'</td></tr>\n' +
 			''
 			for group in data['activities'] if len(group) > 0
-		]),
-		'<br><hr>\n'.join([
+		]) +
+		'</table>\n',
+		'<br>\n'.join([
 			' '.join(achievement[:-1])
 			for achievement in data['achievements']
 		]),
-		'<br><hr>\n'.join([
+		'<table>\n<tr>\n' +
+		'</tr><tr>\n'.join([
 			(
-				"({}) ".format(project['language'])
+				"<td><strong>{}</strong></td> ".format(project['language'])
 				if 'language' in project else ''
 			) +
-			' '.join(project['description'][:-1])
+			'<td>\n' +
+			' '.join(project['description'][:-1]) +
+			'</td>\n'
 			for project in data['projects'] if 'description' in project
-		]),
+		]) +
+		'</tr>\n</table>\n'
 	)
 
 def genHTML(body, style):

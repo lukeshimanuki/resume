@@ -30,6 +30,10 @@ def toASCII(data):
 				school['time'],
 			) +
 			(
+				"{}\n".format(school['field'])
+				if 'field' in school else ''
+			) +
+			(
 				"{}\n".format('\n'.join(school['description'][:-1]))
 				if 'description' in school else ''
 			) +
