@@ -1,308 +1,415 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html><html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
-  <meta name="generator" content="pandoc" />
-  <title></title>
-  <style type="text/css">code{white-space: pre;}</style>
-  <style type="text/css">
-  
-  /* everything */
-  body {
-  	font-family: 'Calibri', 'sans-serif';
-  	font-size: 11.5pt;
-  	line-height: 1.5;
-  	min-width: 612pt;
-  	max-width: 612pt;
-  }
-  * {
-  	margin-top: 0;
-  	margin-bottom: 0;
-  }
-  
-  table {
-  	width: 100%;
-  }
-  td {
-  	vertical-align: top;
-  }
-  
-  td hr {
-  	height: .64em;
-  	visibility: hidden;
-  	margin: 0px;
-  }
-  
-  .name {
-  	letter-spacing: 1px;
-  	font-weight: bold;
-  	font-size: 14pt;
-  }
-  .name:hover
-  {
-  	background-color: #CCC;
-  }
-  
-  /* category */
-  h2 {
-  	font-size: 12pt;
-  	text-align:center;
-  	font-weight: bold;
-  	text-decoration: underline;
-  	margin-bottom: 8pt;
-  }
-  h2:hover {
-  	background-color: #DDD;
-  }
-  
-  /* contact info */
-  h3 {
-  	font-size: 12pt;
-  	font-weight: normal;
-  	text-align: center;
-  	margin-bottom: 5pt;
-  }
-  
-  /* horizontal lines */
-  hr {
-  	height: 1px;
-  	background-color: #000;
-  	border: none;
-  	margin-top: 10pt;
-  	margin-bottom: 10pt;
-  }
-  
-  /* right alignment */
-  table right {
-  	float: right;
-  }
-  /* indent (i## indicates ##% */
-  p i05 {
-  	position: absolute;
-  	left: 5%;
-  }
-  p i10 {
-  	position: absolute;
-  	left: 10%;
-  }
-  p i15 {
-  	position: absolute;
-  	left: 15%;
-  }
-  p i20 {
-  	position: absolute;
-  	left: 20%;
-  }
-  p i25 {
-  	position: absolute;
-  	left: 25%;
-  }
-  p i30 {
-  	position: absolute;
-  	left: 30%;
-  }
-  p i35 {
-  	position: absolute;
-  	left: 35%;
-  }
-  p i40 {
-  	position: absolute;
-  	left: 40%;
-  }
-  p i45 {
-  	position: absolute;
-  	left: 45%;
-  }
-  p i50 {
-  	position: absolute;
-  	left: 50%;
-  }
-  p i55 {
-  	position: absolute;
-  	left: 55%;
-  }
-  p i60 {
-  	position: absolute;
-  	left: 60%;
-  }
-  p i65 {
-  	position: absolute;
-  	left: 65%;
-  }
-  p i70 {
-  	position: absolute;
-  	left: 70%;
-  }
-  p i75 {
-  	position: absolute;
-  	left: 75%;
-  }
-  p i80 {
-  	position: absolute;
-  	left: 80%;
-  }
-  p i85 {
-  	position: absolute;
-  	left: 85%;
-  }
-  p i90 {
-  	position: absolute;
-  	left: 90%;
-  }
-  p i95 {
-  	position: absolute;
-  	left: 95%;
-  }
-  
-  </style>
+<style type="text/css">
+
+/* everything */
+body {
+	font-family: 'Calibri', 'sans-serif';
+	font-size: 9.3pt;
+	line-height: 1.5;
+	min-width: 612pt;
+	max-width: 612pt;
+}
+* {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+table {
+	width: 100%;
+}
+td {
+	vertical-align: top;
+}
+
+table:nth-of-type(2) col:nth-of-type(1) {
+	width: 15% !important;
+}
+table:nth-of-type(2) col:nth-of-type(2) {
+	width: 85% !important;
+}
+
+td hr {
+	height: .64em;
+	visibility: hidden;
+	margin: 0px;
+}
+
+.name {
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 14pt;
+}
+.name:hover
+{
+	background-color: #CCC;
+}
+
+/* category */
+h2 {
+	font-size: 12pt;
+	text-align:center;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-bottom: 8pt;
+}
+h2:hover {
+	background-color: #DDD;
+}
+
+/* contact info */
+h3 {
+	font-size: 12pt;
+	font-weight: normal;
+	text-align: center;
+	margin-bottom: 5pt;
+}
+
+/* horizontal lines */
+hr {
+	height: 1px;
+	background-color: #000;
+	border: none;
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+}
+
+/* right alignment */
+table right {
+	float: right;
+}
+/* indent (i## indicates ##% */
+p i05 {
+	position: absolute;
+	left: 5%;
+}
+p i10 {
+	position: absolute;
+	left: 10%;
+}
+p i15 {
+	position: absolute;
+	left: 15%;
+}
+p i20 {
+	position: absolute;
+	left: 20%;
+}
+p i25 {
+	position: absolute;
+	left: 25%;
+}
+p i30 {
+	position: absolute;
+	left: 30%;
+}
+p i35 {
+	position: absolute;
+	left: 35%;
+}
+p i40 {
+	position: absolute;
+	left: 40%;
+}
+p i45 {
+	position: absolute;
+	left: 45%;
+}
+p i50 {
+	position: absolute;
+	left: 50%;
+}
+p i55 {
+	position: absolute;
+	left: 55%;
+}
+p i60 {
+	position: absolute;
+	left: 60%;
+}
+p i65 {
+	position: absolute;
+	left: 65%;
+}
+p i70 {
+	position: absolute;
+	left: 70%;
+}
+p i75 {
+	position: absolute;
+	left: 75%;
+}
+p i80 {
+	position: absolute;
+	left: 80%;
+}
+p i85 {
+	position: absolute;
+	left: 85%;
+}
+p i90 {
+	position: absolute;
+	left: 90%;
+}
+p i95 {
+	position: absolute;
+	left: 95%;
+}
+
+</style>
+
+
 </head>
 <body>
 <table>
 <tbody>
-<tr class="odd">
+<tr>
 <td align="left">290 Massachusetts Ave #325s</td>
-<td align="center"><span class="name">LUKE SHIMANUKI</span></td>
+<td align="center"></td>
 <td align="right">(925) 331-0577</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="left">Cambridge, MA 02139</td>
-<td align="center"></td>
+<td align="center"><span class="name">LUKE SHIMANUKI</span></td>
 <td align="right">lshimanuki@mit.edu</td>
 </tr>
+<tr>
+<td align="left">linkedin.com/in/luke-shimanuki</td>
+<td align="center"></td>
+<td align="right">github.com/lukeshimanuki</td>
+</tr>
 </tbody>
 </table>
-<hr />
+<hr>
 <table>
-<colgroup>
-<col width="22%" />
-<col width="77%" />
-</colgroup>
 <tbody>
-<tr class="odd">
-<td><p>EDUCATION</p></td>
-<td><strong>Massachusetts Institute of Technology</strong> <right>2016 - 2020</right><br />
-Candidate for a Bachelor of Science in Computer Science and Engineering<br />
-Coursework: Machine Learning (graduate level course)<br />
-<br />
-<strong>Amador Valley High School</strong> <right>2012 - 2016</right><br />
-Weighted GPA: 4.4<br />
-Unweighted GPA: 4.0<br />
-<br />
-<strong>Online Coursework</strong> <right>Spring 2016</right><br />
-edX: Differential Equations<br />
-Coursera: Machine Learning<br />
-<br />
-<strong>Diablo Valley College</strong> <right>Fall 2015</right><br />
-Coursework: Linear Algebra, Program Design and Data Structures<br />
-GPA: 4.0<br />
-<br />
+<tr>
+<td><table><tr><td>EDUCATION</td></tr></table></td>
+<td>
+<table>
+<tr><td colspan=3>
+<table>
+<tr>
+<td><strong>Massachusetts Institute of Technology</strong></td><td>Computer Science and Engineering</td><td><right>2016 - Present</right></td>
+</tr></table>
+189 units (out of ~384) towards degree<br>
+</td></tr>
+<tr>
+<td>Computation Structures</td>
+
+<td>Robotics Science and Systems</td>
+
+<td>Machine Learning (graduate level)</td>
+</tr>
+
+<tr>
+<td>Embedded Systems</td>
+
+<td>Design and Analysis of Algorithms</td>
+
+<td></td>
+</tr>
+<tr><td></td></tr>
+
+<tr><td colspan=3>
+<table>
+<tr>
+<td><strong>Amador Valley High School</strong></td><td><right>2012 - 2016</right></td>
+</tr></table>
+Weighted GPA: 4.4<br>
+Unweighted GPA: 4.0<br>
+</td></tr>
+<tr><td></td></tr>
+
+<tr><td colspan=3>
+<table>
+<tr>
+<td><strong>Online Coursework</strong></td><td><right>Spring 2016</right></td>
+</tr></table>
+edX: Differential Equations<br>
+Coursera: Machine Learning<br>
+</td></tr>
+<tr><td></td></tr>
+
+<tr><td colspan=3>
+<table>
+<tr>
+<td><strong>Diablo Valley College</strong></td><td><right>Fall 2015</right></td>
+</tr></table>
+GPA: 4.0<br>
+</td></tr>
+<tr>
+<td>Linear Algebra</td>
+
+<td>Data Structures</td>
+
+<td></td>
+</tr>
+<tr><td></td></tr>
+</table>
+
 </td>
 </tr>
-<tr class="even">
-<td><p>SKILLS</p></td>
-<td>Proficient in C, C++, Python, Scala, UNIX Shell, LabView, and Java<br />
+<tr>
+<td><table><tr><td>SKILLS</td></tr></table></td>
+<td>
+<table>
+<tr>
+<td>Proficient in:</td>
+<td>C</td><td>C++</td><td>Python</td><td>Scala</td><td>UNIX Shell</td><td>Java</td>
+</tr>
+<tr>
+<td>Familiar with:</td>
+<td>C#</td><td>LabView</td><td>Matlab</td><td>JavaScript</td><td>x86 Assembly</td>
+</tr>
+<tr>
+<td>Libraries:</td>
+<td colspan=2>OpenCV</td><td colspan=2>TensorFlow</td><td colspan=2>Theano</td>
+</tr>
+</table>
 
-<hr>
-Familiar with C#, x86 and ADSP-21469 Assembly, Matlab, and JavaScript<br />
 
-<hr>
-Libraries: Tensorflow, OpenCV<br />
-<br />
 </td>
 </tr>
-<tr class="odd">
-<td><p>EXPERIENCE</p></td>
-<td><strong>Developer</strong> <right>2015 - 2016</right><br />
-<em>Tanius Technology (Proprietary Trading Company), Alamo, California</em><br />
-
-<hr>
-Researched and developed distributed machine learning system in TensorFlow to predict market patterns using recurrent neural networks (LSTMs).<br />
-<br />
-<strong>Research Intern</strong> <right>Summer 2015</right><br />
-<em>Autonomous Systems Laboratory, Stanford, California</em><br />
-
-<hr>
-Developed original algorithm utilizing integer linear programming to optimize vehicle routing in an urban mobility-on-demand system.<br />
-
-<hr>
-Designed Matlab simulations demonstrating improvement by as much as as 16% over state-of-the-art methods.<br />
-<br />
+<tr>
+<td><table><tr><td>EXPERIENCE</td></tr></table></td>
+<td>
+<table>
+<tr>
+<td>
+<strong>Software Intern</strong></td>
+<td>
+<ex>RightHand Robotics</em></td>
+<td>
+<right>January 2017</right> <br>
 </td>
 </tr>
-<tr class="even">
-<td><p>ACTIVITIES</p></td>
-<td><strong>Software Lead</strong> <right>2014 - 2016</right><br />
-<strong>Programmer</strong> <right>2012 - 2014</right><br />
-<em>AVBotz, Pleasanton, California</em><br />
+<tr><td colspan=3>
+<hr>Designed, implemented, and trained deep learning architectures in Theano for robotic vision and grasping.<br><hr>
+</td></tr>
 
-<hr>
-Managed the programming team (~12 members) in developing the software (C, C++, Python, LabView, and Assembly) for an autonomous submarine.<br />
-
-<hr>
-Designed and implemented machine vision, Bayesian mapping, machine learning, mission planning and optimization, interprocess communication, control systems, and audio signal processing algorithms.<br />
-
-<hr>
-International finalist at RoboSub 2015.<br />
-<br />
-<strong>Co-President</strong> <right>2015 - 2016</right><br />
-<strong>Chief Branch Director</strong> <right>2014 - 2015</right><br />
-<strong>Volunteer Teacher for Java and C++</strong> <right>2013 - 2014</right><br />
-<em>ACE Coding, Pleasanton, California</em><br />
-
-<hr>
-Managed and taught weekly programming lessons to ~40 middle school students.<br />
-
-<hr>
-Designed lesson plans and coordinated between volunteer teachers, students, and school administrators.<br />
-
-<hr>
-Organized ACE Code Day, an annual 8 hour event attracting ~300 students with representatives from major technology companies.<br />
-<br />
+<tr>
+<td>
+<strong>Developer</strong></td>
+<td>
+<ex>Tanius Technology</em></td>
+<td>
+<right>2015 - 2016</right> <br>
 </td>
 </tr>
-<tr class="odd">
+<tr><td colspan=3>
+<hr>Researched and developed distributed machine learning system in TensorFlow to predict market patterns using recurrent neural networks (LSTMs).<br><hr>
+</td></tr>
+
+<tr>
+<td>
+<strong>Research Intern</strong></td>
+<td>
+<ex>Stanford Autonomous Systems Laboratory</em></td>
+<td>
+<right>Summer 2015</right> <br>
+</td>
+</tr>
+<tr><td colspan=3>
+<hr>Developed original algorithm utilizing integer linear programming to optimize vehicle routing in an urban mobility-on-demand system.<br><hr>
+Designed Matlab simulations, demonstrating improvement by as much as 16% over state-of-the-art methods.<br><hr>
+Acknowledged in "Model Predictive Control of Autonomous Mobility-on-Demand Systems" (R. Zhang, F. Rossi, and M. Pavone).<br><hr>
+</td></tr>
+</table>
+
+</td>
+</tr>
+<tr>
+<td><table><tr><td>ACTIVITIES</td></tr></table></td>
+<td>
+<table>
+<tr>
+<td>
+<strong>Perception Subteam</strong></td>
+<td>
+<ex>MIT UAV Team</em></td>
+<td>
+<right>2016 - Present</right> <br>
+</td>
+</tr>
+<tr><td colspan=3>
+<hr>Wrote algorithms to identify and track moving robots from a live video feed using OpenCV.<br><hr>
+Optimized software for embedded platforms (ARM + GPU).<br><hr>
+</td></tr>
+
+<tr>
+<td>
+<strong>Software Lead</strong></td>
+<td>
+<ex>AVBotz</em></td>
+<td>
+<right>2012 - 2016</right> <br>
+</td>
+</tr>
+<tr><td colspan=3>
+<hr>Managed the programming team (~12 members) in developing the software (C, C++, Python, LabView, and Assembly) for autonomous submarine capable of identifying and manipulating objects, aiming and shooting torpedoes, and navigating around obstacles.<br><hr>
+Designed entire software stack, including visual and audio signal processing, neural network based image segmentation, dynamic path planning optimization, PID control systems with extended Kalman filter state estimation, and Bayesian mapping of surroundings.<br><hr>
+International finalist (7th Place) at RoboSub 2015.<br><hr>
+</td></tr>
+
+<tr>
+<td>
+<strong>Co-President, HPMS Branch Director</strong></td>
+<td>
+<ex>ACE Coding</em></td>
+<td>
+<right>2013 - 2016</right> <br>
+</td>
+</tr>
+<tr><td colspan=3>
+<hr>Managed ~16 volunteers to teach weekly programming lessons to ~40 middle school students.<br><hr>
+Organized ACE Code Day, an 8 hour event attracting ~300 students. Taught machine vision workshop.<br><hr>
+</td></tr>
+</table>
+
+</td>
+</tr>
+<tr>
 <td><p>ACHIEVEMENTS</p></td>
-<td>USA Computing Olympiad Platinum Division<br />
+<td>
+USA Computing Olympiad Platinum Division<br>
+Intel Science Talent Search 2016 Semifinalist<br>
+Eagle Scout<br>
+MIT Battlecode 2016 7th in Seeding Tournament and 10th in Armageddon Round<br>
+36 (out of 36) on ACT<br>
+2330 (out of 2400) on SAT<br>
+800 (out of 800) on SAT II Math 2 Physics and Chemistry<br>
+5 (out of 5) on 11 AP tests, including Computer Science A Calculus BC Chemistry Biology Physics C: Electricity & Magnetism and Physics C: Mechanics<br>
 
-<hr>
-Intel Science Talent Search 2016 Semifinalist<br />
 
-<hr>
-Eagle Scout<br />
-
-<hr>
-MIT Battlecode 2016 7th in Seeding Tournament and 10th in Armageddon Round<br />
-
-<hr>
-36 (out of 36) on ACT,
-<hr>
-2330 (out of 2400) on SAT<br />
-
-<hr>
-800 (out of 800) on SAT II Math 2, Physics, and Chemistry<br />
-
-<hr>
-5 (out of 5) on 11 AP tests, including Computer Science A, Calculus BC, Chemistry, Biology, Physics C: Electricity &amp; Magnetism, and Physics C: Mechanics<br />
-<br />
 </td>
 </tr>
-<tr class="even">
-<td><p>PROJECTS</p></td>
-<td>(C) lightweight web browser using Chromium's rendering engine with configurable vi-like key bindings<br />
+<tr>
+<td><table><tr><td>PROJECTS</td></tr></table></td>
+<td>
+<table>
+<tr>
+<td><strong>C</strong></td> <td>
+lightweight web browser using Chromium's rendering engine with configurable vi-like key bindings</td>
+</tr><tr>
+<td><strong>C</strong></td> <td>
+C compiler to convert C code to x86 assembly (GAS syntax)</td>
+</tr><tr>
+<td><strong>Java</strong></td> <td>
+artificial neural network based AI for a basic platform fighting game</td>
+</tr><tr>
+<td><strong>Python</strong></td> <td>
+collaborative filtering to make course recommendations based on past ratings and ratings by other students</td>
+</tr><tr>
+<td><strong>Python</strong></td> <td>
+gridded workspace manager for the i3 Window Manager</td>
+</tr>
+</table>
 
-<hr>
-(C) C compiler to convert C code to x86 assembly (GAS syntax)<br />
-
-<hr>
-(Java) artificial neural network based AI for a basic platform fighting game<br />
-
-<hr>
-(Python) gridded workspace manager for the i3 Window Manager<br />
-<br />
 </td>
 </tr>
 </tbody>
 </table>
+
 </body>
 </html>
