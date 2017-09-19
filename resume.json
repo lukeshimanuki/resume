@@ -208,26 +208,6 @@
 
 	"activities" : [
 		{
-			"group" : "MIT UAV Team",
-			"role" : "Perception Subteam",
-			"time" : "2016 - Present",
-			"description" : [
-				[
-					"Wrote algorithms to identify and track moving robots",
-						"from a live video feed",
-						"using OpenCV",
-					""
-				],
-				[
-					"Optimized software for embedded platforms",
-						"(ARM + GPU)",
-					""
-				],
-				[]
-			],
-			"" : ""
-		},
-		{
 			"group" : "AVBotz",
 			"role" : "Software Lead",
 			"time" : "2012 - 2016",
