@@ -38,6 +38,10 @@ def toHTML(data):
 					'<td>\n{}\n</td>\n'
 				'</tr>\n'
 				'<tr>\n'
+					'<td><table><tr><td>RESEARCH</td></tr></table></td>\n'
+					'<td>\n{}\n</td>\n'
+				'</tr>\n'
+				'<tr>\n'
 					'<td><table><tr><td>ACTIVITIES</td></tr></table></td>\n'
 					'<td>\n{}\n</td>\n'
 				'</tr>\n'
@@ -144,6 +148,36 @@ def toHTML(data):
 			'</td></tr>\n' +
 			''
 			for job in data['experience'] if len(job) > 0
+		]) +
+		'</table>\n',
+		'<table>\n' +
+		'\n'.join([
+			(
+				'<tr>\n'
+					'<td>\n'
+						"<strong>{}</strong>"
+					'</td>\n'
+					'<td>\n'
+						"<right>{}</right> <br>\n"
+					'</td>\n'
+				'</tr>\n'
+			).format(
+				position['group'],
+				position['time'],
+			) +
+			'<tr><td colspan=3>\n' +
+			'<hr>' +
+			(
+				'<br><hr>\n'.join([
+					' '.join(statement[:-1]) + '.'
+					for statement in position['description'] if len(statement) > 0
+				])
+				if 'description' in position else ''
+			) +
+			'<br><hr>\n' +
+			'</td></tr>\n' +
+			''
+			for position in data['research'] if len(position) > 0
 		]) +
 		'</table>\n',
 		'<table>\n' +

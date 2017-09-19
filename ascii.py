@@ -13,6 +13,7 @@ def toASCII(data):
 		"EDUCATION\n\n{}\n\n"
 		"SKILLS\n\n{}\n\n"
 		"EXPERIENCE\n\n{}\n\n"
+		"RESEARCH\n\n{}\n\n"
 		"ACTIVITIES\n\n{}\n\n"
 		"ACHIEVEMENTS\n\n{}\n\n"
 		"PROJECTS\n\n{}\n\n"
@@ -66,6 +67,22 @@ def toASCII(data):
 			'\n' +
 			''
 			for job in data['experience'] if len(job) > 0
+		]),
+		'\n'.join([
+			"{} ({})\n".format(
+				position['group'],
+				position['time'],
+			) +
+			(
+				'\n'.join([
+					' '.join(statement[:-1]) + '.'
+					for statement in position['description'] if len(statement) > 0
+				])
+				if 'description' in position else ''
+			) +
+			'\n' +
+			''
+			for position in data['research'] if len(position) > 0
 		]),
 		'\n'.join([
 			"{} ({})\n{}\n".format(

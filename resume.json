@@ -125,11 +125,13 @@
 			],
 			"" : ""
 		},
+		{}
+	],
+
+	"research" : [
 		{
 			"group" : "Stanford Autonomous Systems Laboratory",
-			"role" : "Research Intern",
 			"time" : "Summer 2015",
-			"city" : "Stanford, California",
 			"description" : [
 				[
 					"Developed original algorithm utilizing integer linear programming",
