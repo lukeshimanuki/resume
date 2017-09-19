@@ -92,8 +92,34 @@
 
 	"experience" : [
 		{
+			"group" : "Optimus Ride",
+			"role" : "Perception Intern",
+			"time" : "Summer 2017",
+			"city" : "Boston, Massachusetts",
+			"description" : [
+				[
+					"Created new system for robotic cars to predict future",
+						"vehicle and pedestrian movements",
+						"to be able to safely handle",
+						"intersections",
+					""
+				],
+				[
+					"Improved existing system for",
+						"obstacle detection and tracking,",
+						"in particular",
+						"doubling accurate detection range",
+						"and",
+						"reducing runtime by a factor of four",
+					""
+				],
+				[]
+			],
+			"" : ""
+		},
+		{
 			"group" : "RightHand Robotics",
-			"role" : "Software Intern",
+			"role" : "Machine Learning Intern",
 			"time" : "January 2017",
 			"city" : "Somerville, Massachusetts",
 			"description" : [
