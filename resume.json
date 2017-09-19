@@ -208,6 +208,32 @@
 
 	"activities" : [
 		{
+			"group" : "MIT Educational Studies Program",
+			"role" : "Director (Summer HSSP), Subdirector of Volunteers (Splash)",
+			"time" : "2017 - Present",
+			"description" : [
+				[
+					"Organize programs for",
+						"MIT students, alumni, faculty,",
+						"and other members of the community",
+						"to teach middle school and highschool students",
+						"classes on a variety of topics",
+						"not typically taught in schools.",
+					""
+				],
+				[
+					"The largest such student-run program in the US,",
+						"reaching ~3000 students each year",
+						"with ~1200 classes",
+						"taught by ~800 teachers",
+						"and run by ~100 volunteers to handle logistics",
+					""
+				],
+				[]
+			],
+			"" : ""
+		},
+		{
 			"group" : "AVBotz",
 			"role" : "Software Lead",
 			"time" : "2012 - 2016",
