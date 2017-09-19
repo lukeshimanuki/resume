@@ -106,7 +106,7 @@
 				[
 					"Created new system for robotic cars to predict future",
 						"vehicle and pedestrian movements",
-						"to be able to safely handle",
+						"to safely handle",
 						"intersections",
 					""
 				],
@@ -184,7 +184,7 @@
 				[
 					"Developed original algorithm utilizing integer linear programming",
 						"to optimize vehicle routing",
-						"in an urban mobility-on-demand system",
+						"for urban mobility-on-demand",
 					""
 				],
 				[
@@ -243,7 +243,7 @@
 						"in developing the software (C, C++, Python, LabView, and Assembly)",
 						"for autonomous submarine",
 						"capable of",
-							"identifying and manipulating objects,",
+							"manipulating objects,",
 							"aiming and shooting torpedoes,",
 							"and navigating around obstacles",
 					""
@@ -252,10 +252,10 @@
 					"Designed entire software stack, including",
 						"visual and audio signal processing,",
 						"neural network based image segmentation,",
-						"dynamic path planning optimization,",
+						"dynamic route optimization,",
 						"PID control systems",
 							"with extended Kalman filter state estimation,",
-						"and Bayesian mapping of surroundings",
+						"and SLAM",
 					""
 				],
 				[
