@@ -156,6 +156,22 @@
 
 	"research" : [
 		{
+			"group" : "MIT CSAIL Learning and Intelligent Systems Group",
+			"time" : "2017 - Present",
+			"description" : [
+				[
+					"Proved NP-Completeness of the",
+						"min-submodular-cost flow problem,",
+						"which is applicable to robotic motion planning",
+						"over a probability distribution of",
+						"the locations of the obstacles",
+					""
+				],
+				[]
+			],
+			"" : ""
+		},
+		{
 			"group" : "Stanford Autonomous Systems Laboratory",
 			"time" : "Summer 2015",
 			"description" : [
