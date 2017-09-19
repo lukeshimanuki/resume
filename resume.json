@@ -13,15 +13,21 @@
 			"field" : "Computer Science and Engineering",
 			"time" : "2016 - Present",
 			"description" : [
-				"189 units (out of ~384) towards degree",
+				"255 units (out of ~384) towards degree",
+				"GPA: 5.0 (out of 5)",
 				""
 			],
 			"coursework" : [
-				"Computation Structures",
-				"Robotics Science and Systems",
 				"Machine Learning (graduate level)",
+				"Robotics Science and Systems",
+				"Computational Intelligence (graduate level)",
+				"Computation Structures",
 				"Embedded Systems",
+				"Natural Language Processing",
+				"Theory of Computation (graduate level)",
 				"Design and Analysis of Algorithms",
+				"Advanced Data Structures (graduate level)",
+				"Neuroscience",
 				""
 			],
 			"" : ""
