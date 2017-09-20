@@ -104,15 +104,16 @@
 			"city" : "Boston, Massachusetts",
 			"description" : [
 				[
-					"Created new system for robotic cars to predict future",
-						"vehicle and pedestrian movements",
+					"Created new system for robotic cars to",
+					"predict and avoid future movements of",
+						"other vehicles",
 						"to safely handle",
 						"intersections",
 					""
 				],
 				[
-					"Improved existing system for",
-						"obstacle detection and tracking,",
+					"Improved existing systems for",
+						"obstacle detection, tracking, and avoidance,",
 						"in particular",
 						"doubling accurate detection range",
 						"and",
@@ -223,10 +224,10 @@
 				],
 				[
 					"The largest such student-run program in the US,",
-						"reaching ~3000 students each year",
+						"reaching ~4000 students each year",
 						"with ~1200 classes",
 						"taught by ~800 teachers",
-						"and run by ~100 volunteers to handle logistics",
+						"and run by ~100 volunteers handling logistics",
 					""
 				],
 				[]
@@ -252,7 +253,7 @@
 					"Designed entire software stack, including",
 						"visual and audio signal processing,",
 						"neural network based image segmentation,",
-						"dynamic route optimization,",
+						"route replanning and optimization,",
 						"PID control systems",
 							"with extended Kalman filter state estimation,",
 						"and SLAM",
