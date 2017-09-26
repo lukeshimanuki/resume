@@ -45,7 +45,7 @@ def toASCII(data):
 			''
 			for school in data['education'] if 'school' in school
 		]),
-		"Proficient in {}\nFamiliar with {}\nLanguages: {}\n".format(
+		"Proficient in {}\nFamiliar with {}\Libraries: {}\n".format(
 			', '.join(data['skills']['proficient'][:-1]),
 			', '.join(data['skills']['familiar'][:-1]),
 			', '.join(data['skills']['libraries'][:-1]),
