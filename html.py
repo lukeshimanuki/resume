@@ -136,15 +136,13 @@ def toHTML(data):
 				job['time'],
 			) +
 			'<tr><td colspan=3>\n' +
-			'<hr>' +
 			(
-				'<br><hr>\n'.join([
-					' '.join(statement[:-1]) + '.'
+				'<br>\n'.join([
+					' '.join(statement[:-1])
 					for statement in job['description'] if len(statement) > 0
 				])
 				if 'description' in job else ''
 			) +
-			'<br><hr>\n' +
 			'</td></tr>\n' +
 			''
 			for job in data['experience'] if len(job) > 0
@@ -166,15 +164,13 @@ def toHTML(data):
 				position['time'],
 			) +
 			'<tr><td colspan=3>\n' +
-			'<hr>' +
 			(
-				'<br><hr>\n'.join([
-					' '.join(statement[:-1]) + '.'
+				'<br>\n'.join([
+					' '.join(statement[:-1])
 					for statement in position['description'] if len(statement) > 0
 				])
 				if 'description' in position else ''
 			) +
-			'<br><hr>\n' +
 			'</td></tr>\n' +
 			''
 			for position in data['research'] if len(position) > 0
@@ -200,15 +196,13 @@ def toHTML(data):
 				group['time'],
 			) +
 			'<tr><td colspan=3>\n' +
-			'<hr>' +
 			(
-				'<br><hr>\n'.join([
-					' '.join(statement[:-1]) + '.'
+				'<br>\n'.join([
+					' '.join(statement[:-1])
 					for statement in group['description'] if len(statement) > 0
 				])
 				if 'description' in group else ''
 			) +
-			'<br><hr>\n' +
 			'</td></tr>\n' +
 			''
 			for group in data['activities'] if len(group) > 0

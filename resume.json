@@ -17,15 +17,15 @@
 				""
 			],
 			"coursework" : [
-				"Machine Learning (graduate level)",
+				"Machine Learning (graduate)",
 				"Robotics Science and Systems",
-				"Computational Intelligence (graduate level)",
+				"Computational Intelligence (graduate)",
 				"Computation Structures",
 				"Embedded Systems",
 				"Natural Language Processing",
-				"Theory of Computation (graduate level)",
+				"Theory of Computation (graduate)",
 				"Design and Analysis of Algorithms",
-				"Advanced Data Structures (graduate level)",
+				"Advanced Data Structures (graduate)",
 				"Neuroscience",
 				""
 			],
@@ -69,20 +69,12 @@
 			"city" : "Boston, Massachusetts",
 			"description" : [
 				[
-					"Created new system for robotic cars to",
-					"predict and avoid future movements of",
+					"Created system for robotic cars to",
+					"detect, predict, and avoid",
 						"other vehicles",
 						"to safely handle",
 						"intersections",
-					""
-				],
-				[
-					"Improved existing systems for",
-						"obstacle detection, tracking, and avoidance,",
-						"in particular",
-						"doubling accurate detection range",
-						"and",
-						"reducing runtime by a factor of four",
+						".",
 					""
 				],
 				[]
@@ -98,8 +90,8 @@
 				[
 					"Designed, implemented, and trained",
 						"deep learning architectures",
-						"in Theano",
 						"for robotic vision and grasping",
+						".",
 					""
 				],
 				[]
@@ -114,9 +106,8 @@
 			"description" : [
 				[
 					"Researched and developed distributed machine learning system",
-						"in TensorFlow",
 						"to predict market patterns",
-						"using recurrent neural networks (LSTMs)",
+						".",
 					""
 				],
 				[]
@@ -133,10 +124,9 @@
 			"description" : [
 				[
 					"Proved NP-Completeness of the",
-						"min-submodular-cost flow problem,",
-						"which is applicable to robotic motion planning",
-						"over a probability distribution of",
-						"the locations of the obstacles",
+						"min-submodular-cost flow problem",
+						"for robotic motion planning",
+						".",
 					""
 				],
 				[]
@@ -148,21 +138,15 @@
 			"time" : "Summer 2015",
 			"description" : [
 				[
-					"Developed original algorithm utilizing integer linear programming",
-						"to optimize vehicle routing",
-						"for urban mobility-on-demand",
-					""
-				],
-				[
-					"Designed Matlab simulations,",
-						"demonstrating improvement by as much as 16%",
-						"over state-of-the-art methods",
+					"Developed original vehicle routing algorithm",
+						"with 10% improvement over state-of-the-art in simulation",
+						".",
 					""
 				],
 				[
 					"Acknowledged in",
 						"\"Model Predictive Control of Autonomous Mobility-on-Demand Systems\"",
-						"(R. Zhang, F. Rossi, and M. Pavone)",
+						"(Zhang et al.)",
 					""
 				],
 				[]
@@ -179,20 +163,12 @@
 			"time" : "2017 - Present",
 			"description" : [
 				[
-					"Organize programs for",
-						"MIT students, alumni, faculty,",
-						"and other members of the community",
-						"to teach middle school and highschool students",
-						"classes on a variety of topics",
-						"not typically taught in schools.",
-					""
-				],
-				[
-					"The largest such student-run program in the US,",
+					"Organize the largest student-run educational program in the US,",
 						"reaching ~4000 students each year",
 						"with ~1200 classes",
 						"taught by ~800 teachers",
 						"and run by ~100 volunteers handling logistics",
+						".",
 					""
 				],
 				[]
@@ -206,26 +182,17 @@
 			"description" : [
 				[
 					"Managed the programming team (~12 members)",
-						"in developing the software (C, C++, Python, LabView, and Assembly)",
 						"for autonomous submarine",
 						"capable of",
 							"manipulating objects,",
 							"aiming and shooting torpedoes,",
 							"and navigating around obstacles",
-					""
-				],
-				[
-					"Designed entire software stack, including",
-						"visual and audio signal processing,",
-						"neural network based image segmentation,",
-						"route replanning and optimization,",
-						"PID control systems",
-							"with extended Kalman filter state estimation,",
-						"and SLAM",
+						".",
 					""
 				],
 				[
 					"International finalist (7th Place) at RoboSub 2015",
+						".",
 					""
 				],
 				[]
@@ -240,12 +207,14 @@
 				[
 					"Managed ~16 volunteers to teach weekly programming lessons",
 						"to ~40 middle school students",
+						".",
 					""
 				],
 				[
 					"Organized ACE Code Day,",
 					"an 8 hour event attracting ~300 students.",
 						"Taught machine vision workshop",
+						".",
 					""
 				],
 				[]
@@ -344,7 +313,6 @@
 			"description" : [
 				"collaborative filtering to make course recommendations",
 					"based on past ratings",
-					"and ratings by other students",
 				""
 			]
 		},
