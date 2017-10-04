@@ -13,7 +13,6 @@
 			"field" : "Computer Science and Engineering",
 			"time" : "2016 - Present",
 			"description" : [
-				"255 units (out of ~384) towards degree",
 				"GPA: 5.0 (out of 5)",
 				""
 			],
@@ -28,40 +27,6 @@
 				"Design and Analysis of Algorithms",
 				"Advanced Data Structures (graduate level)",
 				"Neuroscience",
-				""
-			],
-			"" : ""
-		},
-		{
-			"school" : "Amador Valley High School",
-			"time" : "2012 - 2016",
-			"description" : [
-				"Weighted GPA: 4.4",
-				"Unweighted GPA: 4.0",
-				""
-			],
-			"" : ""
-		},
-		{
-			"school" : "Online Coursework",
-			"time" : "Spring 2016",
-			"description" : [
-				"edX: Differential Equations",
-				"Coursera: Machine Learning",
-				""
-			],
-			"" : ""
-		},
-		{
-			"school" : "Diablo Valley College",
-			"time" : "Fall 2015",
-			"description" : [
-				"GPA: 4.0",
-				""
-			],
-			"coursework" : [
-				"Linear Algebra",
-				"Data Structures",
 				""
 			],
 			"" : ""
