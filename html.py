@@ -84,10 +84,10 @@ def toHTML(data):
 					'<tr>\n' +
 					'\n'.join([
 						'<td>{}</td>\n'.format(course)
-						for course in school['coursework'][i:i+3]
+						for course in school['coursework'][i:i+2]
 					]) +
 					'</tr>\n'
-					for i in range(0, len(school['coursework']) - 1, 3)
+					for i in range(0, len(school['coursework']) - 1, 2)
 				])
 				if 'coursework' in school else ''
 			) +

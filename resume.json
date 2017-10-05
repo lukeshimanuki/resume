@@ -17,16 +17,16 @@
 				""
 			],
 			"coursework" : [
-				"Machine Learning (graduate)",
+				"Machine Learning (graduate level)",
 				"Robotics Science and Systems",
-				"Computational Intelligence (graduate)",
-				"Computation Structures",
-				"Embedded Systems",
-				"Natural Language Processing",
-				"Theory of Computation (graduate)",
-				"Design and Analysis of Algorithms",
-				"Advanced Data Structures (graduate)",
+				"Computational Intelligence (graduate level)",
 				"Neuroscience",
+				"Advanced Data Structures (graduate level)",
+				"Computation Structures",
+				"Theory of Computation (graduate level)",
+				"Embedded Systems",
+				"Design and Analysis of Algorithms",
+				"Natural Language Processing",
 				""
 			],
 			"" : ""
@@ -70,11 +70,10 @@
 			"description" : [
 				[
 					"Created system for robotic cars to",
-					"detect, predict, and avoid",
+					"predict and avoid",
 						"other vehicles",
-						"to safely handle",
-						"intersections",
-						".",
+						"to handle",
+						"intersections.",
 					""
 				],
 				[]
@@ -88,10 +87,9 @@
 			"city" : "Somerville, Massachusetts",
 			"description" : [
 				[
-					"Designed, implemented, and trained",
+					"Designed and implemented",
 						"deep learning architectures",
-						"for robotic vision and grasping",
-						".",
+						"for robotic vision and grasping.",
 					""
 				],
 				[]
@@ -106,8 +104,7 @@
 			"description" : [
 				[
 					"Researched and developed distributed machine learning system",
-						"to predict market patterns",
-						".",
+						"to predict market patterns.",
 					""
 				],
 				[]
@@ -123,10 +120,9 @@
 			"time" : "2017 - Present",
 			"description" : [
 				[
-					"Proved NP-Completeness of the",
-						"min-submodular-cost flow problem",
-						"for robotic motion planning",
-						".",
+					"Proved NP-Completeness of",
+						"min-submodular-cost flows",
+						"for robotic motion planning.",
 					""
 				],
 				[]
@@ -138,15 +134,14 @@
 			"time" : "Summer 2015",
 			"description" : [
 				[
-					"Developed original vehicle routing algorithm",
-						"with 10% improvement over state-of-the-art in simulation",
-						".",
+					"Designed vehicle routing algorithm",
+						"with 10% improvement over state-of-the-art in simulation.",
 					""
 				],
 				[
 					"Acknowledged in",
-						"\"Model Predictive Control of Autonomous Mobility-on-Demand Systems\"",
-						"(Zhang et al.)",
+						"\"MPC of Autonomous Mobility-on-Demand Systems\"",
+						"(Zhang et al).",
 					""
 				],
 				[]
@@ -159,16 +154,16 @@
 	"activities" : [
 		{
 			"group" : "MIT Educational Studies Program",
-			"role" : "Director (Summer HSSP), Subdirector of Volunteers (Splash)",
+			"role" : "Director (Summer HSSP) <br> Subdirector of Volunteers (Splash)",
 			"time" : "2017 - Present",
 			"description" : [
 				[
 					"Organize the largest student-run educational program in the US,",
+						"including events such as Splash and Spark,",
 						"reaching ~4000 students each year",
 						"with ~1200 classes",
 						"taught by ~800 teachers",
-						"and run by ~100 volunteers handling logistics",
-						".",
+						"and run by ~100 volunteers handling logistics.",
 					""
 				],
 				[]
@@ -186,13 +181,11 @@
 						"capable of",
 							"manipulating objects,",
 							"aiming and shooting torpedoes,",
-							"and navigating around obstacles",
-						".",
+							"and navigating around obstacles.",
 					""
 				],
 				[
-					"International finalist (7th Place) at RoboSub 2015",
-						".",
+					"International finalist (7th Place) at RoboSub 2015.",
 					""
 				],
 				[]
@@ -263,7 +256,7 @@
 		{
 			"language" : "C",
 			"description" : [
-				"lightweight web browser",
+				"web browser",
 					"using Chromium's rendering engine",
 					"with configurable vi-like key bindings",
 				""
