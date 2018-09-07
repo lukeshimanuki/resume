@@ -1,6 +1,6 @@
 {
 	"name" : "LUKE SHIMANUKI",
-	"email" : "lshimanuki@mit.edu",
+	"email" : "lukeshim@csail.mit.edu",
 	"phone" : "(925) 331-0577",
 	"address" : "290 Massachusetts Ave #325A",
 	"city" : "Cambridge, MA 02139",
@@ -13,20 +13,24 @@
 			"field" : "Computer Science and Engineering",
 			"time" : "2016 - Present",
 			"description" : [
-				"GPA: 5.0 (out of 5)",
+				"In-major GPA: 5.0 (out of 5)",
 				""
 			],
 			"coursework" : [
 				"Machine Learning (graduate level)",
 				"Robotics Science and Systems",
 				"Computational Intelligence (graduate level)",
-				"Neuroscience",
+				"Computational Cognitive Science",
 				"Advanced Data Structures (graduate level)",
-				"Computation Structures",
-				"Theory of Computation (graduate level)",
 				"Embedded Systems",
+				"Theory of Computation (graduate level)",
 				"Design and Analysis of Algorithms",
+				"Quantum Computation (graduate level)",
+				"Neural Computation",
+				"Computational Linguistics (graduate level)",
 				"Natural Language Processing",
+				"Operating Systems (graduate level)",
+				"Computation Structures",
 				""
 			],
 			"" : ""
@@ -53,6 +57,8 @@
 			""
 		],
 		"libraries" : [
+			"ROS",
+			"LCM",
 			"OpenCV",
 			"TensorFlow",
 			"Theano",
@@ -62,6 +68,25 @@
 	},
 
 	"experience" : [
+		{
+			"group" : "Cruise Automation (General Motors)",
+			"role" : "Prediction Intern",
+			"time" : "Summer 2018",
+			"city" : "San Francisco, California",
+			"description" : [
+				[
+					"Improved model for robotic cars to",
+					"predict trajectories of other vehicles and bicyclists.",
+					""
+				],
+				[
+					"Testable safety in 3x as many driving situations.",
+					""
+				],
+				[]
+			],
+			"" : ""
+		},
 		{
 			"group" : "Optimus Ride",
 			"role" : "Perception Intern",
@@ -120,9 +145,18 @@
 			"time" : "2017 - Present",
 			"description" : [
 				[
-					"Proved NP-Completeness of",
-						"min-submodular-cost flows",
-						"for robotic motion planning.",
+					"Proved NP-hardness of",
+						"3d motion planning",
+						"under uncertainty over obstacle locations.",
+					""
+				],
+				[
+					"Designed system that leverages hierarchies",
+						"to efficiently solve POMDPs.",
+					""
+				],
+				[
+					"1st Author of paper accepted for publication in WAFR 2018.",
 					""
 				],
 				[]
@@ -139,9 +173,8 @@
 					""
 				],
 				[
-					"Acknowledged in",
-						"\"MPC of Autonomous Mobility-on-Demand Systems\"",
-						"(Zhang et al).",
+					"1st Author of paper for Intel STS 2015.",
+					"Acknowledged in paper published in ICRA 2016.",
 					""
 				],
 				[]
@@ -154,16 +187,20 @@
 	"activities" : [
 		{
 			"group" : "MIT Educational Studies Program",
-			"role" : "Director (Summer HSSP) <br> Subdirector of Volunteers (Splash)",
+			"role" : "Director (Splash, Summer HSSP) <br> Subdirector of Volunteers (Splash)",
 			"time" : "2017 - Present",
 			"description" : [
 				[
-					"Organize the largest student-run educational program in the US,",
+					"Organize the largest student-run educational program of its kind in the US,",
 						"including events such as Splash and Spark,",
-						"reaching ~4000 students each year",
+						"reaching ~5000 students each year",
 						"with ~1200 classes",
 						"taught by ~800 teachers",
 						"and run by ~100 volunteers handling logistics.",
+					""
+				],
+				[
+					"Help maintain website used by ~5000 students.",
 					""
 				],
 				[]
@@ -212,41 +249,8 @@
 			""
 		],
 		[
-			"MIT Battlecode 2016",
-				"7th in Seeding Tournament",
-					"and",
-				"10th in Armageddon Round",
-			""
-		],
-		[
-			"36",
-				"(out of 36)",
-				"on ACT",
-			""
-		],
-		[
-			"2330",
-				"(out of 2400)",
-				"on SAT",
-			""
-		],
-		[
-			"800 (out of 800) on SAT II",
-				"Math 2",
-				"Physics",
-					"and",
-				"Chemistry",
-			""
-		],
-		[
-			"5 (out of 5) on 11 AP tests, including",
-				"Computer Science A",
-				"Calculus BC",
-				"Chemistry",
-				"Biology",
-				"Physics C: Electricity & Magnetism",
-					"and",
-				"Physics C: Mechanics",
+			"MIT Battlecode 2018",
+				"Finalist (9th place)",
 			""
 		],
 		[]

@@ -15,14 +15,8 @@ def toHTML(data):
 					'<td align="center"><span class="name">{}</span></td>\n'
 					'<td align="right">{}</td>\n'
 				'</tr>\n'
-				'<tr>\n'
-					'<td align="left">{}</td>\n'
-					'<td align="center"></td>\n'
-					'<td align="right">{}</td>\n'
-				'</tr>\n'
 			'</tbody>\n'
 		'</table>\n'
-		'<hr>\n'
 		'<table>\n'
 			'<tbody>\n'
 				'<tr>\n'
@@ -61,8 +55,6 @@ def toHTML(data):
 		data['city'],
 		data['name'],
 		data['email'],
-		data['linkedin'],
-		data['github'],
 		'<table>\n' +
 		'\n'.join([
 			'<tr><td colspan=3>\n' +
@@ -108,13 +100,13 @@ def toHTML(data):
 				'</tr>\n'
 				'<tr>\n'
 					'<td>Libraries:</td>\n'
-					'<td colspan=2>{}</td>\n'
+					'<td colspan=1>{}</td>\n'
 				'</tr>\n'
 			'</table>\n'
 		).format(
 			'</td><td>'.join(data['skills']['proficient'][:-1]),
 			'</td><td>'.join(data['skills']['familiar'][:-1]),
-			'</td><td colspan=2>'.join(data['skills']['libraries'][:-1]),
+			'</td><td colspan=1>'.join(data['skills']['libraries'][:-1]),
 		),
 		'<table>\n' +
 		'\n'.join([
