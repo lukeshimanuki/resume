@@ -10,10 +10,11 @@
 	"education" : [
 		{
 			"school" : "Massachusetts Institute of Technology",
-			"field" : "Computer Science and Engineering",
+			"field" : "",
 			"time" : "2016 - Present",
 			"description" : [
-				"In-major GPA: 5.0 (out of 5)",
+				"Double Major in Computer Science and Brain & Cognitive Science",
+				"GPA: 4.9 (out of 5)",
 				""
 			],
 			"coursework" : [
@@ -145,14 +146,18 @@
 			"time" : "2017 - Present",
 			"description" : [
 				[
-					"Proved NP-hardness of",
-						"3d motion planning",
-						"under uncertainty over obstacle locations.",
+					"Research on generalizing experiences and demonstrations by learning subtask cost heuristics.",
 					""
 				],
 				[
-					"Designed system that leverages hierarchies",
-						"to efficiently solve POMDPs.",
+					"Designed system leveraging hierarchies",
+						"to efficiently solve robotic planning tasks (POMDPs).",
+					""
+				],
+				[
+					"Proved NP-hardness of",
+						"3d motion planning",
+						"under uncertainty over obstacle locations.",
 					""
 				],
 				[
@@ -187,7 +192,7 @@
 	"activities" : [
 		{
 			"group" : "MIT Educational Studies Program",
-			"role" : "Director (Splash, Summer HSSP) <br> Subdirector of Volunteers (Splash)",
+			"role" : "Director",
 			"time" : "2017 - Present",
 			"description" : [
 				[
