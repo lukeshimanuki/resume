@@ -13,7 +13,8 @@
 			"field" : "",
 			"time" : "2016 - Present",
 			"description" : [
-				"Double Major in Computer Science and Brain & Cognitive Science",
+				"M.Eng Electrical Engineering & Computer Science (AI Concentration) candidate",
+				"B.S. Double Major in Computer Science and Brain & Cognitive Science candidate",
 				"GPA: 4.9 (out of 5)",
 				""
 			],
@@ -285,14 +286,6 @@
 			"description" : [
 				"artificial neural network based",
 					"AI for a basic platform fighting game",
-				""
-			]
-		},
-		{
-			"language" : "Python",
-			"description" : [
-				"collaborative filtering to make course recommendations",
-					"based on past ratings",
 				""
 			]
 		},
