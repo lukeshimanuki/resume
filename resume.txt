@@ -1,0 +1,98 @@
+LUKE SHIMANUKI
+
+
+290 Massachusetts Ave #325A
+Cambridge, MA 02139
+
+luke@shimanuki.cc
+(925) 331-0577
+
+github.com/lukeshimanuki
+linkedin.com/in/luke-shimanuki
+
+
+EDUCATION
+
+Massachusetts Institute of Technology (2016 - Present)
+
+M.Eng Electrical Engineering & Computer Science (AI Concentration) candidate
+B.S. Double Major in Computer Science and Brain & Cognitive Science candidate
+GPA: 4.9 (out of 5) overall, 5.0 in-major (CS)
+Coursework: Machine Learning (graduate level), Robotics Science and Systems, Computational Intelligence (graduate level), Computational Cognitive Science, Advanced Data Structures (graduate level), Embedded Systems, Theory of Computation (graduate level), Design and Analysis of Algorithms, Quantum Computation (graduate level), Neural Computation, Computational Linguistics (graduate level), Natural Language Processing, Operating Systems (graduate level), Computation Structures
+
+
+SKILLS
+
+Proficient in C, C++, Python, Scala, UNIX Shell, Java
+Familiar with C#, LabView, Matlab, JavaScript, x86 Assembly\Libraries: ROS, LCM, OpenCV, TensorFlow, Theano
+
+
+EXPERIENCE
+
+Prediction Intern (Summer 2018)
+Cruise Automation (General Motors), San Francisco, California
+Improved model for robotic cars to predict trajectories of other vehicles and bicyclists..
+Testable safety in 3x as many driving situations..
+
+Perception Intern (Summer 2017)
+Optimus Ride, Boston, Massachusetts
+Created system for robotic cars to predict and avoid other vehicles to handle intersections..
+
+Machine Learning Intern (January 2017)
+RightHand Robotics, Somerville, Massachusetts
+Designed and implemented deep learning architectures for robotic vision and grasping..
+
+Developer (2015 - 2016)
+Tanius Technology (prop trading firm), Alamo, California
+Researched and developed distributed machine learning model and pipeline to predict market patterns..
+
+
+RESEARCH
+
+MIT CSAIL Learning and Intelligent Systems Group (2017 - Present)
+"Hardness of 3D Motion Planning Under Obstacle Uncertainty." 1st Author. WAFR 2018. Invited to special IJRR issue..
+"Learning value functions with relational state representations for guiding task-and-motion planning." CoRL 2019..
+Developed efficient approximation algorithms for motion planning under obstacle uncertainty. Manuscript in preparation..
+Designed system leveraging hierarchies to efficiently solve robotic planning tasks / POMDPs. (unpublished).
+
+Stanford Autonomous Systems Laboratory (Summer 2015)
+Designed vehicle routing algorithm with 10% improvement over state-of-the-art in simulation. Intel STS 2016..
+Acknowledged in "Model Predictive Control of Autonomous Mobility-on-Demand Systems." ICRA 2016..
+
+
+ACTIVITIES
+
+Program Director, Head Webmaster (2017 - Present)
+MIT Educational Studies Program
+Directed educational programs (Splash, Summer HSSP) reaching ~3000 students with ~1000 classes taught by ~500 teachers and run by ~100 volunteers. Mentored future directors. Maintained website used by ~5000 students..
+
+Software Lead (2012 - 2016)
+AVBotz
+Managed the programming team (~12 members) for autonomous submarine capable of manipulating objects, aiming and shooting torpedoes, and navigating around obstacles..
+International finalist (7th Place) at RoboSub 2015..
+
+Co-President, HPMS Branch Director (2013 - 2016)
+ACE Coding
+Managed ~16 volunteers to teach weekly programming lessons to ~30 middle school students (~100 students annually)..
+Organized ACE Code Day, an 8 hour event attracting ~300 students. Taught machine vision workshop..
+
+Middle School Tutor (2019 - Present)
+Cambridge School Volunteers
+
+
+
+ACHIEVEMENTS
+
+USA Computing Olympiad Platinum Division
+Intel Science Talent Search 2016 Semifinalist
+Eagle Scout
+MIT Battlecode 2018 Finalist (9th place)
+
+
+PROJECTS
+
+(C) web browser using Chromium's rendering engine with configurable vi-like key bindings
+(C) C compiler to convert C code to x86 assembly (GAS syntax)
+(Java) artificial neural network based AI for a basic platform fighting game
+(Python) gridded workspace manager for the i3 Window Manager
+
