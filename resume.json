@@ -1,6 +1,6 @@
 {
 	"name" : "LUKE SHIMANUKI",
-	"email" : "lukeshim@csail.mit.edu",
+	"email" : "luke@shimanuki.cc",
 	"phone" : "(925) 331-0577",
 	"address" : "290 Massachusetts Ave #325A",
 	"city" : "Cambridge, MA 02139",
@@ -15,7 +15,7 @@
 			"description" : [
 				"M.Eng Electrical Engineering & Computer Science (AI Concentration) candidate",
 				"B.S. Double Major in Computer Science and Brain & Cognitive Science candidate",
-				"GPA: 4.9 (out of 5)",
+				"GPA: 4.9 (out of 5) overall, 5.0 in-major (CS)",
 				""
 			],
 			"coursework" : [
@@ -124,13 +124,13 @@
 			"" : ""
 		},
 		{
-			"group" : "Tanius Technology",
+			"group" : "Tanius Technology (prop trading firm)",
 			"role" : "Developer",
 			"time" : "2015 - 2016",
 			"city" : "Alamo, California",
 			"description" : [
 				[
-					"Researched and developed distributed machine learning system",
+					"Researched and developed distributed machine learning model and pipeline",
 						"to predict market patterns.",
 					""
 				],
@@ -147,22 +147,20 @@
 			"time" : "2017 - Present",
 			"description" : [
 				[
-					"Research on generalizing experiences and demonstrations by learning subtask cost heuristics.",
+					"\"Hardness of 3D Motion Planning Under Obstacle Uncertainty.\" 1st Author. WAFR 2018. Invited to special IJRR issue.",
+					""
+				],
+				[
+					"\"Learning value functions with relational state representations for guiding task-and-motion planning.\" CoRL 2019.",
+					""
+				],
+				[
+					"Developed efficient approximation algorithms for motion planning under obstacle uncertainty. Manuscript in preparation.",
 					""
 				],
 				[
 					"Designed system leveraging hierarchies",
-						"to efficiently solve robotic planning tasks (POMDPs).",
-					""
-				],
-				[
-					"Proved NP-hardness of",
-						"3d motion planning",
-						"under uncertainty over obstacle locations.",
-					""
-				],
-				[
-					"1st Author of paper accepted for publication in WAFR 2018.",
+						"to efficiently solve robotic planning tasks / POMDPs. (unpublished)",
 					""
 				],
 				[]
@@ -176,11 +174,11 @@
 				[
 					"Designed vehicle routing algorithm",
 						"with 10% improvement over state-of-the-art in simulation.",
+					"Intel STS 2016.",
 					""
 				],
 				[
-					"1st Author of paper for Intel STS 2015.",
-					"Acknowledged in paper published in ICRA 2016.",
+					"Acknowledged in \"Model Predictive Control of Autonomous Mobility-on-Demand Systems.\" ICRA 2016.",
 					""
 				],
 				[]
@@ -193,20 +191,18 @@
 	"activities" : [
 		{
 			"group" : "MIT Educational Studies Program",
-			"role" : "Director",
+			"role" : "Program Director, Head Webmaster",
 			"time" : "2017 - Present",
 			"description" : [
 				[
-					"Organize the largest student-run educational program of its kind in the US,",
-						"including events such as Splash and Spark,",
-						"reaching ~5000 students each year",
-						"with ~1200 classes",
-						"taught by ~800 teachers",
-						"and run by ~100 volunteers handling logistics.",
-					""
-				],
-				[
-					"Help maintain website used by ~5000 students.",
+					"Directed educational programs",
+						"(Splash, Summer HSSP)",
+						"reaching ~3000 students",
+						"with ~1000 classes",
+						"taught by ~500 teachers",
+						"and run by ~100 volunteers.",
+						"Mentored future directors.",
+						"Maintained website used by ~5000 students.",
 					""
 				],
 				[]
@@ -242,17 +238,24 @@
 			"description" : [
 				[
 					"Managed ~16 volunteers to teach weekly programming lessons",
-						"to ~40 middle school students",
-						".",
+						"to ~30 middle school students (~100 students annually).",
 					""
 				],
 				[
 					"Organized ACE Code Day,",
 					"an 8 hour event attracting ~300 students.",
-						"Taught machine vision workshop",
-						".",
+						"Taught machine vision workshop.",
 					""
 				],
+				[]
+			],
+			"" : ""
+		},
+		{
+			"group" : "Cambridge School Volunteers",
+			"role" : "Middle School Tutor",
+			"time" : "2019 - Present",
+			"description" : [
 				[]
 			],
 			"" : ""

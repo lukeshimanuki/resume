@@ -7,12 +7,12 @@ def toHTML(data):
 			'<tbody>\n'
 				'<tr>\n'
 					'<td align="left">{}</td>\n'
-					'<td align="center"></td>\n'
+					'<td align="center"><span class="name">{}</span></td>\n'
 					'<td align="right">{}</td>\n'
 				'</tr>\n'
 				'<tr>\n'
 					'<td align="left">{}</td>\n'
-					'<td align="center"><span class="name">{}</span></td>\n'
+					'<td align="center">{}</td>\n'
 					'<td align="right">{}</td>\n'
 				'</tr>\n'
 			'</tbody>\n'
@@ -40,7 +40,7 @@ def toHTML(data):
 					'<td>\n{}\n</td>\n'
 				'</tr>\n'
 				'<tr>\n'
-					'<td><p>ACHIEVEMENTS</p></td>\n'
+					'<td><p>AWARDS</p></td>\n'
 					'<td>\n{}\n\n</td>\n'
 				'</tr>\n'
 				'<tr>\n'
@@ -51,10 +51,11 @@ def toHTML(data):
 		'</table>\n'
 	).format(
 		data['address'],
+		data['name'],
 		data['phone'],
 		data['city'],
-		data['name'],
 		data['email'],
+		data['github'],
 		'<table>\n' +
 		'\n'.join([
 			'<tr><td colspan=3>\n' +
@@ -200,10 +201,10 @@ def toHTML(data):
 			for group in data['activities'] if len(group) > 0
 		]) +
 		'</table>\n',
-		'<br>\n'.join([
-			' '.join(achievement[:-1])
-			for achievement in data['achievements']
-		]),
+		'<table><tr>' + '</tr><tr>'.join([
+			"<td>{}</td><td>{}</td>".format(' '.join(data['achievements'][i]), ' '.join(data['achievements'][i + 1]))
+			for i in range(0, len(data['achievements']) - 1, 2)
+		]) + '</tr></table>',
 		'<table>\n<tr>\n' +
 		'</tr><tr>\n'.join([
 			(
