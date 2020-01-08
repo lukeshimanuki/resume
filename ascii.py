@@ -59,7 +59,7 @@ def toASCII(data):
 			) +
 			(
 				'\n'.join([
-					' '.join(statement[:-1]) + '.'
+					' '.join(statement[:-1])
 					for statement in job['description'] if len(statement) > 0
 				])
 				if 'description' in job else ''
@@ -75,7 +75,7 @@ def toASCII(data):
 			) +
 			(
 				'\n'.join([
-					' '.join(statement[:-1]) + '.'
+					' '.join(statement[:-1])
 					for statement in position['description'] if len(statement) > 0
 				])
 				if 'description' in position else ''
@@ -92,7 +92,7 @@ def toASCII(data):
 			) +
 			(
 				'\n'.join([
-					' '.join(statement[:-1]) + '.'
+					' '.join(statement[:-1])
 					for statement in group['description'] if len(statement) > 0
 				])
 				if 'description' in group else ''
