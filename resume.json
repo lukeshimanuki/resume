@@ -2,7 +2,7 @@
 	"name" : "LUKE SHIMANUKI",
 	"email" : "luke@shimanuki.cc",
 	"phone" : "(925) 331-0577",
-	"address" : "290 Massachusetts Ave #325A",
+	"address" : "61 Bishop Allen Dr, Apt 2",
 	"city" : "Cambridge, MA 02139",
 	"github" : "github.com/lukeshimanuki",
 	"linkedin" : "linkedin.com/in/luke-shimanuki",
@@ -11,11 +11,11 @@
 		{
 			"school" : "Massachusetts Institute of Technology",
 			"field" : "",
-			"time" : "2016 - Present",
+			"time" : "2016 - 2020",
 			"description" : [
-				"M.Eng Electrical Engineering & Computer Science (AI Concentration) candidate",
-				"B.S. Double Major in Computer Science and Brain & Cognitive Science candidate",
-				"GPA: 4.9 (out of 5) overall, 5.0 in-major (CS)",
+				"M.Eng Electrical Engineering & Computer Science (AI Concentration)",
+				"S.B. Double Major in Computer Science and Brain & Cognitive Science",
+				"GPA: 4.9 (out of 5) overall undergrad, 5.0 in-major (CS), 5.0 graduate",
 				""
 			],
 			"coursework" : [
@@ -144,7 +144,7 @@
 	"research" : [
 		{
 			"group" : "MIT CSAIL Learning and Intelligent Systems Group",
-			"time" : "2017 - Present",
+			"time" : "2017 - 2020",
 			"description" : [
 				[
 					"\"Hardness of 3D Motion Planning Under Obstacle Uncertainty.\" 1st Author. WAFR 2018. Invited to special IJRR issue.",
@@ -155,7 +155,7 @@
 					""
 				],
 				[
-					"Developed efficient approximation algorithms for motion planning under obstacle uncertainty. Manuscript in preparation.",
+					"Developed efficient approximation algorithms for motion planning under uncertainty. Manuscript in preparation.",
 					""
 				],
 				[
@@ -190,9 +190,22 @@
 
 	"activities" : [
 		{
+			"group" : "Food for Free COVID-19 Relief Program",
+			"role" : "Site Manager",
+			"time" : "2020",
+			"description" : [
+				[
+					"Directed team of volunteers for packing groceries and handing off to drivers to deliver to hundreds of households.",
+					""
+				],
+				[]
+			],
+			"" : ""
+		},
+		{
 			"group" : "MIT Educational Studies Program",
 			"role" : "Program Director, Head Webmaster",
-			"time" : "2017 - Present",
+			"time" : "2017 - 2020",
 			"description" : [
 				[
 					"Directed educational programs",
@@ -254,7 +267,7 @@
 		{
 			"group" : "Cambridge School Volunteers",
 			"role" : "Middle School Tutor",
-			"time" : "2019 - Present",
+			"time" : "2019 - 2020",
 			"description" : [
 				[]
 			],
