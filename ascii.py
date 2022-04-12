@@ -3,29 +3,21 @@ import json
 
 def toASCII(data):
 	return (
-		"{}\n\n\n"
-		"{}\n"
-		"{}\n\n"
-		"{}\n"
-		"{}\n\n"
-		"{}\n"
-		"{}\n\n\n"
-		"EDUCATION\n\n{}\n\n"
-		"SKILLS\n\n{}\n\n"
-		"EXPERIENCE\n\n{}\n\n"
-		"RESEARCH\n\n{}\n\n"
-		"ACTIVITIES\n\n{}\n\n"
-		"ACHIEVEMENTS\n\n{}\n\n"
-		"PROJECTS\n\n{}\n\n"
+		"{name}\n\n\n"
+		"{address}\n"
+		"{city}\n\n"
+		"{email}\n"
+		"{phone}\n\n"
+		"{github}\n\n\n"
+		"EXPERIENCE\n\n{experience}\n\n"
+		"EDUCATION\n\n{education}\n\n"
+		"RESEARCH\n\n{research}\n\n"
+		"ACTIVITIES\n\n{activities}\n\n"
+		"SKILLS\n\n{skills}\n\n"
+		"AWARDS\n\n{awards}\n\n"
+		"PROJECTS\n\n{projects}\n\n"
 	).format(
-		data['name'],
-		data['address'],
-		data['city'],
-		data['email'],
-		data['phone'],
-		data['github'],
-		data['linkedin'],
-		'\n'.join([
+		education = '\n'.join([
 			"{} ({})\n".format(
 				school['school'],
 				school['time'],
@@ -45,12 +37,12 @@ def toASCII(data):
 			''
 			for school in data['education'] if 'school' in school
 		]),
-		"Proficient in {}\nFamiliar with {}\Libraries: {}\n".format(
+		skills = "Proficient in {}\nFamiliar with {}\Libraries: {}\n".format(
 			', '.join(data['skills']['proficient'][:-1]),
 			', '.join(data['skills']['familiar'][:-1]),
 			', '.join(data['skills']['libraries'][:-1]),
 		),
-		'\n'.join([
+		experience = '\n'.join([
 			"{} ({})\n{}, {}\n".format(
 				job['role'],
 				job['time'],
@@ -68,7 +60,7 @@ def toASCII(data):
 			''
 			for job in data['experience'] if len(job) > 0
 		]),
-		'\n'.join([
+		research = '\n'.join([
 			"{} ({})\n".format(
 				position['group'],
 				position['time'],
@@ -84,7 +76,7 @@ def toASCII(data):
 			''
 			for position in data['research'] if len(position) > 0
 		]),
-		'\n'.join([
+		activities = '\n'.join([
 			"{} ({})\n{}\n".format(
 				group['role'],
 				group['time'],
@@ -101,11 +93,11 @@ def toASCII(data):
 			''
 			for group in data['activities'] if len(group) > 0
 		]),
-		'\n'.join([
+		awards = '\n'.join([
 			' '.join(achievement[:-1])
 			for achievement in data['achievements']
 		]),
-		'\n'.join([
+		projects = '\n'.join([
 			(
 				"({}) ".format(project['language'])
 				if 'language' in project else ''
@@ -113,6 +105,18 @@ def toASCII(data):
 			' '.join(project['description'][:-1])
 			for project in data['projects'] if 'description' in project
 		]),
+		**{
+			key: value
+			for key, value in data.items()
+			if key in (
+				'name',
+				'address',
+				'city',
+				'email',
+				'phone',
+				'github',
+			)
+		},
 	)
 
 def main():

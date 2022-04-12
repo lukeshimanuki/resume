@@ -6,59 +6,53 @@ def toHTML(data):
 		'<table>\n'
 			'<tbody>\n'
 				'<tr>\n'
-					'<td align="left">{}</td>\n'
-					'<td align="center"><span class="name">{}</span></td>\n'
-					'<td align="right">{}</td>\n'
+					'<td align="left">{address}</td>\n'
+					'<td align="center"><span class="name">{name}</span></td>\n'
+					'<td align="right">{phone}</td>\n'
 				'</tr>\n'
 				'<tr>\n'
-					'<td align="left">{}</td>\n'
-					'<td align="center">{}</td>\n'
-					'<td align="right">{}</td>\n'
+					'<td align="left">{city}</td>\n'
+					'<td align="center">{email}</td>\n'
+					'<td align="right">{github}</td>\n'
 				'</tr>\n'
 			'</tbody>\n'
 		'</table>\n'
 		'<table>\n'
 			'<tbody>\n'
 				'<tr>\n'
-					'<td><table><tr><td>EDUCATION</td></tr></table></td>\n'
-					'<td>\n{}\n</td>\n'
-				'</tr>\n'
-				'<tr>\n'
-					'<td><table><tr><td>SKILLS</td></tr></table></td>\n'
-					'<td>\n{}\n\n</td>\n'
-				'</tr>\n'
-				'<tr>\n'
 					'<td><table><tr><td>EXPERIENCE</td></tr></table></td>\n'
-					'<td>\n{}\n</td>\n'
+					'<td>\n{experience}\n</td>\n'
+				'</tr>\n'
+				'<tr>\n'
+					'<td><table><tr><td>EDUCATION</td></tr></table></td>\n'
+					'<td>\n{education}\n</td>\n'
 				'</tr>\n'
 				'<tr>\n'
 					'<td><table><tr><td>RESEARCH</td></tr></table></td>\n'
-					'<td>\n{}\n</td>\n'
+					'<td>\n{research}\n</td>\n'
 				'</tr>\n'
 				'<tr>\n'
 					'<td><table><tr><td>ACTIVITIES</td></tr></table></td>\n'
-					'<td>\n{}\n</td>\n'
+					'<td>\n{activities}\n</td>\n'
+				'</tr>\n'
+				'<tr>\n'
+					'<td><table><tr><td>SKILLS</td></tr></table></td>\n'
+					'<td>\n{skills}\n\n</td>\n'
 				'</tr>\n'
 				'<tr>\n'
 					'<td><p>AWARDS</p></td>\n'
-					'<td>\n{}\n\n</td>\n'
+					'<td>\n{awards}\n\n</td>\n'
 				'</tr>\n'
 				'<tr>\n'
 					'<td><table><tr><td>PROJECTS</td></tr></table></td>\n'
-					'<td>\n{}\n</td>\n'
+					'<td>\n{projects}\n</td>\n'
 				'</tr>\n'
 			'</tbody>\n'
 		'</table>\n'
 	).format(
-		data['address'],
-		data['name'],
-		data['phone'],
-		data['city'],
-		data['email'],
-		data['github'],
-		'<table>\n' +
+		education='<table>\n' +
 		'\n'.join([
-			'<tr><td colspan=3>\n' +
+			'<tr><td colspan=5>\n' +
 			'<table>\n<tr>\n' +
 			"<td><strong>{}</strong></td>".format(school['school']) +
 			(
@@ -77,10 +71,10 @@ def toHTML(data):
 					'<tr>\n' +
 					'\n'.join([
 						'<td>{}</td>\n'.format(course)
-						for course in school['coursework'][i:i+2]
+						for course in school['coursework'][i:i+4]
 					]) +
 					'</tr>\n'
-					for i in range(0, len(school['coursework']) - 1, 2)
+					for i in range(0, len(school['coursework']) - 1, 4)
 				])
 				if 'coursework' in school else ''
 			) +
@@ -89,7 +83,7 @@ def toHTML(data):
 			for school in data['education'] if 'school' in school
 		]) +
 		'</table>\n',
-		(
+		skills = (
 			'<table>\n'
 				'<tr>\n'
 					'<td>Proficient in:</td>\n'
@@ -109,7 +103,7 @@ def toHTML(data):
 			'</td><td>'.join(data['skills']['familiar'][:-1]),
 			'</td><td colspan=1>'.join(data['skills']['libraries'][:-1]),
 		),
-		'<table>\n' +
+		experience = '<table>\n' +
 		'\n'.join([
 			(
 				'<tr>\n'
@@ -141,7 +135,7 @@ def toHTML(data):
 			for job in data['experience'] if len(job) > 0
 		]) +
 		'</table>\n',
-		'<table>\n' +
+		research = '<table>\n' +
 		'\n'.join([
 			(
 				'<tr>\n'
@@ -169,7 +163,7 @@ def toHTML(data):
 			for position in data['research'] if len(position) > 0
 		]) +
 		'</table>\n',
-		'<table>\n' +
+		activities = '<table>\n' +
 		'\n'.join([
 			(
 				'<tr>\n'
@@ -201,11 +195,11 @@ def toHTML(data):
 			for group in data['activities'] if len(group) > 0
 		]) +
 		'</table>\n',
-		'<table><tr>' + '</tr><tr>'.join([
+		awards = '<table><tr>' + '</tr><tr>'.join([
 			"<td>{}</td><td>{}</td>".format(' '.join(data['achievements'][i]), ' '.join(data['achievements'][i + 1]))
 			for i in range(0, len(data['achievements']) - 1, 2)
 		]) + '</tr></table>',
-		'<table>\n<tr>\n' +
+		projects = '<table>\n<tr>\n' +
 		'</tr><tr>\n'.join([
 			(
 				"<td><strong>{}</strong></td> ".format(project['language'])
@@ -216,7 +210,19 @@ def toHTML(data):
 			'</td>\n'
 			for project in data['projects'] if 'description' in project
 		]) +
-		'</tr>\n</table>\n'
+		'</tr>\n</table>\n',
+		**{
+			key: value
+			for key, value in data.items()
+			if key in (
+				'address',
+				'name',
+				'phone',
+				'city',
+				'email',
+				'github',
+			)
+		}
 	)
 
 def genHTML(body, style):

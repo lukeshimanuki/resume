@@ -13,26 +13,23 @@
 			"field" : "",
 			"time" : "2016 - 2020",
 			"description" : [
-				"M.Eng Electrical Engineering & Computer Science (AI Concentration)",
-				"S.B. Double Major in Computer Science and Brain & Cognitive Science",
-				"GPA: 4.9 (out of 5) overall undergrad, 5.0 in-major (CS), 5.0 graduate",
+				"M.Eng Electrical Engineering & Computer Science (AI Concentration), GPA 5.0 (out of 5)",
+				"S.B. Double Major in Computer Science and Brain & Cognitive Science, GPA 4.9 (out of 5), 5.0 in-major (CS)",
 				""
 			],
 			"coursework" : [
-				"Machine Learning (graduate level)",
-				"Robotics Science and Systems",
-				"Computational Intelligence (graduate level)",
-				"Computational Cognitive Science",
-				"Advanced Data Structures (graduate level)",
 				"Embedded Systems",
-				"Theory of Computation (graduate level)",
-				"Design and Analysis of Algorithms",
-				"Quantum Computation (graduate level)",
-				"Neural Computation",
-				"Computational Linguistics (graduate level)",
+				"Quantum Computation (G)",
 				"Natural Language Processing",
-				"Operating Systems (graduate level)",
-				"Computation Structures",
+				"Computational Intelligence (G)",
+				"Machine Learning (G)",
+				"Theory of Computation (G)",
+				"Advanced Data Structures (G)",
+				"Computational Cognitive Science",
+				"Operating Systems (G)",
+				"Robotics Science & Systems",
+				"Computational Linguistics (G)",
+				"Design & Analysis of Algorithms",
 				""
 			],
 			"" : ""
@@ -45,31 +42,54 @@
 			"C",
 			"C++",
 			"Python",
-			"Scala",
-			"UNIX Shell",
+			"Javascript",
 			"Java",
+			"UNIX Shell",
 			""
 		],
 		"familiar" : [
 			"C#",
 			"LabView",
 			"Matlab",
-			"JavaScript",
+			"Simulink",
+			"Scala",
 			"x86 Assembly",
 			""
 		],
 		"libraries" : [
 			"ROS",
-			"LCM",
 			"OpenCV",
-			"TensorFlow",
 			"Theano",
+			"PyTorch",
+			"ReactJS",
+			"TensorFlow",
 			""
 		],
 		"" : []
 	},
 
 	"experience" : [
+		{
+			"group" : "Magna Electronics (formerly Optimus Ride)",
+			"role" : "Software Development Engineer",
+			"time" : "2020 - present",
+			"city" : "Boston, Massachusetts",
+			"description" : [
+				[
+					"Designed and implemented",
+						"probabilistic model",
+						"for inferring trajectories",
+						"and interactions between road users.",
+					""
+				],
+				[
+					"Formulated requirements and algorithmic design for ADAS features following automotive industry safety standards.",
+					""
+				],
+				[]
+			],
+			"" : ""
+		},
 		{
 			"group" : "Cruise Automation (General Motors)",
 			"role" : "Prediction Intern",
@@ -78,11 +98,8 @@
 			"description" : [
 				[
 					"Improved model for robotic cars to",
-					"predict trajectories of other vehicles and bicyclists.",
-					""
-				],
-				[
-					"Testable safety in 3x as many driving situations.",
+					"predict trajectories of other vehicles and bicyclists,",
+					"passing 3x as many scenario tests.",
 					""
 				],
 				[]
@@ -130,7 +147,7 @@
 			"city" : "Alamo, California",
 			"description" : [
 				[
-					"Researched and developed distributed machine learning model and pipeline",
+					"Implemented machine learning models and data pipeline",
 						"to predict market patterns.",
 					""
 				],
@@ -147,15 +164,19 @@
 			"time" : "2017 - 2020",
 			"description" : [
 				[
-					"\"Hardness of 3D Motion Planning Under Obstacle Uncertainty.\" 1st Author. WAFR 2018. Invited to special IJRR issue.",
+					"Proved NP-hardness of 2D motion planning under obstacle uncertainty. WAFR 2018 & IJRR 2021",
 					""
 				],
 				[
-					"\"Learning value functions with relational state representations for guiding task-and-motion planning.\" CoRL 2019.",
+					"Developed efficient fixed-parameter algorithm for motion planning under obstacle uncertainty. Accepted to WAFR 2022.",
 					""
 				],
 				[
-					"Developed efficient approximation algorithms for motion planning under uncertainty. Manuscript in preparation.",
+					"Modeled value functions for guiding task-and-motion planning using graph networks. CoRL 2019 & IJRR 2021",
+					""
+				],
+				[
+					"Defined constraints for statistically safe control in the presence of mobile obstacles with unobservable policies. (preprint)",
 					""
 				],
 				[
@@ -172,13 +193,13 @@
 			"time" : "Summer 2015",
 			"description" : [
 				[
-					"Designed vehicle routing algorithm",
-						"with 10% improvement over state-of-the-art in simulation.",
-					"Intel STS 2016.",
+					"Developed simulation experiments comparing vehicle routing algorithms based on real-world ride requests. ICRA 2016",
 					""
 				],
 				[
-					"Acknowledged in \"Model Predictive Control of Autonomous Mobility-on-Demand Systems.\" ICRA 2016.",
+					"Designed vehicle routing algorithm",
+						"with 10% improvement over state-of-the-art in simulation.",
+					"Intel STS 2016",
 					""
 				],
 				[]
@@ -234,9 +255,6 @@
 							"manipulating objects,",
 							"aiming and shooting torpedoes,",
 							"and navigating around obstacles.",
-					""
-				],
-				[
 					"International finalist (7th Place) at RoboSub 2015.",
 					""
 				],
@@ -302,9 +320,16 @@
 
 	"projects" : [
 		{
+			"language" : "C++",
+			"description" : [
+				"Low latency audio streaming to enable musicians to play together in-sync remotely using UDP hole-punching",
+				""
+			]
+		},
+		{
 			"language" : "C",
 			"description" : [
-				"web browser",
+				"Web browser",
 					"using Chromium's rendering engine",
 					"with configurable vi-like key bindings",
 				""
@@ -315,22 +340,28 @@
 			"description" : [
 				"C compiler",
 					"to convert C code to x86 assembly",
-					"(GAS syntax)",
 				""
 			]
 		},
 		{
 			"language" : "Java",
 			"description" : [
-				"artificial neural network based",
-					"AI for a basic platform fighting game",
+				"Neural network",
+					"AI for a multiplayer platformer fighting game",
 				""
 			]
 		},
 		{
 			"language" : "Python",
 			"description" : [
-				"gridded workspace manager",
+				"Musical autocomplete to assist chord and melody composition",
+				""
+			]
+		},
+		{
+			"language" : "Python",
+			"description" : [
+				"Gridded workspace manager",
 					"for the i3 Window Manager",
 				""
 			]
