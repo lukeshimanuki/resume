@@ -8,31 +8,18 @@ luke@shimanuki.cc
 (925) 331-0577
 
 github.com/lukeshimanuki
-linkedin.com/in/luke-shimanuki
-
-
-EDUCATION
-
-Massachusetts Institute of Technology (2016 - 2020)
-
-M.Eng Electrical Engineering & Computer Science (AI Concentration)
-S.B. Double Major in Computer Science and Brain & Cognitive Science
-GPA: 4.9 (out of 5) overall undergrad, 5.0 in-major (CS), 5.0 graduate
-Coursework: Machine Learning (graduate level), Robotics Science and Systems, Computational Intelligence (graduate level), Computational Cognitive Science, Advanced Data Structures (graduate level), Embedded Systems, Theory of Computation (graduate level), Design and Analysis of Algorithms, Quantum Computation (graduate level), Neural Computation, Computational Linguistics (graduate level), Natural Language Processing, Operating Systems (graduate level), Computation Structures
-
-
-SKILLS
-
-Proficient in C, C++, Python, Scala, UNIX Shell, Java
-Familiar with C#, LabView, Matlab, JavaScript, x86 Assembly\Libraries: ROS, LCM, OpenCV, TensorFlow, Theano
 
 
 EXPERIENCE
 
+Software Development Engineer (2020 - present)
+Magna Electronics (formerly Optimus Ride), Boston, Massachusetts
+Designed and implemented probabilistic model for inferring trajectories and interactions between road users.
+Formulated requirements and algorithmic design for ADAS features following automotive industry safety standards.
+
 Prediction Intern (Summer 2018)
 Cruise Automation (General Motors), San Francisco, California
-Improved model for robotic cars to predict trajectories of other vehicles and bicyclists.
-Testable safety in 3x as many driving situations.
+Improved model for robotic cars to predict trajectories of other vehicles and bicyclists, passing 3x as many scenario tests.
 
 Perception Intern (Summer 2017)
 Optimus Ride, Boston, Massachusetts
@@ -44,20 +31,30 @@ Designed and implemented deep learning architectures for robotic vision and gras
 
 Developer (2015 - 2016)
 Tanius Technology (prop trading firm), Alamo, California
-Researched and developed distributed machine learning model and pipeline to predict market patterns.
+Implemented machine learning models and data pipeline to predict market patterns.
+
+
+EDUCATION
+
+Massachusetts Institute of Technology (2016 - 2020)
+
+M.Eng Electrical Engineering & Computer Science (AI Concentration), GPA 5.0 (out of 5)
+S.B. Double Major in Computer Science and Brain & Cognitive Science, GPA 4.9 (out of 5), 5.0 in-major (CS)
+Coursework: Embedded Systems, Quantum Computation (G), Natural Language Processing, Computational Intelligence (G), Machine Learning (G), Theory of Computation (G), Advanced Data Structures (G), Computational Cognitive Science, Operating Systems (G), Robotics Science & Systems, Computational Linguistics (G), Design & Analysis of Algorithms
 
 
 RESEARCH
 
 MIT CSAIL Learning and Intelligent Systems Group (2017 - 2020)
-"Hardness of 3D Motion Planning Under Obstacle Uncertainty." 1st Author. WAFR 2018. Invited to special IJRR issue.
-"Learning value functions with relational state representations for guiding task-and-motion planning." CoRL 2019.
-Developed efficient approximation algorithms for motion planning under uncertainty. Manuscript in preparation.
+Proved NP-hardness of 2D motion planning under obstacle uncertainty. WAFR 2018 & IJRR 2021
+Developed efficient fixed-parameter algorithm for motion planning under obstacle uncertainty. Accepted to WAFR 2022.
+Modeled value functions for guiding task-and-motion planning using graph networks. CoRL 2019 & IJRR 2021
+Defined constraints for statistically safe control in the presence of mobile obstacles with unobservable policies. (preprint)
 Designed system leveraging hierarchies to efficiently solve robotic planning tasks / POMDPs. (unpublished)
 
 Stanford Autonomous Systems Laboratory (Summer 2015)
-Designed vehicle routing algorithm with 10% improvement over state-of-the-art in simulation. Intel STS 2016.
-Acknowledged in "Model Predictive Control of Autonomous Mobility-on-Demand Systems." ICRA 2016.
+Developed simulation experiments comparing vehicle routing algorithms based on real-world ride requests. ICRA 2016
+Designed vehicle routing algorithm with 10% improvement over state-of-the-art in simulation. Intel STS 2016
 
 
 ACTIVITIES
@@ -72,8 +69,7 @@ Directed educational programs (Splash, Summer HSSP) reaching ~3000 students with
 
 Software Lead (2012 - 2016)
 AVBotz
-Managed the programming team (~12 members) for autonomous submarine capable of manipulating objects, aiming and shooting torpedoes, and navigating around obstacles.
-International finalist (7th Place) at RoboSub 2015.
+Managed the programming team (~12 members) for autonomous submarine capable of manipulating objects, aiming and shooting torpedoes, and navigating around obstacles. International finalist (7th Place) at RoboSub 2015.
 
 Co-President, HPMS Branch Director (2013 - 2016)
 ACE Coding
@@ -85,7 +81,13 @@ Cambridge School Volunteers
 
 
 
-ACHIEVEMENTS
+SKILLS
+
+Proficient in C, C++, Python, Javascript, Java, UNIX Shell
+Familiar with C#, LabView, Matlab, Simulink, Scala, x86 Assembly\Libraries: ROS, OpenCV, Theano, PyTorch, ReactJS, TensorFlow
+
+
+AWARDS
 
 USA Computing Olympiad Platinum Division
 Intel Science Talent Search 2016 Semifinalist
@@ -95,8 +97,10 @@ MIT Battlecode 2018 Finalist (9th place)
 
 PROJECTS
 
-(C) web browser using Chromium's rendering engine with configurable vi-like key bindings
-(C) C compiler to convert C code to x86 assembly (GAS syntax)
-(Java) artificial neural network based AI for a basic platform fighting game
-(Python) gridded workspace manager for the i3 Window Manager
+(C++) Low latency audio streaming to enable musicians to play together in-sync remotely using UDP hole-punching
+(C) Web browser using Chromium's rendering engine with configurable vi-like key bindings
+(C) C compiler to convert C code to x86 assembly
+(Java) Neural network AI for a multiplayer platformer fighting game
+(Python) Musical autocomplete to assist chord and melody composition
+(Python) Gridded workspace manager for the i3 Window Manager
 
