@@ -8,7 +8,7 @@ def toASCII(data):
 		"{city}\n\n"
 		"{email}\n"
 		"{phone}\n\n"
-		"{github}\n\n\n"
+		"{website}\n\n\n"
 		"EXPERIENCE\n\n{experience}\n\n"
 		"RESEARCH\n\n{research}\n\n"
 		"EDUCATION\n\n{education}\n\n"
@@ -114,7 +114,7 @@ def toASCII(data):
 				'city',
 				'email',
 				'phone',
-				'github',
+				'website',
 			)
 		},
 	)

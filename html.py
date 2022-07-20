@@ -13,7 +13,7 @@ def toHTML(data):
 				'<tr>\n'
 					'<td align="left">{city}</td>\n'
 					'<td align="center">{email}</td>\n'
-					'<td align="right">{github}</td>\n'
+					'<td align="right">{website}</td>\n'
 				'</tr>\n'
 			'</tbody>\n'
 		'</table>\n'
@@ -220,7 +220,7 @@ def toHTML(data):
 				'phone',
 				'city',
 				'email',
-				'github',
+				'website',
 			)
 		}
 	)
