@@ -70,9 +70,19 @@
 
 	"experience" : [
 		{
+			"group" : "Aurora Innovation",
+			"role" : "Senior Software Engineer (Motion Planning)",
+			"time" : "2022 - present",
+			"city" : "Boston, Massachusetts",
+			"description" : [
+				[]
+			],
+			"" : ""
+		},
+		{
 			"group" : "Magna Electronics (formerly Optimus Ride)",
-			"role" : "Software Development Engineer",
-			"time" : "2020 - present",
+			"role" : "SDE II --> Senior SDE (Planning & Controls)",
+			"time" : "2020 - 2022",
 			"city" : "Boston, Massachusetts",
 			"description" : [
 				[
@@ -92,7 +102,7 @@
 		},
 		{
 			"group" : "Cruise Automation (General Motors)",
-			"role" : "Prediction Intern",
+			"role" : "Intern (Prediction)",
 			"time" : "Summer 2018",
 			"city" : "San Francisco, California",
 			"description" : [
@@ -108,7 +118,7 @@
 		},
 		{
 			"group" : "Optimus Ride",
-			"role" : "Perception Intern",
+			"role" : "SWE Intern (Perception)",
 			"time" : "Summer 2017",
 			"city" : "Boston, Massachusetts",
 			"description" : [
@@ -126,7 +136,7 @@
 		},
 		{
 			"group" : "RightHand Robotics",
-			"role" : "Machine Learning Intern",
+			"role" : "Intern (Machine Learning / Vision)",
 			"time" : "January 2017",
 			"city" : "Somerville, Massachusetts",
 			"description" : [
@@ -168,7 +178,7 @@
 					""
 				],
 				[
-					"Developed efficient fixed-parameter algorithm for motion planning under obstacle uncertainty. Accepted to WAFR 2022.",
+					"Developed efficient fixed-parameter algorithm for motion planning under obstacle uncertainty. WAFR 2022",
 					""
 				],
 				[
