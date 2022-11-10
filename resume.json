@@ -76,6 +76,11 @@
 			"time" : "2022 - present",
 			"city" : "Boston, Massachusetts",
 			"description" : [
+				[
+					"Developed models for predicting and planning semantic driving behaviors",
+					"such as merging and lane changing.",
+					""
+				],
 				[]
 			],
 			"" : ""
@@ -109,7 +114,7 @@
 			"description" : [
 				[
 					"Improved model for robotic cars to",
-					"predict trajectories of other vehicles and bicyclists,",
+					"predict trajectories of other road users,",
 					"passing 3x as many scenario tests.",
 					""
 				],
@@ -187,7 +192,7 @@
 					""
 				],
 				[
-					"Defined constraints for statistically safe control in the presence of mobile obstacles with unobservable policies. (preprint)",
+					"Defined constraints for safe control in the presence of mobile obstacles with unobservable policies. (preprint)",
 					""
 				],
 				[
@@ -204,7 +209,7 @@
 			"time" : "Summer 2015",
 			"description" : [
 				[
-					"Developed simulation experiments comparing vehicle routing algorithms based on real-world ride requests. ICRA 2016",
+					"Developed simulations comparing vehicle routing algorithms based on real-world ride requests. ICRA 2016",
 					""
 				],
 				[
@@ -280,7 +285,7 @@
 			"description" : [
 				[
 					"Managed ~16 volunteers to teach weekly programming lessons",
-						"to ~30 middle school students (~100 students annually).",
+						"to ~100 middle school students annually.",
 					""
 				],
 				[
