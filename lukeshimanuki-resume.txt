@@ -7,31 +7,49 @@ Cambridge, MA 02139
 luke@shimanuki.cc
 (925) 331-0577
 
-github.com/lukeshimanuki
+https://luke.shimanuki.cc
 
 
 EXPERIENCE
 
-Software Development Engineer (2020 - present)
+Senior Software Engineer (Motion Planning) (2022 - present)
+Aurora Innovation, Boston, Massachusetts
+Developed models for predicting and planning semantic driving behaviors such as merging and lane changing.
+
+SDE II --> Senior SDE (Planning & Controls) (2020 - 2022)
 Magna Electronics (formerly Optimus Ride), Boston, Massachusetts
 Designed and implemented probabilistic model for inferring trajectories and interactions between road users.
 Formulated requirements and algorithmic design for ADAS features following automotive industry safety standards.
 
-Prediction Intern (Summer 2018)
+Intern (Prediction) (Summer 2018)
 Cruise Automation (General Motors), San Francisco, California
-Improved model for robotic cars to predict trajectories of other vehicles and bicyclists, passing 3x as many scenario tests.
+Improved model for robotic cars to predict trajectories of other road users, passing 3x as many scenario tests.
 
-Perception Intern (Summer 2017)
+SWE Intern (Perception) (Summer 2017)
 Optimus Ride, Boston, Massachusetts
 Created system for robotic cars to predict and avoid other vehicles to handle intersections.
 
-Machine Learning Intern (January 2017)
+Intern (Machine Learning / Vision) (January 2017)
 RightHand Robotics, Somerville, Massachusetts
 Designed and implemented deep learning architectures for robotic vision and grasping.
 
 Developer (2015 - 2016)
 Tanius Technology (prop trading firm), Alamo, California
 Implemented machine learning models and data pipeline to predict market patterns.
+
+
+RESEARCH
+
+MIT CSAIL Learning and Intelligent Systems Group (2017 - 2020)
+Proved NP-hardness of 2D motion planning under obstacle uncertainty. WAFR 2018 & IJRR 2021
+Developed efficient fixed-parameter algorithm for motion planning under obstacle uncertainty. WAFR 2022
+Modeled value functions for guiding task-and-motion planning using graph networks. CoRL 2019 & IJRR 2021
+Defined constraints for safe control in the presence of mobile obstacles with unobservable policies. (preprint)
+Designed system leveraging hierarchies to efficiently solve robotic planning tasks / POMDPs. (unpublished)
+
+Stanford Autonomous Systems Laboratory (Summer 2015)
+Developed simulations comparing vehicle routing algorithms based on real-world ride requests. ICRA 2016
+Designed vehicle routing algorithm with 10% improvement over state-of-the-art in simulation. Intel STS 2016
 
 
 EDUCATION
@@ -41,20 +59,6 @@ Massachusetts Institute of Technology (2016 - 2020)
 M.Eng Electrical Engineering & Computer Science (AI Concentration), GPA 5.0 (out of 5)
 S.B. Double Major in Computer Science and Brain & Cognitive Science, GPA 4.9 (out of 5), 5.0 in-major (CS)
 Coursework: Embedded Systems, Quantum Computation (G), Natural Language Processing, Computational Intelligence (G), Machine Learning (G), Theory of Computation (G), Advanced Data Structures (G), Computational Cognitive Science, Operating Systems (G), Robotics Science & Systems, Computational Linguistics (G), Design & Analysis of Algorithms
-
-
-RESEARCH
-
-MIT CSAIL Learning and Intelligent Systems Group (2017 - 2020)
-Proved NP-hardness of 2D motion planning under obstacle uncertainty. WAFR 2018 & IJRR 2021
-Developed efficient fixed-parameter algorithm for motion planning under obstacle uncertainty. Accepted to WAFR 2022.
-Modeled value functions for guiding task-and-motion planning using graph networks. CoRL 2019 & IJRR 2021
-Defined constraints for statistically safe control in the presence of mobile obstacles with unobservable policies. (preprint)
-Designed system leveraging hierarchies to efficiently solve robotic planning tasks / POMDPs. (unpublished)
-
-Stanford Autonomous Systems Laboratory (Summer 2015)
-Developed simulation experiments comparing vehicle routing algorithms based on real-world ride requests. ICRA 2016
-Designed vehicle routing algorithm with 10% improvement over state-of-the-art in simulation. Intel STS 2016
 
 
 ACTIVITIES
@@ -73,7 +77,7 @@ Managed the programming team (~12 members) for autonomous submarine capable of m
 
 Co-President, HPMS Branch Director (2013 - 2016)
 ACE Coding
-Managed ~16 volunteers to teach weekly programming lessons to ~30 middle school students (~100 students annually).
+Managed ~16 volunteers to teach weekly programming lessons to ~100 middle school students annually.
 Organized ACE Code Day, an 8 hour event attracting ~300 students. Taught machine vision workshop.
 
 Middle School Tutor (2019 - 2020)
