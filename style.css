@@ -1,17 +1,20 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+
 <style type="text/css">
 
 /* everything */
-body {
-	font-family: Calibri, sans-serif;
-	font-size: 11.6pt;
-	line-height: 1.3;
-	min-width: 612pt;
-	max-width: 612pt;
-}
 * {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.3em;
+	text-size-adjust: none;
+}
+
+body {
+	min-width: 51em;
+	max-width: 51em;
 	margin-top: 0;
 	margin-bottom: 0;
-	text-size-adjust: none;
 }
 
 table {
@@ -38,7 +41,7 @@ td hr {
 .name {
 	letter-spacing: 1px;
 	font-weight: bold;
-	font-size: 14pt;
+	font-size: 1.2em;
 }
 .name:hover
 {
@@ -47,11 +50,11 @@ td hr {
 
 /* category */
 h2 {
-	font-size: 12pt;
+	font-size: 1em;
 	text-align:center;
 	font-weight: bold;
 	text-decoration: underline;
-	margin-bottom: 8pt;
+	margin-bottom: .7em;
 }
 h2:hover {
 	background-color: #DDD;
@@ -59,10 +62,10 @@ h2:hover {
 
 /* contact info */
 h3 {
-	font-size: 12pt;
+	font-size: 1em;
 	font-weight: normal;
 	text-align: center;
-	margin-bottom: 5pt;
+	margin-bottom: .4em;
 }
 
 /* horizontal lines */
@@ -70,8 +73,8 @@ hr {
 	height: 1px;
 	background-color: #000;
 	border: none;
-	margin-top: 6pt;
-	margin-bottom: 6pt;
+	margin-top: .5em;
+	margin-bottom: .5em;
 }
 
 /* right alignment */
