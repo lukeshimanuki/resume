@@ -106,7 +106,7 @@ def toHTML(data):
 						"<strong>{}</strong>"
 					'</td>\n'
 					'<td>\n'
-						"<ex>{}</em>"
+						"<em>{}</em>"
 					'</td>\n'
 					'<td>\n'
 						"<right>{}</right> <br>\n"
@@ -166,7 +166,7 @@ def toHTML(data):
 						"<strong>{}</strong>"
 					'</td>\n'
 					'<td>\n'
-						"<ex>{}</em>"
+						"<em>{}</em>"
 					'</td>\n'
 					'<td>\n'
 						"<right>{}</right> <br>\n"
