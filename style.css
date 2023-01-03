@@ -1,3 +1,5 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
 
 <style type="text/css">
@@ -5,47 +7,82 @@
 /* everything */
 * {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
-	line-height: 1.3em;
+	font-size: 9.5pt;
+
 	text-size-adjust: none;
+	-webkit-text-size-adjust:none;
+	-ms-text-size-adjust:none;
+	-moz-text-size-adjust:none;
+	max-height: 999999pt;
+
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 body {
-	min-width: 51em;
-	max-width: 51em;
-	margin-top: 0;
-	margin-bottom: 0;
+	min-width: 576pt;
+	max-width: 576pt;
+	padding-top: 18pt;
+	padding-bottom: 18pt;
+	padding-left: 18pt;
+	padding-right: 18pt;
+	line-height: 15pt;
+}
+
+@media print {
+	body {
+		padding-top: 0;
+		padding-bottom: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+@page {
+   margin: 18pt;
+   size: portrait;
+}
+
+.highlight:hover {
+	background-color: #DDD;
 }
 
 table {
 	width: 100%;
 	border-collapse: collapse;
+	margin-top: 0;
+	padding-top: 0;
+}
+tr {
+	margin-top: 0;
+	padding-top: 0;
 }
 td {
 	vertical-align: top;
+	margin-top: 0;
+	padding-top: 0;
 }
 
-table:nth-of-type(2) col:nth-of-type(1) {
-	width: 15% !important;
-}
-table:nth-of-type(2) col:nth-of-type(2) {
-	width: 85% !important;
+.padright {
+	padding-right: .5em;
 }
 
 td hr {
 	height: .64em;
 	visibility: hidden;
-	margin: 0px;
+	margin: 0;
 }
 
 .name {
-	letter-spacing: 1px;
+	letter-spacing: .1em;
 	font-weight: bold;
 	font-size: 1.2em;
-}
-.name:hover
-{
-	background-color: #CCC;
 }
 
 /* category */
@@ -70,7 +107,7 @@ h3 {
 
 /* horizontal lines */
 hr {
-	height: 1px;
+	height: .1em;
 	background-color: #000;
 	border: none;
 	margin-top: .5em;

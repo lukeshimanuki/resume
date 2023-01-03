@@ -6,46 +6,46 @@ def toHTML(data):
 		'<table>\n'
 			'<tbody>\n'
 				'<tr>\n'
-					'<td align="left">{address}<br>{city}</td>\n'
-					'<td align="center"><span class="name">{name}</span><br>{email}</td>\n'
-					'<td align="right">{phone}<br>{website}</td>\n'
+					'<td align="left" class="highlight">{address}<br>{city}</td>\n'
+					'<td align="center"><span class="name highlight">{name}</span><br><span class="highlight">{email}</span></td>\n'
+					'<td align="right"><span class="highlight">{phone}</span><br><span class="highlight">{website}</span></td>\n'
 				'</tr>\n'
 			'</tbody>\n'
 		'</table>\n'
 		'<table>\n'
 			'<tbody>\n'
 				'<tr>\n'
-					'<td><table><tr><td>EXPERIENCE</td></tr></table></td>\n'
+					'<td class="highlight padright">EXPERIENCE</td>\n'
 					'<td>\n{experience}\n</td>\n'
 				'</tr>\n'
 				'<tr>\n'
-					'<td><table><tr><td>RESEARCH</td></tr></table></td>\n'
+					'<td class="highlight padright">RESEARCH</td>\n'
 					'<td>\n{research}\n</td>\n'
 				'</tr>\n'
 				'<tr>\n'
-					'<td><table><tr><td>EDUCATION</td></tr></table></td>\n'
+					'<td class="highlight padright">EDUCATION</td>\n'
 					'<td>\n{education}\n</td>\n'
 				'</tr>\n'
 				'<tr>\n'
-					'<td><table><tr><td>ACTIVITIES</td></tr></table></td>\n'
+					'<td class="highlight padright">ACTIVITIES</td>\n'
 					'<td>\n{activities}\n</td>\n'
 				'</tr>\n'
 				'<tr>\n'
-					'<td><table><tr><td>SKILLS</td></tr></table></td>\n'
+					'<td class="highlight padright">SKILLS</td>\n'
 					'<td>\n{skills}\n\n</td>\n'
 				'</tr>\n'
 				'<tr>\n'
-					'<td><p>AWARDS</p></td>\n'
+					'<td class="highlight padright">AWARDS</td>\n'
 					'<td>\n{awards}\n\n</td>\n'
 				'</tr>\n'
 				'<tr>\n'
-					'<td><table><tr><td>PROJECTS</td></tr></table></td>\n'
+					'<td class="highlight padright">PROJECTS</td>\n'
 					'<td>\n{projects}\n</td>\n'
 				'</tr>\n'
 			'</tbody>\n'
 		'</table>\n'
 	).format(
-		education='<table>\n' +
+		education='<table class="highlight">\n' +
 		'\n'.join([
 			'<tr><td colspan=5>\n' +
 			'<table>\n<tr>\n' +
@@ -80,15 +80,15 @@ def toHTML(data):
 		'</table>\n',
 		skills = (
 			'<table>\n'
-				'<tr>\n'
+				'<tr class="highlight">\n'
 					'<td>Proficient in:</td>\n'
 					'<td>{}</td>\n'
 				'</tr>\n'
-				'<tr>\n'
+				'<tr class="highlight">\n'
 					'<td>Familiar with:</td>\n'
 					'<td>{}</td>\n'
 				'</tr>\n'
-				'<tr>\n'
+				'<tr class="highlight">\n'
 					'<td>Libraries:</td>\n'
 					'<td colspan=1>{}</td>\n'
 				'</tr>\n'
@@ -98,8 +98,8 @@ def toHTML(data):
 			'</td><td>'.join(data['skills']['familiar'][:-1]),
 			'</td><td colspan=1>'.join(data['skills']['libraries'][:-1]),
 		),
-		experience = '<table>\n' +
-		'\n'.join([
+		experience = '<table><tbody class="highlight">\n' +
+		'</tbody><tbody class="highlight">\n'.join([
 			(
 				'<tr>\n'
 					'<td>\n'
@@ -129,9 +129,9 @@ def toHTML(data):
 			''
 			for job in data['experience'] if len(job) > 0
 		]) +
-		'</table>\n',
-		research = '<table>\n' +
-		'\n'.join([
+		'</tbody></table>\n',
+		research = '<table><tbody class="highlight">\n' +
+		'</tbody><tbody class="highlight">\n'.join([
 			(
 				'<tr>\n'
 					'<td>\n'
@@ -157,9 +157,9 @@ def toHTML(data):
 			''
 			for position in data['research'] if len(position) > 0
 		]) +
-		'</table>\n',
-		activities = '<table>\n' +
-		'\n'.join([
+		'</tbody></table>\n',
+		activities = '<table><tbody class="highlight">\n' +
+		'</tbody><tbody class="highlight">\n'.join([
 			(
 				'<tr>\n'
 					'<td>\n'
@@ -189,15 +189,15 @@ def toHTML(data):
 			''
 			for group in data['activities'] if len(group) > 0
 		]) +
-		'</table>\n',
+		'</tbody></table>\n',
 		awards = '<table><tr>' + '</tr><tr>'.join([
-			"<td>{}</td><td>{}</td>".format(' '.join(data['achievements'][i]), ' '.join(data['achievements'][i + 1]))
+			"<td class='highlight'>{}</td><td class='highlight'>{}</td>".format(' '.join(data['achievements'][i]), ' '.join(data['achievements'][i + 1]))
 			for i in range(0, len(data['achievements']) - 1, 2)
 		]) + '</tr></table>',
-		projects = '<table>\n<tr>\n' +
-		'</tr><tr>\n'.join([
+		projects = '<table>\n<tr class="highlight">\n' +
+		'</tr><tr class="highlight">\n'.join([
 			(
-				"<td><strong>{}</strong></td> ".format(project['language'])
+				"<td class='padright'><strong>{}</strong></td> ".format(project['language'])
 				if 'language' in project else ''
 			) +
 			'<td>\n' +
