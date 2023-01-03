@@ -1,59 +1,99 @@
 <!DOCTYPE html><html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+
 <style type="text/css">
 
 /* everything */
-body {
-	font-family: Calibri, sans-serif;
-	font-size: 11.5pt;
-	line-height: 1.3;
-	min-width: 612pt;
-	max-width: 612pt;
-}
 * {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 9.835pt;
+
+	text-size-adjust: none;
+	-webkit-text-size-adjust:none;
+	-ms-text-size-adjust:none;
+	-moz-text-size-adjust:none;
+	max-height: 999999pt;
+
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
 	margin-top: 0;
 	margin-bottom: 0;
-	text-size-adjust: none;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+body {
+	min-width: 576pt;
+	max-width: 576pt;
+	padding-top: 18pt;
+	padding-bottom: 18pt;
+	padding-left: 18pt;
+	padding-right: 18pt;
+	line-height: 15pt;
+}
+
+@media print {
+	body {
+		padding-top: 0;
+		padding-bottom: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+@page {
+   margin: 18pt;
+   size: portrait;
+}
+
+.highlight:hover {
+	background-color: #DDD;
 }
 
 table {
 	width: 100%;
 	border-collapse: collapse;
+	margin-top: 0;
+	padding-top: 0;
+}
+tr {
+	margin-top: 0;
+	padding-top: 0;
 }
 td {
 	vertical-align: top;
+	margin-top: 0;
+	padding-top: 0;
 }
 
-table:nth-of-type(2) col:nth-of-type(1) {
-	width: 15% !important;
-}
-table:nth-of-type(2) col:nth-of-type(2) {
-	width: 85% !important;
+.padright {
+	padding-right: .5em;
 }
 
 td hr {
 	height: .64em;
 	visibility: hidden;
-	margin: 0px;
+	margin: 0;
 }
 
 .name {
-	letter-spacing: 1px;
+	letter-spacing: .1em;
 	font-weight: bold;
-	font-size: 14pt;
-}
-.name:hover
-{
-	background-color: #CCC;
+	font-size: 1.2em;
 }
 
 /* category */
 h2 {
-	font-size: 12pt;
+	font-size: 1em;
 	text-align:center;
 	font-weight: bold;
 	text-decoration: underline;
-	margin-bottom: 8pt;
+	margin-bottom: .7em;
 }
 h2:hover {
 	background-color: #DDD;
@@ -61,19 +101,19 @@ h2:hover {
 
 /* contact info */
 h3 {
-	font-size: 12pt;
+	font-size: 1em;
 	font-weight: normal;
 	text-align: center;
-	margin-bottom: 5pt;
+	margin-bottom: .4em;
 }
 
 /* horizontal lines */
 hr {
-	height: 1px;
+	height: .1em;
 	background-color: #000;
 	border: none;
-	margin-top: 6pt;
-	margin-bottom: 6pt;
+	margin-top: .5em;
+	margin-bottom: .5em;
 }
 
 /* right alignment */
@@ -166,35 +206,35 @@ p i95 {
 <table>
 <tbody>
 <tr>
-<td align="left">61 Bishop Allen Dr, Apt 2<br>Cambridge, MA 02139</td>
-<td align="center"><span class="name">LUKE SHIMANUKI</span><br>luke@shimanuki.cc</td>
-<td align="right">(925) 331-0577<br>https://luke.shimanuki.cc</td>
+<td align="left" class="highlight">61 Bishop Allen Dr, Apt 2<br>Cambridge, MA 02139</td>
+<td align="center"><span class="name highlight">LUKE SHIMANUKI</span><br><span class="highlight">luke@shimanuki.cc</span></td>
+<td align="right"><span class="highlight">(925) 331-0577</span><br><span class="highlight">https://luke.shimanuki.cc</span></td>
 </tr>
 </tbody>
 </table>
 <table>
 <tbody>
 <tr>
-<td><table><tr><td>EXPERIENCE</td></tr></table></td>
+<td class="highlight padright">EXPERIENCE</td>
 <td>
-<table>
+<table><tbody class="highlight">
 <tr>
 <td>
 <strong>Senior Software Engineer (Motion Planning)</strong></td>
 <td>
-<ex>Aurora Innovation</em></td>
+<em>Aurora Innovation</em></td>
 <td>
 <right>2022 - present</right> <br>
 </td>
 </tr>
 <tr><td colspan=3>
 Developed models for predicting and planning semantic driving behaviors such as merging and lane changing.</td></tr>
-
+</tbody><tbody class="highlight">
 <tr>
 <td>
 <strong>SDE II --> Senior SDE (Planning & Controls)</strong></td>
 <td>
-<ex>Magna Electronics (formerly Optimus Ride)</em></td>
+<em>Magna Electronics (formerly Optimus Ride)</em></td>
 <td>
 <right>2020 - 2022</right> <br>
 </td>
@@ -202,62 +242,62 @@ Developed models for predicting and planning semantic driving behaviors such as 
 <tr><td colspan=3>
 Designed and implemented probabilistic model for inferring trajectories and interactions between road users.<br>
 Formulated requirements and algorithmic design for ADAS features following automotive industry safety standards.</td></tr>
-
+</tbody><tbody class="highlight">
 <tr>
 <td>
 <strong>Intern (Prediction)</strong></td>
 <td>
-<ex>Cruise Automation (General Motors)</em></td>
+<em>Cruise Automation (General Motors)</em></td>
 <td>
 <right>Summer 2018</right> <br>
 </td>
 </tr>
 <tr><td colspan=3>
-Improved model for robotic cars to predict trajectories of other road users, passing 3x as many scenario tests.</td></tr>
-
+</td></tr>
+</tbody><tbody class="highlight">
 <tr>
 <td>
 <strong>SWE Intern (Perception)</strong></td>
 <td>
-<ex>Optimus Ride</em></td>
+<em>Optimus Ride (L4 Autonomous Driving)</em></td>
 <td>
 <right>Summer 2017</right> <br>
 </td>
 </tr>
 <tr><td colspan=3>
-Created system for robotic cars to predict and avoid other vehicles to handle intersections.</td></tr>
-
+</td></tr>
+</tbody><tbody class="highlight">
 <tr>
 <td>
 <strong>Intern (Machine Learning / Vision)</strong></td>
 <td>
-<ex>RightHand Robotics</em></td>
+<em>RightHand Robotics (Warehouse Picking)</em></td>
 <td>
 <right>January 2017</right> <br>
 </td>
 </tr>
 <tr><td colspan=3>
-Designed and implemented deep learning architectures for robotic vision and grasping.</td></tr>
-
+</td></tr>
+</tbody><tbody class="highlight">
 <tr>
 <td>
 <strong>Developer</strong></td>
 <td>
-<ex>Tanius Technology (prop trading firm)</em></td>
+<em>Tanius Technology (Proprietary Trading)</em></td>
 <td>
 <right>2015 - 2016</right> <br>
 </td>
 </tr>
 <tr><td colspan=3>
-Implemented machine learning models and data pipeline to predict market patterns.</td></tr>
-</table>
+</td></tr>
+</tbody></table>
 
 </td>
 </tr>
 <tr>
-<td><table><tr><td>RESEARCH</td></tr></table></td>
+<td class="highlight padright">RESEARCH</td>
 <td>
-<table>
+<table><tbody class="highlight">
 <tr>
 <td>
 <strong>MIT CSAIL Learning and Intelligent Systems Group</strong></td>
@@ -271,7 +311,7 @@ Developed efficient fixed-parameter algorithm for motion planning under obstacle
 Modeled value functions for guiding task-and-motion planning using graph networks. CoRL 2019 & IJRR 2021<br>
 Defined constraints for safe control in the presence of mobile obstacles with unobservable policies. (preprint)<br>
 Designed system leveraging hierarchies to efficiently solve robotic planning tasks / POMDPs. (unpublished)</td></tr>
-
+</tbody><tbody class="highlight">
 <tr>
 <td>
 <strong>Stanford Autonomous Systems Laboratory</strong></td>
@@ -282,14 +322,14 @@ Designed system leveraging hierarchies to efficiently solve robotic planning tas
 <tr><td colspan=3>
 Developed simulations comparing vehicle routing algorithms based on real-world ride requests. ICRA 2016<br>
 Designed vehicle routing algorithm with 10% improvement over state-of-the-art in simulation. Intel STS 2016</td></tr>
-</table>
+</tbody></table>
 
 </td>
 </tr>
 <tr>
-<td><table><tr><td>EDUCATION</td></tr></table></td>
+<td class="highlight padright">EDUCATION</td>
 <td>
-<table>
+<table class="highlight">
 <tr><td colspan=5>
 <table>
 <tr>
@@ -333,50 +373,50 @@ S.B. Double Major in Computer Science and Brain & Cognitive Science, GPA 4.9 (ou
 </td>
 </tr>
 <tr>
-<td><table><tr><td>ACTIVITIES</td></tr></table></td>
+<td class="highlight padright">ACTIVITIES</td>
 <td>
-<table>
+<table><tbody class="highlight">
 <tr>
 <td>
 <strong>Site Manager</strong></td>
 <td>
-<ex>Food for Free COVID-19 Relief Program</em></td>
+<em>Food for Free COVID-19 Relief Program</em></td>
 <td>
 <right>2020</right> <br>
 </td>
 </tr>
 <tr><td colspan=3>
 Directed team of volunteers for packing groceries and handing off to drivers to deliver to ~300 households weekly.</td></tr>
-
+</tbody><tbody class="highlight">
 <tr>
 <td>
 <strong>Program Director, Head Webmaster</strong></td>
 <td>
-<ex>MIT Educational Studies Program</em></td>
+<em>MIT Educational Studies Program</em></td>
 <td>
 <right>2017 - 2020</right> <br>
 </td>
 </tr>
 <tr><td colspan=3>
 Directed educational programs (Splash, Summer HSSP) reaching ~3000 students with ~1000 classes taught by ~500 teachers and run by ~100 volunteers. Mentored future directors. Maintained website used by ~5000 students.</td></tr>
-
+</tbody><tbody class="highlight">
 <tr>
 <td>
 <strong>Software Lead</strong></td>
 <td>
-<ex>AVBotz</em></td>
+<em>AVBotz</em></td>
 <td>
 <right>2012 - 2016</right> <br>
 </td>
 </tr>
 <tr><td colspan=3>
 Managed the programming team (~12 members) for autonomous submarine capable of manipulating objects, aiming and shooting torpedoes, and navigating around obstacles. International finalist (7th Place) at RoboSub 2015.</td></tr>
-
+</tbody><tbody class="highlight">
 <tr>
 <td>
 <strong>Co-President, HPMS Branch Director</strong></td>
 <td>
-<ex>ACE Coding</em></td>
+<em>ACE Coding</em></td>
 <td>
 <right>2013 - 2016</right> <br>
 </td>
@@ -384,35 +424,35 @@ Managed the programming team (~12 members) for autonomous submarine capable of m
 <tr><td colspan=3>
 Managed ~16 volunteers to teach weekly programming lessons to ~100 middle school students annually.<br>
 Organized ACE Code Day, an 8 hour event attracting ~300 students. Taught machine vision workshop.</td></tr>
-
+</tbody><tbody class="highlight">
 <tr>
 <td>
 <strong>Middle School Tutor</strong></td>
 <td>
-<ex>Cambridge School Volunteers</em></td>
+<em>Cambridge School Volunteers</em></td>
 <td>
 <right>2019 - 2020</right> <br>
 </td>
 </tr>
 <tr><td colspan=3>
 </td></tr>
-</table>
+</tbody></table>
 
 </td>
 </tr>
 <tr>
-<td><table><tr><td>SKILLS</td></tr></table></td>
+<td class="highlight padright">SKILLS</td>
 <td>
 <table>
-<tr>
+<tr class="highlight">
 <td>Proficient in:</td>
 <td>C</td><td>C++</td><td>Python</td><td>Javascript</td><td>Java</td><td>UNIX Shell</td>
 </tr>
-<tr>
+<tr class="highlight">
 <td>Familiar with:</td>
 <td>C#</td><td>LabView</td><td>Matlab</td><td>Simulink</td><td>Scala</td><td>x86 Assembly</td>
 </tr>
-<tr>
+<tr class="highlight">
 <td>Libraries:</td>
 <td colspan=1>ROS</td><td colspan=1>OpenCV</td><td colspan=1>Theano</td><td colspan=1>PyTorch</td><td colspan=1>ReactJS</td><td colspan=1>TensorFlow</td>
 </tr>
@@ -422,33 +462,33 @@ Organized ACE Code Day, an 8 hour event attracting ~300 students. Taught machine
 </td>
 </tr>
 <tr>
-<td><p>AWARDS</p></td>
+<td class="highlight padright">AWARDS</td>
 <td>
-<table><tr><td>USA Computing Olympiad Platinum Division </td><td>Intel Science Talent Search 2016 Semifinalist </td></tr><tr><td>Eagle Scout </td><td>MIT Battlecode 2018 Finalist (9th place) </td></tr></table>
+<table><tr><td class='highlight'>USA Computing Olympiad Platinum Division </td><td class='highlight'>Intel Science Talent Search 2016 Semifinalist </td></tr><tr><td class='highlight'>Eagle Scout </td><td class='highlight'>MIT Battlecode 2018 Finalist (9th place) </td></tr></table>
 
 </td>
 </tr>
 <tr>
-<td><table><tr><td>PROJECTS</td></tr></table></td>
+<td class="highlight padright">PROJECTS</td>
 <td>
 <table>
-<tr>
-<td><strong>C++</strong></td> <td>
+<tr class="highlight">
+<td class='padright'><strong>C++</strong></td> <td>
 Low latency audio streaming to enable musicians to play together in-sync remotely using UDP hole-punching</td>
-</tr><tr>
-<td><strong>C</strong></td> <td>
+</tr><tr class="highlight">
+<td class='padright'><strong>C</strong></td> <td>
 Web browser using Chromium's rendering engine with configurable vi-like key bindings</td>
-</tr><tr>
-<td><strong>C</strong></td> <td>
+</tr><tr class="highlight">
+<td class='padright'><strong>C</strong></td> <td>
 C compiler to convert C code to x86 assembly</td>
-</tr><tr>
-<td><strong>Java</strong></td> <td>
+</tr><tr class="highlight">
+<td class='padright'><strong>Java</strong></td> <td>
 Neural network AI for a multiplayer platformer fighting game</td>
-</tr><tr>
-<td><strong>Python</strong></td> <td>
+</tr><tr class="highlight">
+<td class='padright'><strong>Python</strong></td> <td>
 Musical autocomplete to assist chord and melody composition</td>
-</tr><tr>
-<td><strong>Python</strong></td> <td>
+</tr><tr class="highlight">
+<td class='padright'><strong>Python</strong></td> <td>
 Gridded workspace manager for the i3 Window Manager</td>
 </tr>
 </table>
