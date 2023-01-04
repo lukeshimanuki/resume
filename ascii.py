@@ -66,11 +66,10 @@ def toASCII(data):
 				position['time'],
 			) +
 			(
-				'\n'.join([
-					' '.join(statement[:-1])
-					for statement in position['description'] if len(statement) > 0
-				])
-				if 'description' in position else ''
+				'\n'.join("{description} -- {published}".format(**project)
+					for project in position['projects']
+					if len(project) > 0
+				)
 			) +
 			'\n' +
 			''

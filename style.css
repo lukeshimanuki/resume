@@ -1,4 +1,4 @@
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=816px, initial-scale=1">
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
 
@@ -7,14 +7,15 @@
 /* everything */
 * {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 9.5pt;
+	font-size: 14px;
 
 	text-size-adjust: none;
 	-webkit-text-size-adjust:none;
 	-ms-text-size-adjust:none;
 	-moz-text-size-adjust:none;
-	max-height: 999999pt;
+	max-height: 999999px;
 
+	border-collapse: collapse;
 	padding-top: 0;
 	padding-bottom: 0;
 	padding-left: 0;
@@ -26,31 +27,36 @@
 }
 
 body {
-	min-width: 576pt;
-	max-width: 576pt;
-	padding-top: 18pt;
-	padding-bottom: 18pt;
-	padding-left: 18pt;
-	padding-right: 18pt;
-	line-height: 15pt;
+	width: 768px;
+	margin: 24px;
+	line-height: 18px;
 }
 
 @media print {
-	body {
-		padding-top: 0;
-		padding-bottom: 0;
-		padding-left: 0;
-		padding-right: 0;
-	}
+	body {margin: 0;}
+	tr {page-break-inside: avoid;}
 }
 
 @page {
-   margin: 18pt;
-   size: portrait;
+   margin: .25in;
+   size: Letter portrait;
 }
 
 .highlight:hover {
 	background-color: #DDD;
+}
+
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
+td a {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+a:hover {
+	background-color: inherit;
 }
 
 table {
@@ -67,133 +73,37 @@ td {
 	vertical-align: top;
 	margin-top: 0;
 	padding-top: 0;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .padright {
-	padding-right: .5em;
-}
-
-td hr {
-	height: .64em;
-	visibility: hidden;
-	margin: 0;
+	padding-right: 6px;
 }
 
 .name {
-	letter-spacing: .1em;
+	letter-spacing: 2px;
 	font-weight: bold;
-	font-size: 1.2em;
+	font-size: 20px;
 }
 
 /* category */
 h2 {
-	font-size: 1em;
 	text-align:center;
 	font-weight: bold;
 	text-decoration: underline;
-	margin-bottom: .7em;
-}
-h2:hover {
-	background-color: #DDD;
+	margin-bottom: 12px;
 }
 
 /* contact info */
 h3 {
-	font-size: 1em;
-	font-weight: normal;
 	text-align: center;
-	margin-bottom: .4em;
-}
-
-/* horizontal lines */
-hr {
-	height: .1em;
-	background-color: #000;
-	border: none;
-	margin-top: .5em;
-	margin-bottom: .5em;
+	margin-bottom: 8px;
 }
 
 /* right alignment */
 table right {
 	float: right;
-}
-/* indent (i## indicates ##% */
-p i05 {
-	position: absolute;
-	left: 5%;
-}
-p i10 {
-	position: absolute;
-	left: 10%;
-}
-p i15 {
-	position: absolute;
-	left: 15%;
-}
-p i20 {
-	position: absolute;
-	left: 20%;
-}
-p i25 {
-	position: absolute;
-	left: 25%;
-}
-p i30 {
-	position: absolute;
-	left: 30%;
-}
-p i35 {
-	position: absolute;
-	left: 35%;
-}
-p i40 {
-	position: absolute;
-	left: 40%;
-}
-p i45 {
-	position: absolute;
-	left: 45%;
-}
-p i50 {
-	position: absolute;
-	left: 50%;
-}
-p i55 {
-	position: absolute;
-	left: 55%;
-}
-p i60 {
-	position: absolute;
-	left: 60%;
-}
-p i65 {
-	position: absolute;
-	left: 65%;
-}
-p i70 {
-	position: absolute;
-	left: 70%;
-}
-p i75 {
-	position: absolute;
-	left: 75%;
-}
-p i80 {
-	position: absolute;
-	left: 80%;
-}
-p i85 {
-	position: absolute;
-	left: 85%;
-}
-p i90 {
-	position: absolute;
-	left: 90%;
-}
-p i95 {
-	position: absolute;
-	left: 95%;
 }
 
 </style>

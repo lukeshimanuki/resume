@@ -7,8 +7,8 @@ def toHTML(data):
 			'<tbody>\n'
 				'<tr>\n'
 					'<td align="left" class="highlight">{address}<br>{city}</td>\n'
-					'<td align="center"><span class="name highlight">{name}</span><br><span class="highlight">{email}</span></td>\n'
-					'<td align="right"><span class="highlight">{phone}</span><br><span class="highlight">{website}</span></td>\n'
+					'<td align="center"><span class="name highlight">{name}</span><br><span class="highlight"><a href="mailto:{email}">{email}</a></span></td>\n'
+					'<td align="right"><span class="highlight"><a href="tel:+1-{phone}">{phone}</a></span><span class="highlight"><a href="{website}">{website}</a></span></td>\n'
 				'</tr>\n'
 			'</tbody>\n'
 		'</table>\n'
@@ -130,34 +130,29 @@ def toHTML(data):
 			for job in data['experience'] if len(job) > 0
 		]) +
 		'</tbody></table>\n',
-		research = '<table><tbody class="highlight">\n' +
-		'</tbody><tbody class="highlight">\n'.join([
+		research = '<table>\n' +
+		'\n'.join([
 			(
 				'<tr>\n'
-					'<td>\n'
-						"<strong>{}</strong>"
-					'</td>\n'
-					'<td>\n'
-						"<right>{}</right> <br>\n"
-					'</td>\n'
+					'<td colspan=2><table class="highlight"><tr>'
+						"<td><strong>{}</strong></td>"
+						"<td><right>{}</right></td>"
+					"</tr></table></td>"
 				'</tr>\n'
 			).format(
 				position['group'],
 				position['time'],
 			) +
-			'<tr><td colspan=3>\n' +
-			(
-				'<br>\n'.join([
-					' '.join(statement[:-1])
-					for statement in position['description'] if len(statement) > 0
-				])
-				if 'description' in position else ''
-			) +
-			'</td></tr>\n' +
-			''
+			'\n'.join(
+				("<tr class='highlight'>"
+					"<td>{link_begin}<span class='padright'>{published}</span>{link_end}</td>"
+					"<td>{link_begin}<span class='padright'>{description}</span>{link_end}</td>"
+				"</tr>").format(**project, link_begin="<a href='{url}'>".format(**project) if len(project['url']) > 0 else '', link_end='</a>' if len(project['url']) > 0 else '')
+				for project in position['projects'] if len(project) > 0
+			)
 			for position in data['research'] if len(position) > 0
 		]) +
-		'</tbody></table>\n',
+		'</table>\n',
 		activities = '<table><tbody class="highlight">\n' +
 		'</tbody><tbody class="highlight">\n'.join([
 			(

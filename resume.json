@@ -1,7 +1,7 @@
 {
 	"name" : "LUKE SHIMANUKI",
 	"email" : "luke@shimanuki.cc",
-	"phone" : "(925) 331-0577",
+	"phone" : "925-331-0577",
 	"address" : "61 Bishop Allen Dr, Apt 2",
 	"city" : "Cambridge, MA 02139",
 	"github" : "github.com/lukeshimanuki",
@@ -20,16 +20,18 @@
 			],
 			"coursework" : [
 				"Embedded Systems",
-				"Quantum Computation (G)",
-				"Natural Language Processing",
-				"Computational Intelligence (G)",
 				"Machine Learning (G)",
-				"Theory of Computation (G)",
-				"Advanced Data Structures (G)",
-				"Computational Cognitive Science",
-				"Operating Systems (G)",
+				"Comp. Intelligence (G)",
 				"Robotics Science & Systems",
-				"Computational Linguistics (G)",
+
+				"Quantum Comp. (G)",
+				"Operating Systems (G)",
+				"Adv. Data Structures (G)",
+				"Natural Language Processing",
+
+				"Theory of Comp. (G)",
+				"Comp. Linguistics (G)",
+				"Comp. Cognitive Science",
 				"Design & Analysis of Algorithms",
 				""
 			],
@@ -87,7 +89,7 @@
 		},
 		{
 			"group" : "Magna Electronics (formerly Optimus Ride)",
-			"role" : "SDE II --> Senior SDE (Planning & Controls)",
+			"role" : "SDE II &#8594; Senior SDE (Planning & Controls)",
 			"time" : "2020 - 2022",
 			"city" : "Boston, Massachusetts",
 			"description" : [
@@ -99,7 +101,7 @@
 					""
 				],
 				[
-					"Formulated requirements and algorithmic design for ADAS features following automotive industry safety standards.",
+					"Formulated requirements and algorithmic design for ADAS features following auto industry safety standards.",
 					""
 				],
 				[]
@@ -157,7 +159,7 @@
 			"" : ""
 		},
 		{
-			"group" : "Tanius Technology (prop trading firm)",
+			"group" : "Tanius Technology (Proprietary Trading)",
 			"role" : "Developer",
 			"time" : "2015 - 2016",
 			"city" : "Alamo, California",
@@ -178,47 +180,56 @@
 		{
 			"group" : "MIT CSAIL Learning and Intelligent Systems Group",
 			"time" : "2017 - 2020",
-			"description" : [
-				[
-					"Proved NP-hardness of 2D motion planning under obstacle uncertainty. WAFR 2018 & IJRR 2021",
-					""
-				],
-				[
-					"Developed efficient fixed-parameter algorithm for motion planning under obstacle uncertainty. WAFR 2022",
-					""
-				],
-				[
-					"Modeled value functions for guiding task-and-motion planning using graph networks. CoRL 2019 & IJRR 2021",
-					""
-				],
-				[
-					"Defined constraints for safe control in the presence of mobile obstacles with unobservable policies. (preprint)",
-					""
-				],
-				[
-					"Designed system leveraging hierarchies",
-						"to efficiently solve robotic planning tasks / POMDPs. (unpublished)",
-					""
-				],
-				[]
+			"projects" : [
+				{
+					"description" : "Lower bounds for 2D motion planning under obstacle uncertainty",
+					"published" : "WAFR 2018 & IJRR 2021",
+					"url" : "https://luke.shimanuki.cc/papers/shimanuki-ijrr-2021.pdf",
+					"" : ""
+				},
+				{
+					"description" : "Fixed-parameter algorithm for motion planning under obstacle uncertainty",
+					"published" : "WAFR 2022",
+					"url" : "https://luke.shimanuki.cc/papers/axelrod-wafr-2022.pdf",
+					"" : ""
+				},
+				{
+					"description" : "Value functions for guiding task-and-motion planning using graph networks",
+					"published" : "CoRL 2019 & IJRR 2021",
+					"url" : "https://luke.shimanuki.cc/papers/kim-ijrr-2021.pdf",
+					"" : ""
+				},
+				{
+					"description" : "Safe control avoiding moving obstacles with unobservable policies",
+					"published" : "[preprint]",
+					"url" : "https://luke.shimanuki.cc/papers/shimanuki-predictive-reachability.pdf",
+					"" : ""
+				},
+				{
+					"description" : "Leveraging hierarchies to efficiently solve robotic planning tasks / POMDPs",
+					"published" : "[unpublished]",
+					"url" : "",
+					"" : ""
+				}
 			],
 			"" : ""
 		},
 		{
 			"group" : "Stanford Autonomous Systems Laboratory",
 			"time" : "Summer 2015",
-			"description" : [
-				[
-					"Developed simulations comparing vehicle routing algorithms based on real-world ride requests. ICRA 2016",
-					""
-				],
-				[
-					"Designed vehicle routing algorithm",
-						"with 10% improvement over state-of-the-art in simulation.",
-					"Intel STS 2016",
-					""
-				],
-				[]
+			"projects" : [
+				{
+					"description" : "Efficiency of vehicle routing algorithms based on real-world ride requests",
+					"published" : "ICRA 2016",
+					"url" : "",
+					"" : ""
+				},
+				{
+					"description" : "Vehicle routing algorithm with 10% improvement over state-of-the-art in simulation",
+					"published" : "Intel STS 2016",
+					"url" : "",
+					"" : ""
+				}
 			],
 			"" : ""
 		},
@@ -232,7 +243,7 @@
 			"time" : "2020",
 			"description" : [
 				[
-					"Directed team of volunteers for packing groceries and handing off to drivers to deliver to ~300 households weekly.",
+					"Directed team of volunteers for packing and delivering groceries to ~300 households weekly.",
 					""
 				],
 				[]
@@ -246,8 +257,7 @@
 			"description" : [
 				[
 					"Directed educational programs",
-						"(Splash, Summer HSSP)",
-						"reaching ~3000 students",
+						"reaching ~3000 MS/HS students",
 						"with ~1000 classes",
 						"taught by ~500 teachers",
 						"and run by ~100 volunteers.",
@@ -265,9 +275,9 @@
 			"time" : "2012 - 2016",
 			"description" : [
 				[
-					"Managed the programming team (~12 members)",
-						"for autonomous submarine",
-						"capable of",
+					"Managed the software team (~12 members)",
+						"for fully-autonomous submarine",
+						"for",
 							"manipulating objects,",
 							"aiming and shooting torpedoes,",
 							"and navigating around obstacles.",
@@ -338,7 +348,7 @@
 		{
 			"language" : "C++",
 			"description" : [
-				"Low latency audio streaming to enable musicians to play together in-sync remotely using UDP hole-punching",
+				"Low latency audio streaming to enable remote musicians to play in-sync",
 				""
 			]
 		},
