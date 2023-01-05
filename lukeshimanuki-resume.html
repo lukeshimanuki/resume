@@ -1,22 +1,26 @@
 <!DOCTYPE html><html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=816">
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+<title>Luke Shimanuki Resume</title>
+<meta name="description" content="Robotics engineer and researcher with a focus on prediction and planning algorithms for autonomous vehicles">
+<meta name="keywords" content="Luke, Shimanuki, resume, software, engineer, MIT, senior, autonomous, autonomous vehicles, robotics, computer science, self-driving cars, machine learning, masters, artificial intelligence, programming">
+<meta name="author" content="Luke Shimanuki">
 
 <style type="text/css">
 
 /* everything */
 * {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 9.835pt;
+	font-family: Roboto, sans-serif;
+	font-size: 13.9px;
 
-	text-size-adjust: none;
-	-webkit-text-size-adjust:none;
-	-ms-text-size-adjust:none;
-	-moz-text-size-adjust:none;
-	max-height: 999999pt;
+	text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	max-height: 999999px;
 
+	border-collapse: collapse;
 	padding-top: 0;
 	padding-bottom: 0;
 	padding-left: 0;
@@ -28,36 +32,42 @@
 }
 
 body {
-	min-width: 576pt;
-	max-width: 576pt;
-	padding-top: 18pt;
-	padding-bottom: 18pt;
-	padding-left: 18pt;
-	padding-right: 18pt;
-	line-height: 15pt;
+	width: 768px;
+	margin: 24px;
+	margin-top: 36px;
+	line-height: 18px;
 }
 
 @media print {
-	body {
-		padding-top: 0;
-		padding-bottom: 0;
-		padding-left: 0;
-		padding-right: 0;
-	}
+	body {margin: 0;}
+	tr {page-break-inside: avoid;}
 }
 
 @page {
-   margin: 18pt;
-   size: portrait;
+   margin: .25in;
+   margin-top: .375in;
+   size: Letter portrait;
 }
 
 .highlight:hover {
 	background-color: #DDD;
 }
 
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
+td a {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+a:hover {
+	background-color: inherit;
+}
+
 table {
 	width: 100%;
-	border-collapse: collapse;
 	margin-top: 0;
 	padding-top: 0;
 }
@@ -69,133 +79,53 @@ td {
 	vertical-align: top;
 	margin-top: 0;
 	padding-top: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 10px;
+}
+
+td td {
+	padding-bottom: 0;
+}
+
+tbody:after {
+	content: '';
+	display: block;
+	height: 5px;
+	background-color: #FFF;
+}
+
+tbody tbody tbody:after {
+	height: 0px;
 }
 
 .padright {
-	padding-right: .5em;
-}
-
-td hr {
-	height: .64em;
-	visibility: hidden;
-	margin: 0;
+       padding-right: 6px;
 }
 
 .name {
-	letter-spacing: .1em;
+	letter-spacing: 2px;
 	font-weight: bold;
-	font-size: 1.2em;
+	font-size: 20px;
 }
 
 /* category */
 h2 {
-	font-size: 1em;
 	text-align:center;
 	font-weight: bold;
 	text-decoration: underline;
-	margin-bottom: .7em;
-}
-h2:hover {
-	background-color: #DDD;
+	margin-bottom: 12px;
 }
 
 /* contact info */
 h3 {
-	font-size: 1em;
-	font-weight: normal;
 	text-align: center;
-	margin-bottom: .4em;
-}
-
-/* horizontal lines */
-hr {
-	height: .1em;
-	background-color: #000;
-	border: none;
-	margin-top: .5em;
-	margin-bottom: .5em;
+	margin-bottom: 8px;
 }
 
 /* right alignment */
 table right {
 	float: right;
-}
-/* indent (i## indicates ##% */
-p i05 {
-	position: absolute;
-	left: 5%;
-}
-p i10 {
-	position: absolute;
-	left: 10%;
-}
-p i15 {
-	position: absolute;
-	left: 15%;
-}
-p i20 {
-	position: absolute;
-	left: 20%;
-}
-p i25 {
-	position: absolute;
-	left: 25%;
-}
-p i30 {
-	position: absolute;
-	left: 30%;
-}
-p i35 {
-	position: absolute;
-	left: 35%;
-}
-p i40 {
-	position: absolute;
-	left: 40%;
-}
-p i45 {
-	position: absolute;
-	left: 45%;
-}
-p i50 {
-	position: absolute;
-	left: 50%;
-}
-p i55 {
-	position: absolute;
-	left: 55%;
-}
-p i60 {
-	position: absolute;
-	left: 60%;
-}
-p i65 {
-	position: absolute;
-	left: 65%;
-}
-p i70 {
-	position: absolute;
-	left: 70%;
-}
-p i75 {
-	position: absolute;
-	left: 75%;
-}
-p i80 {
-	position: absolute;
-	left: 80%;
-}
-p i85 {
-	position: absolute;
-	left: 85%;
-}
-p i90 {
-	position: absolute;
-	left: 90%;
-}
-p i95 {
-	position: absolute;
-	left: 95%;
 }
 
 </style>
@@ -207,8 +137,8 @@ p i95 {
 <tbody>
 <tr>
 <td align="left" class="highlight">61 Bishop Allen Dr, Apt 2<br>Cambridge, MA 02139</td>
-<td align="center"><span class="name highlight">LUKE SHIMANUKI</span><br><span class="highlight">luke@shimanuki.cc</span></td>
-<td align="right"><span class="highlight">(925) 331-0577</span><br><span class="highlight">https://luke.shimanuki.cc</span></td>
+<td align="center"><span class="name highlight">LUKE SHIMANUKI</span><br><span class="highlight"><a href="mailto:luke@shimanuki.cc" target="_blank" rel="noopener noreferrer">luke@shimanuki.cc</a></span></td>
+<td align="right"><span class="highlight"><a href="tel:+1-925-331-0577" target="_blank" rel="noopener noreferrer">1-925-331-0577</a></span><span class="highlight"><a href="https://luke.shimanuki.cc" target="_blank" rel="noopener noreferrer">https://luke.shimanuki.cc</a></span></td>
 </tr>
 </tbody>
 </table>
@@ -241,7 +171,7 @@ Developed models for predicting and planning semantic driving behaviors such as 
 </tr>
 <tr><td colspan=3>
 Designed and implemented probabilistic model for inferring trajectories and interactions between road users.<br>
-Formulated requirements and algorithmic design for ADAS features following automotive industry safety standards.</td></tr>
+Formulated requirements and algorithmic design for ADAS features following auto industry safety standards.</td></tr>
 </tbody><tbody class="highlight">
 <tr>
 <td>
@@ -253,43 +183,43 @@ Formulated requirements and algorithmic design for ADAS features following autom
 </td>
 </tr>
 <tr><td colspan=3>
-</td></tr>
+Improved model for robotic cars to predict trajectories of other road users, passing 3x as many scenario tests.</td></tr>
 </tbody><tbody class="highlight">
 <tr>
 <td>
 <strong>SWE Intern (Perception)</strong></td>
 <td>
-<em>Optimus Ride (L4 Autonomous Driving)</em></td>
+<em>Optimus Ride</em></td>
 <td>
 <right>Summer 2017</right> <br>
 </td>
 </tr>
 <tr><td colspan=3>
-</td></tr>
+Created system for robotic cars to predict and avoid other vehicles to handle intersections.</td></tr>
 </tbody><tbody class="highlight">
 <tr>
 <td>
 <strong>Intern (Machine Learning / Vision)</strong></td>
 <td>
-<em>RightHand Robotics (Warehouse Picking)</em></td>
+<em>RightHand Robotics</em></td>
 <td>
 <right>January 2017</right> <br>
 </td>
 </tr>
 <tr><td colspan=3>
-</td></tr>
+Designed and implemented deep learning architectures for robotic vision and grasping.</td></tr>
 </tbody><tbody class="highlight">
 <tr>
 <td>
 <strong>Developer</strong></td>
 <td>
-<em>Tanius Technology (Proprietary Trading)</em></td>
+<em>Tanius Technology (proprietary trading)</em></td>
 <td>
 <right>2015 - 2016</right> <br>
 </td>
 </tr>
 <tr><td colspan=3>
-</td></tr>
+Implemented machine learning models and data pipeline to predict market patterns.</td></tr>
 </tbody></table>
 
 </td>
@@ -297,40 +227,26 @@ Formulated requirements and algorithmic design for ADAS features following autom
 <tr>
 <td class="highlight padright">RESEARCH</td>
 <td>
-<table><tbody class="highlight">
-<tr>
-<td>
-<strong>MIT CSAIL Learning and Intelligent Systems Group</strong></td>
-<td>
-<right>2017 - 2020</right> <br>
-</td>
-</tr>
-<tr><td colspan=3>
-Proved NP-hardness of 2D motion planning under obstacle uncertainty. WAFR 2018 & IJRR 2021<br>
-Developed efficient fixed-parameter algorithm for motion planning under obstacle uncertainty. WAFR 2022<br>
-Modeled value functions for guiding task-and-motion planning using graph networks. CoRL 2019 & IJRR 2021<br>
-Defined constraints for safe control in the presence of mobile obstacles with unobservable policies. (preprint)<br>
-Designed system leveraging hierarchies to efficiently solve robotic planning tasks / POMDPs. (unpublished)</td></tr>
-</tbody><tbody class="highlight">
-<tr>
-<td>
-<strong>Stanford Autonomous Systems Laboratory</strong></td>
-<td>
-<right>Summer 2015</right> <br>
-</td>
-</tr>
-<tr><td colspan=3>
-Developed simulations comparing vehicle routing algorithms based on real-world ride requests. ICRA 2016<br>
-Designed vehicle routing algorithm with 10% improvement over state-of-the-art in simulation. Intel STS 2016</td></tr>
-</tbody></table>
+<table>
+<tbody><tr>
+<td colspan=2><table class="highlight"><tr><td><strong>MIT CSAIL Learning and Intelligent Systems Group</strong></td><td><right>2017 - 2020</right></td></tr></table></td></tr>
+<tr class='highlight'><td><a href='https://luke.shimanuki.cc/papers/shimanuki-ijrr-2021.pdf' target='_blank' rel='noopener noreferrer'><span class='padright'>WAFR 2018 & IJRR 2021</span></a></td><td><a href='https://luke.shimanuki.cc/papers/shimanuki-ijrr-2021.pdf' target='_blank' rel='noopener noreferrer'><span class='padright'>Lower bounds for 2D motion planning under obstacle uncertainty</span></a></td></tr>
+<tr class='highlight'><td><a href='https://luke.shimanuki.cc/papers/axelrod-wafr-2022.pdf' target='_blank' rel='noopener noreferrer'><span class='padright'>WAFR 2022</span></a></td><td><a href='https://luke.shimanuki.cc/papers/axelrod-wafr-2022.pdf' target='_blank' rel='noopener noreferrer'><span class='padright'>Fixed-parameter algorithm for motion planning under obstacle uncertainty</span></a></td></tr>
+<tr class='highlight'><td><a href='https://luke.shimanuki.cc/papers/kim-ijrr-2021.pdf' target='_blank' rel='noopener noreferrer'><span class='padright'>CoRL 2019 & IJRR 2021</span></a></td><td><a href='https://luke.shimanuki.cc/papers/kim-ijrr-2021.pdf' target='_blank' rel='noopener noreferrer'><span class='padright'>Value functions for guiding task-and-motion planning using graph networks</span></a></td></tr>
+<tr class='highlight'><td><a href='https://luke.shimanuki.cc/papers/shimanuki-predictive-reachability.pdf' target='_blank' rel='noopener noreferrer'><span class='padright'>[unpublished]</span></a></td><td><a href='https://luke.shimanuki.cc/papers/shimanuki-predictive-reachability.pdf' target='_blank' rel='noopener noreferrer'><span class='padright'>Safe control avoiding moving obstacles with unobservable policies</span></a></td></tr>
+<tr class='highlight'><td><span class='padright'>[unpublished]</span></td><td><span class='padright'>Leveraging hierarchies to efficiently solve robotic planning tasks / POMDPs</span></td></tr></tbody>
+<tbody><tr>
+<td colspan=2><table class="highlight"><tr><td><strong>Stanford Autonomous Systems Laboratory</strong></td><td><right>Summer 2015</right></td></tr></table></td></tr>
+<tr class='highlight'><td><span class='padright'>ICRA 2016</span></td><td><span class='padright'>Efficiency of vehicle routing algorithms based on real-world ride requests</span></td></tr>
+<tr class='highlight'><td><span class='padright'>Intel STS 2016</span></td><td><span class='padright'>Vehicle routing algorithm with 10% improvement over state-of-the-art in simulation</span></td></tr></tbody></table>
 
 </td>
 </tr>
 <tr>
 <td class="highlight padright">EDUCATION</td>
 <td>
-<table class="highlight">
-<tr><td colspan=5>
+<table>
+<tbody class="highlight"><tr><td colspan=4>
 <table>
 <tr>
 <td><strong>Massachusetts Institute of Technology</strong></td><td></td><td><right>2016 - 2020</right></td>
@@ -341,33 +257,33 @@ S.B. Double Major in Computer Science and Brain & Cognitive Science, GPA 4.9 (ou
 <tr>
 <td>Embedded Systems</td>
 
-<td>Quantum Computation (G)</td>
-
-<td>Natural Language Processing</td>
-
-<td>Computational Intelligence (G)</td>
-</tr>
-
-<tr>
 <td>Machine Learning (G)</td>
 
-<td>Theory of Computation (G)</td>
+<td>Comp. Intelligence (G)</td>
 
-<td>Advanced Data Structures (G)</td>
-
-<td>Computational Cognitive Science</td>
+<td>Robotics Science & Systems</td>
 </tr>
 
 <tr>
+<td>Quantum Comp. (G)</td>
+
 <td>Operating Systems (G)</td>
 
-<td>Robotics Science & Systems</td>
+<td>Adv. Data Structures (G)</td>
 
-<td>Computational Linguistics (G)</td>
+<td>Natural Language Processing</td>
+</tr>
+
+<tr>
+<td>Theory of Comp. (G)</td>
+
+<td>Comp. Linguistics (G)</td>
+
+<td>Comp. Cognitive Science</td>
 
 <td>Design & Analysis of Algorithms</td>
 </tr>
-<tr><td></td></tr>
+<tr><td></td></tr></tbody>
 </table>
 
 </td>
@@ -386,7 +302,7 @@ S.B. Double Major in Computer Science and Brain & Cognitive Science, GPA 4.9 (ou
 </td>
 </tr>
 <tr><td colspan=3>
-Directed team of volunteers for packing groceries and handing off to drivers to deliver to ~300 households weekly.</td></tr>
+Directed team of volunteers for packing and delivering groceries to ~300 households weekly.</td></tr>
 </tbody><tbody class="highlight">
 <tr>
 <td>
@@ -398,7 +314,7 @@ Directed team of volunteers for packing groceries and handing off to drivers to 
 </td>
 </tr>
 <tr><td colspan=3>
-Directed educational programs (Splash, Summer HSSP) reaching ~3000 students with ~1000 classes taught by ~500 teachers and run by ~100 volunteers. Mentored future directors. Maintained website used by ~5000 students.</td></tr>
+Directed educational programs reaching ~3000 MS/HS students with ~1000 classes taught by ~500 teachers and run by ~100 volunteers. Mentored future directors. Maintained website used by ~5000 students.</td></tr>
 </tbody><tbody class="highlight">
 <tr>
 <td>
@@ -410,7 +326,7 @@ Directed educational programs (Splash, Summer HSSP) reaching ~3000 students with
 </td>
 </tr>
 <tr><td colspan=3>
-Managed the programming team (~12 members) for autonomous submarine capable of manipulating objects, aiming and shooting torpedoes, and navigating around obstacles. International finalist (7th Place) at RoboSub 2015.</td></tr>
+Led the software team (~12 members) for fully-autonomous submarine for manipulating objects, aiming and shooting torpedoes, and navigating around obstacles. International finalist (7th Place) at RoboSub 2015.</td></tr>
 </tbody><tbody class="highlight">
 <tr>
 <td>
@@ -474,7 +390,7 @@ Organized ACE Code Day, an 8 hour event attracting ~300 students. Taught machine
 <table>
 <tr class="highlight">
 <td class='padright'><strong>C++</strong></td> <td>
-Low latency audio streaming to enable musicians to play together in-sync remotely using UDP hole-punching</td>
+Low latency audio streaming to enable remote musicians to play in-sync</td>
 </tr><tr class="highlight">
 <td class='padright'><strong>C</strong></td> <td>
 Web browser using Chromium's rendering engine with configurable vi-like key bindings</td>

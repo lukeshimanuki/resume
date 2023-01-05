@@ -5,7 +5,7 @@ LUKE SHIMANUKI
 Cambridge, MA 02139
 
 luke@shimanuki.cc
-(925) 331-0577
+1-925-331-0577
 
 https://luke.shimanuki.cc
 
@@ -19,7 +19,7 @@ Developed models for predicting and planning semantic driving behaviors such as 
 SDE II --> Senior SDE (Planning & Controls) (2020 - 2022)
 Magna Electronics (formerly Optimus Ride), Boston, Massachusetts
 Designed and implemented probabilistic model for inferring trajectories and interactions between road users.
-Formulated requirements and algorithmic design for ADAS features following automotive industry safety standards.
+Formulated requirements and algorithmic design for ADAS features following auto industry safety standards.
 
 Intern (Prediction) (Summer 2018)
 Cruise Automation (General Motors), San Francisco, California
@@ -34,22 +34,22 @@ RightHand Robotics, Somerville, Massachusetts
 Designed and implemented deep learning architectures for robotic vision and grasping.
 
 Developer (2015 - 2016)
-Tanius Technology (prop trading firm), Alamo, California
+Tanius Technology (proprietary trading), Alamo, California
 Implemented machine learning models and data pipeline to predict market patterns.
 
 
 RESEARCH
 
 MIT CSAIL Learning and Intelligent Systems Group (2017 - 2020)
-Proved NP-hardness of 2D motion planning under obstacle uncertainty. WAFR 2018 & IJRR 2021
-Developed efficient fixed-parameter algorithm for motion planning under obstacle uncertainty. WAFR 2022
-Modeled value functions for guiding task-and-motion planning using graph networks. CoRL 2019 & IJRR 2021
-Defined constraints for safe control in the presence of mobile obstacles with unobservable policies. (preprint)
-Designed system leveraging hierarchies to efficiently solve robotic planning tasks / POMDPs. (unpublished)
+Lower bounds for 2D motion planning under obstacle uncertainty -- WAFR 2018 & IJRR 2021
+Fixed-parameter algorithm for motion planning under obstacle uncertainty -- WAFR 2022
+Value functions for guiding task-and-motion planning using graph networks -- CoRL 2019 & IJRR 2021
+Safe control avoiding moving obstacles with unobservable policies -- [unpublished]
+Leveraging hierarchies to efficiently solve robotic planning tasks / POMDPs -- [unpublished]
 
 Stanford Autonomous Systems Laboratory (Summer 2015)
-Developed simulations comparing vehicle routing algorithms based on real-world ride requests. ICRA 2016
-Designed vehicle routing algorithm with 10% improvement over state-of-the-art in simulation. Intel STS 2016
+Efficiency of vehicle routing algorithms based on real-world ride requests -- ICRA 2016
+Vehicle routing algorithm with 10% improvement over state-of-the-art in simulation -- Intel STS 2016
 
 
 EDUCATION
@@ -58,22 +58,22 @@ Massachusetts Institute of Technology (2016 - 2020)
 
 M.Eng Electrical Engineering & Computer Science (AI Concentration), GPA 5.0 (out of 5)
 S.B. Double Major in Computer Science and Brain & Cognitive Science, GPA 4.9 (out of 5), 5.0 in-major (CS)
-Coursework: Embedded Systems, Quantum Computation (G), Natural Language Processing, Computational Intelligence (G), Machine Learning (G), Theory of Computation (G), Advanced Data Structures (G), Computational Cognitive Science, Operating Systems (G), Robotics Science & Systems, Computational Linguistics (G), Design & Analysis of Algorithms
+Coursework: Embedded Systems, Machine Learning (G), Comp. Intelligence (G), Robotics Science & Systems, Quantum Comp. (G), Operating Systems (G), Adv. Data Structures (G), Natural Language Processing, Theory of Comp. (G), Comp. Linguistics (G), Comp. Cognitive Science, Design & Analysis of Algorithms
 
 
 ACTIVITIES
 
 Site Manager (2020)
 Food for Free COVID-19 Relief Program
-Directed team of volunteers for packing groceries and handing off to drivers to deliver to ~300 households weekly.
+Directed team of volunteers for packing and delivering groceries to ~300 households weekly.
 
 Program Director, Head Webmaster (2017 - 2020)
 MIT Educational Studies Program
-Directed educational programs (Splash, Summer HSSP) reaching ~3000 students with ~1000 classes taught by ~500 teachers and run by ~100 volunteers. Mentored future directors. Maintained website used by ~5000 students.
+Directed educational programs reaching ~3000 MS/HS students with ~1000 classes taught by ~500 teachers and run by ~100 volunteers. Mentored future directors. Maintained website used by ~5000 students.
 
 Software Lead (2012 - 2016)
 AVBotz
-Managed the programming team (~12 members) for autonomous submarine capable of manipulating objects, aiming and shooting torpedoes, and navigating around obstacles. International finalist (7th Place) at RoboSub 2015.
+Led the software team (~12 members) for fully-autonomous submarine for manipulating objects, aiming and shooting torpedoes, and navigating around obstacles. International finalist (7th Place) at RoboSub 2015.
 
 Co-President, HPMS Branch Director (2013 - 2016)
 ACE Coding
@@ -88,7 +88,8 @@ Cambridge School Volunteers
 SKILLS
 
 Proficient in C, C++, Python, Javascript, Java, UNIX Shell
-Familiar with C#, LabView, Matlab, Simulink, Scala, x86 Assembly\Libraries: ROS, OpenCV, Theano, PyTorch, ReactJS, TensorFlow
+Familiar with C#, LabView, Matlab, Simulink, Scala, x86 Assembly
+Libraries: ROS, OpenCV, Theano, PyTorch, ReactJS, TensorFlow
 
 
 AWARDS
@@ -101,7 +102,7 @@ MIT Battlecode 2018 Finalist (9th place)
 
 PROJECTS
 
-(C++) Low latency audio streaming to enable musicians to play together in-sync remotely using UDP hole-punching
+(C++) Low latency audio streaming to enable remote musicians to play in-sync
 (C) Web browser using Chromium's rendering engine with configurable vi-like key bindings
 (C) C compiler to convert C code to x86 assembly
 (Java) Neural network AI for a multiplayer platformer fighting game
