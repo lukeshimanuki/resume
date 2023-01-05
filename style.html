@@ -32,7 +32,8 @@
 body {
 	width: 768px;
 	margin: 24px;
-	line-height: 20px;
+	margin-top: 36px;
+	line-height: 18px;
 }
 
 @media print {
@@ -42,6 +43,7 @@ body {
 
 @page {
    margin: .25in;
+   margin-top: .375in;
    size: Letter portrait;
 }
 
@@ -64,8 +66,6 @@ a:hover {
 
 table {
 	width: 100%;
-	border-collapse: collapse;
-	border-spacing: 0;
 	margin-top: 0;
 	padding-top: 0;
 }
@@ -79,10 +79,26 @@ td {
 	padding-top: 0;
 	padding-left: 0;
 	padding-right: 0;
+	padding-bottom: 10px;
+}
+
+td td {
+	padding-bottom: 0;
+}
+
+tbody:after {
+	content: '';
+	display: block;
+	height: 5px;
+	background-color: #FFF;
+}
+
+tbody tbody tbody:after {
+	height: 0px;
 }
 
 .padright {
-	padding-right: 6px;
+       padding-right: 6px;
 }
 
 .name {

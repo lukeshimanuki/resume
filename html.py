@@ -45,9 +45,9 @@ def toHTML(data):
 			'</tbody>\n'
 		'</table>\n'
 	).format(
-		education='<table class="highlight">\n' +
+		education='<table>\n' +
 		'\n'.join([
-			'<tr><td colspan=5>\n' +
+			'<tbody class="highlight"><tr><td colspan=4>\n' +
 			'<table>\n<tr>\n' +
 			"<td><strong>{}</strong></td>".format(school['school']) +
 			(
@@ -73,7 +73,7 @@ def toHTML(data):
 				])
 				if 'coursework' in school else ''
 			) +
-			'<tr><td></td></tr>\n' +
+			'<tr><td></td></tr></tbody>\n' +
 			''
 			for school in data['education'] if 'school' in school
 		]) +
@@ -133,7 +133,7 @@ def toHTML(data):
 		research = '<table>\n' +
 		'\n'.join([
 			(
-				'<tr>\n'
+				'<tbody><tr>\n'
 					'<td colspan=2><table class="highlight"><tr>'
 						"<td><strong>{}</strong></td>"
 						"<td><right>{}</right></td>"
@@ -149,7 +149,7 @@ def toHTML(data):
 					"<td>{link_begin}<span class='padright'>{description}</span>{link_end}</td>"
 				"</tr>").format(**project, link_begin="<a href='{url}' target='_blank' rel='noopener noreferrer'>".format(**project) if len(project['url']) > 0 else '', link_end='</a>' if len(project['url']) > 0 else '')
 				for project in position['projects'] if len(project) > 0
-			)
+			) + '</tbody>'
 			for position in data['research'] if len(position) > 0
 		]) +
 		'</table>\n',
