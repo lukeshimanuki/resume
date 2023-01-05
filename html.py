@@ -7,8 +7,8 @@ def toHTML(data):
 			'<tbody>\n'
 				'<tr>\n'
 					'<td align="left" class="highlight">{address}<br>{city}</td>\n'
-					'<td align="center"><span class="name highlight">{name}</span><br><span class="highlight"><a href="mailto:{email}">{email}</a></span></td>\n'
-					'<td align="right"><span class="highlight"><a href="tel:+1-{phone}">{phone}</a></span><span class="highlight"><a href="{website}">{website}</a></span></td>\n'
+					'<td align="center"><span class="name highlight">{name}</span><br><span class="highlight"><a href="mailto:{email}" target="_blank" rel="noopener noreferrer">{email}</a></span></td>\n'
+					'<td align="right"><span class="highlight"><a href="tel:+{phone}" target="_blank" rel="noopener noreferrer">{phone}</a></span><span class="highlight"><a href="{website}" target="_blank" rel="noopener noreferrer">{website}</a></span></td>\n'
 				'</tr>\n'
 			'</tbody>\n'
 		'</table>\n'
@@ -147,7 +147,7 @@ def toHTML(data):
 				("<tr class='highlight'>"
 					"<td>{link_begin}<span class='padright'>{published}</span>{link_end}</td>"
 					"<td>{link_begin}<span class='padright'>{description}</span>{link_end}</td>"
-				"</tr>").format(**project, link_begin="<a href='{url}'>".format(**project) if len(project['url']) > 0 else '', link_end='</a>' if len(project['url']) > 0 else '')
+				"</tr>").format(**project, link_begin="<a href='{url}' target='_blank' rel='noopener noreferrer'>".format(**project) if len(project['url']) > 0 else '', link_end='</a>' if len(project['url']) > 0 else '')
 				for project in position['projects'] if len(project) > 0
 			)
 			for position in data['research'] if len(position) > 0
@@ -229,7 +229,7 @@ def genHTML(body, style):
 	).format(style, body)
 
 def main():
-	sys.stdout.write(genHTML(toHTML(json.loads(open('resume.json').read())), open('style.css').read()))
+	sys.stdout.write(genHTML(toHTML(json.loads(open('resume.json').read())), open('style.html').read()))
 
 if __name__ == "__main__":
 	main()
