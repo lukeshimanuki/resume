@@ -4,8 +4,6 @@ import json
 def toASCII(data):
 	return (
 		"{name}\n\n\n"
-		"{address}\n"
-		"{city}\n\n"
 		"{email}\n"
 		"{phone}\n\n"
 		"{website}\n\n\n"
