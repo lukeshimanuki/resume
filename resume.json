@@ -1,7 +1,7 @@
 {
 	"name" : "LUKE SHIMANUKI",
 	"email" : "luke@shimanuki.cc",
-	"phone" : "1-925-331-0577",
+	"phone" : "925-331-0577",
 	"github" : "github.com/lukeshimanuki",
 	"linkedin" : "linkedin.com/in/luke-shimanuki",
 	"website" : "https://luke.shimanuki.cc",
@@ -13,7 +13,7 @@
 			"time" : "2016 - 2020",
 			"description" : [
 				"M.Eng Electrical Engineering & Computer Science (AI Concentration), GPA 5.0 (out of 5)",
-				"S.B. Double Major in Computer Science and Brain & Cognitive Science, GPA 4.9 (out of 5), 5.0 in-major (CS)",
+				"S.B. Computer Science + Brain & Cognitive Science, GPA 4.9 (out of 5), 5.0 within CS major",
 				""
 			],
 			"coursework" : [
@@ -72,13 +72,19 @@
 	"experience" : [
 		{
 			"group" : "Aurora Innovation",
-			"role" : "Senior Software Engineer (Motion Planning)",
+			"role" : "Senior SWE / Tech Lead (Motion Planning ML)",
 			"time" : "2022 - present",
 			"city" : "Boston, Massachusetts",
 			"description" : [
 				[
-					"Developed models for predicting and planning semantic driving behaviors",
-					"such as merging and lane changing.",
+					"Lead team of 7 which",
+					"develops the model for understanding scene context,",
+					"forecasting the behavior of other agents,",
+					"and determining how the self-driving vehicle should interact with them.",
+					""
+				],
+				[
+					"Recognized to consistently deliver critical improvements to the end-to-end behavior on a tight schedule, and often tapped for critical-path projects to unblock important imminent releases or demos.",
 					""
 				],
 				[]
@@ -92,10 +98,8 @@
 			"city" : "Boston, Massachusetts",
 			"description" : [
 				[
-					"Designed and implemented",
-						"probabilistic model",
-						"for inferring trajectories",
-						"and interactions between road users.",
+					"Led 3-person project",
+					"to enable multimodal probabilistic reasoning to forecast agents' behaviors & interactions.",
 					""
 				],
 				[
@@ -107,15 +111,17 @@
 			"" : ""
 		},
 		{
-			"group" : "Cruise Automation (General Motors)",
+			"group" : "Cruise Automation",
 			"role" : "Intern (Prediction)",
 			"time" : "Summer 2018",
 			"city" : "San Francisco, California",
 			"description" : [
 				[
-					"Improved model for robotic cars to",
-					"predict trajectories of other road users,",
-					"passing 3x as many scenario tests.",
+					"Addressed critical safety issues by improving forecast dynamic feasibility and intersection reasoning.",
+					""
+				],
+				[
+					"Demonstrated improved behavior both on-road and also by 3x-ing the number of passing forecast tests.",
 					""
 				],
 				[]
@@ -123,17 +129,17 @@
 			"" : ""
 		},
 		{
-			"group" : "Optimus Ride",
+			"group" : "Optimus Ride (Self-driving)",
 			"role" : "SWE Intern (Perception)",
 			"time" : "Summer 2017",
 			"city" : "Boston, Massachusetts",
 			"description" : [
 				[
-					"Created system for robotic cars to",
-					"predict and avoid",
-						"other vehicles",
-						"to handle",
-						"intersections.",
+					"Singlehandedly designed and implemented the entire object tracking and forecasting systems.",
+					""
+				],
+				[
+					"Designed the perception system architecture from detections to forecasts which feed into the motion planner.",
 					""
 				],
 				[]
@@ -141,15 +147,13 @@
 			"" : ""
 		},
 		{
-			"group" : "RightHand Robotics",
+			"group" : "RightHand Robotics (Robotic Grasping)",
 			"role" : "Intern (Machine Learning / Vision)",
 			"time" : "January 2017",
 			"city" : "Somerville, Massachusetts",
 			"description" : [
 				[
-					"Designed and implemented",
-						"deep learning architectures",
-						"for robotic vision and grasping.",
+					"Designed and trained models for identifying likely-to-succeed grasp poses based on camera input.",
 					""
 				],
 				[]
@@ -157,13 +161,13 @@
 			"" : ""
 		},
 		{
-			"group" : "Tanius Technology (proprietary trading)",
-			"role" : "Developer",
+			"group" : "Tanius Technology (Prop Trading)",
+			"role" : "Developer (ML Modeling)",
 			"time" : "2015 - 2016",
 			"city" : "Alamo, California",
 			"description" : [
 				[
-					"Implemented machine learning models and data pipeline",
+					"Designed and implemented model architecture, training, and data pipeline",
 						"to predict market patterns.",
 					""
 				],
@@ -192,42 +196,12 @@
 					"" : ""
 				},
 				{
-					"description" : "Value functions for guiding task-and-motion planning using graph networks",
+					"description" : "Value functions for guiding task-and-motion planning using GNNs and MCTS",
 					"published" : "CoRL 2019 & IJRR 2021",
 					"url" : "https://luke.shimanuki.cc/papers/kim-ijrr-2021.pdf",
 					"" : ""
 				},
-				{
-					"description" : "Safe control avoiding moving obstacles with unobservable policies",
-					"published" : "[unpublished]",
-					"url" : "https://luke.shimanuki.cc/papers/shimanuki-predictive-reachability.pdf",
-					"" : ""
-				},
-				{
-					"description" : "Leveraging hierarchies to efficiently solve robotic planning tasks / POMDPs",
-					"published" : "[unpublished]",
-					"url" : "",
-					"" : ""
-				}
-			],
-			"" : ""
-		},
-		{
-			"group" : "Stanford Autonomous Systems Laboratory",
-			"time" : "Summer 2015",
-			"projects" : [
-				{
-					"description" : "Efficiency of vehicle routing algorithms based on real-world ride requests",
-					"published" : "ICRA 2016",
-					"url" : "",
-					"" : ""
-				},
-				{
-					"description" : "Vehicle routing algorithm with 10% improvement over state-of-the-art in simulation",
-					"published" : "Intel STS 2016",
-					"url" : "",
-					"" : ""
-				}
+				{}
 			],
 			"" : ""
 		},
@@ -299,7 +273,7 @@
 				[
 					"Organized ACE Code Day,",
 					"an 8 hour event attracting ~300 students.",
-						"Taught machine vision workshop.",
+						"Taught machine vision & ML workshops.",
 					""
 				],
 				[]
