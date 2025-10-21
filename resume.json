@@ -39,52 +39,40 @@
 	],
 
 	"skills" : {
-		"proficient" : [
+		"Languages" : [
 			"C",
 			"C++",
-			"Python",
-			"Javascript",
-			"Java",
-			"UNIX Shell",
-			""
+			"Python"
 		],
-		"familiar" : [
-			"C#",
-			"LabView",
-			"Matlab",
-			"Simulink",
-			"Scala",
-			"x86 Assembly",
-			""
+		"Tools" : [
+			"Git",
+			"Docker",
+			"Linux"
 		],
-		"libraries" : [
-			"ROS",
-			"OpenCV",
-			"Theano",
+		"ML/AI" : [
 			"PyTorch",
-			"ReactJS",
 			"TensorFlow",
-			""
-		],
-		"" : []
+			"ROS"
+		]
 	},
 
 	"experience" : [
 		{
 			"group" : "Aurora Innovation",
-			"role" : "Senior SWE / Tech Lead (Motion Planning ML)",
+			"role" : "Senior SWE / Tech Lead (Behavior ML)",
 			"time" : "2022 - present",
 			"city" : "Boston, Massachusetts",
 			"description" : [
 				[
-					"Lead team of 7 which",
-					"develops the model for understanding scene context,",
-					"forecasting the behavior of other agents,",
-					"and determining how the self-driving vehicle should interact with them.",
+					"Led team of 7 ML engineers to develop and deploy forecasting models, reducing error by 20% on targeted scenarios, resolving 100+ behavioral test failures across 7 safety-critical failure modes, and enabling driverless operations that achieved 100K+ incident-free miles.",
 					""
 				],
 				[
-					"Recognized to consistently deliver critical improvements to the end-to-end behavior on a tight schedule, and often tapped for critical-path projects to unblock important imminent releases or demos.",
+					"Recognized by senior leadership for urgently resolving intersection behavior deficiencies blocking 2 investor showcases central to $800M+ funding round and manufacturing partnership agreement.",
+					""
+				],
+				[
+					"Mentored 3 ML engineers, and developed framework accelerating integration of separate model improvements from 1 week to 2 days, enabling the team to double in size while maintaining development velocity.",
 					""
 				],
 				[]
@@ -93,17 +81,20 @@
 		},
 		{
 			"group" : "Magna Electronics (formerly Optimus Ride)",
-			"role" : "SDE II --> Senior SDE (Planning & Controls)",
+			"role" : "SDE II --> Senior SDE (Motion Planning)",
 			"time" : "2020 - 2022",
 			"city" : "Boston, Massachusetts",
 			"description" : [
 				[
-					"Led 3-person project",
-					"to enable multimodal probabilistic reasoning to forecast agents' behaviors & interactions.",
+					"Led 3 engineers to develop probabilistic uncertainty quantification framework and risk-aware motion planner, enabling safe autonomous navigation through contested intersections and unprotected left turns.",
 					""
 				],
 				[
-					"Formulated requirements and algorithmic design for ADAS features following auto industry safety standards.",
+					"Led cross-functional initiative to redesign prediction-planning interface incorporating probabilistic uncertainty propagation, facilitating risk-aware planning across the autonomous driving stack.",
+					""
+				],
+				[
+					"Formulated technical requirements and algorithmic specifications for 2 ADAS features following ISO 26262 functional safety standards, resulting in 1 patent filing.",
 					""
 				],
 				[]
@@ -117,11 +108,7 @@
 			"city" : "San Francisco, California",
 			"description" : [
 				[
-					"Addressed critical safety issues by improving forecast dynamic feasibility and intersection reasoning.",
-					""
-				],
-				[
-					"Demonstrated improved behavior both on-road and also by 3x-ing the number of passing forecast tests.",
+					"Improved forecast dynamic feasibility and intersection reasoning, tripling passing test cases and substantially reducing intersection disengagements.",
 					""
 				],
 				[]
@@ -135,11 +122,7 @@
 			"city" : "Boston, Massachusetts",
 			"description" : [
 				[
-					"Singlehandedly designed and implemented the entire object tracking and forecasting systems.",
-					""
-				],
-				[
-					"Designed the perception system architecture from detections to forecasts which feed into the motion planner.",
+					"Designed and implemented end-to-end perception pipeline from object detection through tracking and forecasting, establishing architecture that integrated with motion planning system.",
 					""
 				],
 				[]
@@ -153,7 +136,7 @@
 			"city" : "Somerville, Massachusetts",
 			"description" : [
 				[
-					"Designed and trained models for identifying likely-to-succeed grasp poses based on camera input.",
+					"Designed and trained CNN-based grasp prediction model from RGB-D input, improving pick success rate on cluttered bin-packing scenarios.",
 					""
 				],
 				[]
@@ -167,8 +150,7 @@
 			"city" : "Alamo, California",
 			"description" : [
 				[
-					"Designed and implemented model architecture, training, and data pipeline",
-						"to predict market patterns.",
+					"Built end-to-end ML system for algorithmic trading including data ingestion, model training, and backtesting infrastructure.",
 					""
 				],
 				[]
@@ -181,24 +163,37 @@
 	"research" : [
 		{
 			"group" : "MIT CSAIL Learning and Intelligent Systems Group",
+			"note": "(* indicates equal contribution)",
 			"time" : "2017 - 2020",
 			"projects" : [
 				{
-					"description" : "Lower bounds for 2D motion planning under obstacle uncertainty",
-					"published" : "WAFR 2018 & IJRR 2021",
-					"url" : "https://luke.shimanuki.cc/papers/shimanuki-ijrr-2021.pdf",
-					"" : ""
-				},
-				{
-					"description" : "Fixed-parameter algorithm for motion planning under obstacle uncertainty",
+					"description" : "B. Axelrod*, L. Shimanuki*, \"Efficient Motion Planning under Obstacle Uncertainty with Local Dependencies\"",
 					"published" : "WAFR 2022",
 					"url" : "https://luke.shimanuki.cc/papers/axelrod-wafr-2022.pdf",
 					"" : ""
 				},
 				{
-					"description" : "Value functions for guiding task-and-motion planning using GNNs and MCTS",
-					"published" : "CoRL 2019 & IJRR 2021",
+					"description" : "L. Shimanuki*, B. Axelrod*, \"Hardness of Motion Planning with Obstacle Uncertainty in 2 Dimensions\"",
+					"published" : "IJRR 2021",
+					"url" : "https://luke.shimanuki.cc/papers/shimanuki-ijrr-2021.pdf",
+					"" : ""
+				},
+				{
+					"description" : "B. Kim*, L. Shimanuki*, et al., \"Representation, learning, and planning algorithms for geometric task and motion planning\"",
+					"published" : "IJRR 2021",
 					"url" : "https://luke.shimanuki.cc/papers/kim-ijrr-2021.pdf",
+					"" : ""
+				},
+				{
+					"description" : "B. Kim*, L. Shimanuki*, \"Learning value functions with relational state representations for guiding task-and-motion planning\"",
+					"published" : "CoRL 2019",
+					"url" : "https://luke.shimanuki.cc/papers/kim-corl-2019.pdf",
+					"" : ""
+				},
+				{
+					"description" : "L. Shimanuki*, B. Axelrod*, \"Hardness of Motion Planning with Obstacle Uncertainty in 3 Dimensions\"",
+					"published" : "WAFR 2018",
+					"url" : "https://luke.shimanuki.cc/papers/shimanuki-wafr-2018.pdf",
 					"" : ""
 				},
 				{}
@@ -229,11 +224,11 @@
 			"description" : [
 				[
 					"Directed educational programs",
-						"reaching ~3000 MS/HS students",
+						"reaching ~3000 MS/HS students,",
 						"with ~1000 classes",
-						"taught by ~500 teachers",
+						"taught by ~500 teachers,",
 						"and run by ~100 volunteers.",
-						"Mentored future directors.",
+						"Mentored 5 future program directors.",
 						"Maintained website used by ~5000 students.",
 					""
 				],
@@ -280,28 +275,16 @@
 			],
 			"" : ""
 		},
-		{
-			"group" : "Cambridge School Volunteers",
-			"role" : "Middle School Tutor",
-			"time" : "2019 - 2020",
-			"description" : [
-				[]
-			],
-			"" : ""
-		},
 		{}
 	],
 
 	"achievements" : [
 		[
-			"USA Computing Olympiad",
-				"Platinum Division",
+			"USACO Platinum",
 			""
 		],
 		[
-			"Intel",
-				"Science Talent Search",
-				"2016 Semifinalist",
+			"Intel STS 2016 Semifinalist",
 			""
 		],
 		[
@@ -309,8 +292,7 @@
 			""
 		],
 		[
-			"MIT Battlecode 2018",
-				"Finalist (9th place)",
+			"MIT Battlecode 2018 Finalist",
 			""
 		],
 		[]
@@ -320,32 +302,7 @@
 		{
 			"language" : "C++",
 			"description" : [
-				"Low latency audio streaming to enable remote musicians to play in-sync",
-				""
-			]
-		},
-		{
-			"language" : "C",
-			"description" : [
-				"Web browser",
-					"using Chromium's rendering engine",
-					"with configurable vi-like key bindings",
-				""
-			]
-		},
-		{
-			"language" : "C",
-			"description" : [
-				"C compiler",
-					"to convert C code to x86 assembly",
-				""
-			]
-		},
-		{
-			"language" : "Java",
-			"description" : [
-				"Neural network",
-					"AI for a multiplayer platformer fighting game",
+				"Low latency audio streaming to enable remote musicians to play in-sync with under 30ms latency",
 				""
 			]
 		},
@@ -359,11 +316,35 @@
 		{
 			"language" : "Python",
 			"description" : [
-				"Gridded workspace manager",
-					"for the i3 Window Manager",
+				"Open-source window manager extension enabling grid layout",
 				""
 			]
 		},
+        {
+                "language" : "C",
+                "description" : [
+                        "Web browser",
+                                "using Chromium's rendering engine",
+                                "with configurable vi-like key bindings",
+                        ""
+                ]
+        },
+        {
+                "language" : "C",
+                "description" : [
+                        "C compiler",
+                                "to convert C code to x86 assembly",
+                        ""
+                ]
+        },
+        {
+                "language" : "Java",
+                "description" : [
+                        "Neural network",
+                                "AI for a multiplayer platformer fighting game",
+                        ""
+                ]
+        },
 		{}
 	],
 

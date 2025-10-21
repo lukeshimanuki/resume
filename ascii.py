@@ -10,8 +10,8 @@ def toASCII(data):
 		"EXPERIENCE\n\n{experience}\n\n"
 		"RESEARCH\n\n{research}\n\n"
 		"EDUCATION\n\n{education}\n\n"
-		"ACTIVITIES\n\n{activities}\n\n"
 		"SKILLS\n\n{skills}\n\n"
+		"ACTIVITIES\n\n{activities}\n\n"
 		"AWARDS\n\n{awards}\n\n"
 		"PROJECTS\n\n{projects}\n\n"
 	).format(
@@ -28,18 +28,17 @@ def toASCII(data):
 				"{}\n".format('\n'.join(school['description'][:-1]))
 				if 'description' in school else ''
 			) +
-			(
-				"Coursework: {}\n".format(', '.join(school['coursework'][:-1]))
-				if 'coursework' in school else ''
-			) +
+			#(
+			#	"Coursework: {}\n".format(', '.join(school['coursework'][:-1]))
+			#	if 'coursework' in school else ''
+			#) +
 			''
 			for school in data['education'] if 'school' in school
 		]),
-		skills = "Proficient in {}\nFamiliar with {}\nLibraries: {}\n".format(
-			', '.join(data['skills']['proficient'][:-1]),
-			', '.join(data['skills']['familiar'][:-1]),
-			', '.join(data['skills']['libraries'][:-1]),
-		),
+		skills = '\n'.join([
+			f'{skill_type}: ' + ', '.join(skills)
+			for skill_type, skills in data['skills'].items()
+		]),
 		experience = '\n'.join([
 			"{} ({})\n{}, {}\n".format(
 				job['role'],
@@ -59,8 +58,9 @@ def toASCII(data):
 			for job in data['experience'] if len(job) > 0
 		]),
 		research = '\n'.join([
-			"{} ({})\n".format(
+			"{} {} -- {}\n".format(
 				position['group'],
+				position['note'],
 				position['time'],
 			) +
 			(
@@ -74,10 +74,10 @@ def toASCII(data):
 			for position in data['research'] if len(position) > 0
 		]),
 		activities = '\n'.join([
-			"{} ({})\n{}\n".format(
+			"{} | {} | {}\n".format(
 				group['role'],
-				group['time'],
 				group['group'],
+				group['time'],
 			) +
 			(
 				'\n'.join([
@@ -90,9 +90,9 @@ def toASCII(data):
 			''
 			for group in data['activities'] if len(group) > 0
 		]),
-		awards = '\n'.join([
+		awards = ' | '.join([
 			' '.join(achievement[:-1])
-			for achievement in data['achievements']
+			for achievement in data['achievements'][:-1]
 		]),
 		projects = '\n'.join([
 			(

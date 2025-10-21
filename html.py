@@ -27,12 +27,12 @@ def toHTML(data):
 					'<td>\n{education}\n</td>\n'
 				'</tr>\n'
 				'<tr>\n'
-					'<td class="highlight padright">ACTIVITIES</td>\n'
-					'<td>\n{activities}\n</td>\n'
-				'</tr>\n'
-				'<tr>\n'
 					'<td class="highlight padright">SKILLS</td>\n'
 					'<td>\n{skills}\n\n</td>\n'
+				'</tr>\n'
+				'<tr>\n'
+					'<td class="highlight padright">ACTIVITIES</td>\n'
+					'<td>\n{activities}\n</td>\n'
 				'</tr>\n'
 				'<tr>\n'
 					'<td class="highlight padright">AWARDS</td>\n'
@@ -61,42 +61,36 @@ def toHTML(data):
 				if 'description' in school else ''
 			) +
 			'</td></tr>\n' +
-			(
-				'\n'.join([
-					'<tr>\n' +
-					'\n'.join([
-						'<td>{}</td>\n'.format(course)
-						for course in school['coursework'][i:i+4]
-					]) +
-					'</tr>\n'
-					for i in range(0, len(school['coursework']) - 1, 4)
-				])
-				if 'coursework' in school else ''
-			) +
+			#(
+			#	'\n'.join([
+			#		'<tr>\n' +
+			#		'\n'.join([
+			#			'<td>{}</td>\n'.format(course)
+			#			for course in school['coursework'][i:i+4]
+			#		]) +
+			#		'</tr>\n'
+			#		for i in range(0, len(school['coursework']) - 1, 4)
+			#	])
+			#	if 'coursework' in school else ''
+			#) +
 			'<tr><td></td></tr></tbody>\n' +
 			''
 			for school in data['education'] if 'school' in school
 		]) +
 		'</table>\n',
 		skills = (
-			'<table>\n'
-				'<tr class="highlight">\n'
-					'<td>Proficient in:</td>\n'
-					'<td>{}</td>\n'
+			'<table>\n' +
+			'\n'.join([
+				'<tr class="highlight">\n' +
+					f'<td>{skill_type}:</td>\n' +
+					'\n'.join([
+						f'<td>{skill}</td>\n'
+						for skill in skills
+					]) +
 				'</tr>\n'
-				'<tr class="highlight">\n'
-					'<td>Familiar with:</td>\n'
-					'<td>{}</td>\n'
-				'</tr>\n'
-				'<tr class="highlight">\n'
-					'<td>Libraries:</td>\n'
-					'<td colspan=1>{}</td>\n'
-				'</tr>\n'
+				for skill_type, skills in data['skills'].items()
+			]) +
 			'</table>\n'
-		).format(
-			'</td><td>'.join(data['skills']['proficient'][:-1]),
-			'</td><td>'.join(data['skills']['familiar'][:-1]),
-			'</td><td colspan=1>'.join(data['skills']['libraries'][:-1]),
 		),
 		experience = '<table><tbody class="highlight">\n' +
 		'</tbody><tbody class="highlight">\n'.join([
@@ -136,18 +130,20 @@ def toHTML(data):
 				'<tbody><tr>\n'
 					'<td colspan=2><table class="highlight"><tr>'
 						"<td><strong>{}</strong></td>"
+						"<td><em>{}</em></td>"
 						"<td><right>{}</right></td>"
 					"</tr></table></td>"
 				'</tr>\n'
 			).format(
 				position['group'],
+				position['note'],
 				position['time'],
 			) +
 			'\n'.join(
 				("<tr class='highlight'>"
 					"<td>{link_begin}<span class='padright'>{published}</span>{link_end}</td>"
-					"<td>{link_begin}<span class='padright'>{description}</span>{link_end}</td>"
-				"</tr>").format(**project, link_begin="<a href='{url}' target='_blank' rel='noopener noreferrer'>".format(**project) if len(project['url']) > 0 else '', link_end='</a>' if len(project['url']) > 0 else '')
+					"<td>{link_begin}<span class='padright'>{description_maybe_bold}</span>{link_end}</td>"
+				"</tr>").format(**project, link_begin="<a href='{url}' target='_blank' rel='noopener noreferrer'>".format(**project) if len(project['url']) > 0 else '', link_end='</a>' if len(project['url']) > 0 else '', description_maybe_bold=project['description'].replace('L. Shimanuki', '<strong>L. Shimanuki</strong>'))
 				for project in position['projects'] if len(project) > 0
 			) + '</tbody>'
 			for position in data['research'] if len(position) > 0
