@@ -1,0 +1,140 @@
+# Luke Shimanuki Resume
+
+personal_info:
+  name: Luke Shimanuki
+  email: luke@shimanuki.cc
+  phone: 925-331-0577
+  website: https://luke.shimanuki.cc
+
+experience:
+  - title: Senior SWE / Tech Lead (Behavior ML)
+    company: Aurora Innovation
+    date: 2022–present
+    description:
+      - Led team of 7 ML engineers to develop & deploy forecasting models, reducing error by 20% on targeted scenarios, resolving 100+ behavioral test failures across 7 safety-critical failure modes, & enabling driverless operations that achieved 100K+ incident-free miles.
+      - Recognized by senior leadership for urgently resolving intersection behavior deficiencies blocking 2 investor showcases central to $800M+ funding round & manufacturing partnership agreement.
+      - Mentored 3 ML engineers, & developed framework accelerating integration of separate model improvements from 1 week to 2 days, enabling the team to double in size while maintaining development velocity.
+
+  - title: SDE II → Senior SDE (Motion Planning)
+    company: Magna Electronics (formerly Optimus Ride)
+    date: 2020–2022
+    description:
+      - Led 3 engineers to develop probabilistic uncertainty quantification framework & risk-aware motion planner, enabling safe autonomous navigation through contested intersections.
+      - Led cross-functional initiative to redesign prediction-planning interface incorporating probabilistic uncertainty propagation, facilitating risk-aware planning across the autonomous driving stack.
+      - Formulated technical requirements & algorithmic specifications for 2 ADAS features following ISO 26262 functional safety standards, resulting in 1 patent filing.
+
+  - title: Intern (Prediction)
+    company: Cruise Automation
+    date: Summer 2018
+    description:
+      - Improved forecast dynamic feasibility & intersection reasoning, tripling passing test cases & substantially reducing intersection disengagements.
+
+  - title: SWE Intern (Perception)
+    company: Optimus Ride (Self-driving)
+    date: Summer 2017
+    description:
+      - Designed & implemented end-to-end perception pipeline from object detection through tracking & forecasting, establishing architecture that integrated with motion planning system.
+
+  - title: Intern (Machine Learning / Vision)
+    company: RightHand Robotics (Robotic Grasping)
+    date: January 2017
+    description:
+      - Designed & trained CNN-based grasp prediction model from RGB-D input, improving pick success rate on cluttered bin-packing scenarios.
+
+  - title: Developer (ML Modeling)
+    company: Tanius Technology (Prop Trading)
+    date: 2015–2016
+    description:
+      - "Built end-to-end ML system for algorithmic trading: data ingestion, model training, & backtesting infrastructure."
+
+education:
+  institution: Massachusetts Institute of Technology
+  lab: CSAIL Learning & Intelligent Systems
+  date: 2016–2020
+  degrees:
+    - type: M.Eng
+      field: Electrical Engineering & Computer Science
+      concentration: AI Concentration
+      gpa: 5.0
+      gpa_scale: 5.0
+    - type: S.B.
+      field: Computer Science + Brain & Cognitive Science
+      gpa: 4.9
+      gpa_scale: 5.0
+      notes: "5.0 within CS major"
+  publications_note: "* indicates equal contribution"
+  publications:
+    - authors: "B. Axelrod*, L. Shimanuki*"
+      title: "Efficient Motion Planning under Obstacle Uncertainty with Local Dependencies"
+      venue: WAFR 2022
+      url: https://luke.shimanuki.cc/papers/axelrod-wafr-2022.pdf
+    - authors: "L. Shimanuki*, B. Axelrod*"
+      title: "Hardness of Motion Planning with Obstacle Uncertainty in 2 Dimensions"
+      venue: IJRR 2021
+      url: https://luke.shimanuki.cc/papers/shimanuki-ijrr-2021.pdf
+    - authors: "B. Kim*, L. Shimanuki*, et al."
+      title: "Representation, learning, and planning algorithms for geometric task and motion planning"
+      venue: IJRR 2021
+      url: https://luke.shimanuki.cc/papers/kim-ijrr-2021.pdf
+    - authors: "B. Kim*, L. Shimanuki*"
+      title: "Learning value functions with relational state representations for guiding task-and-motion planning"
+      venue: CoRL 2019
+      url: https://luke.shimanuki.cc/papers/kim-corl-2019.pdf
+    - authors: "L. Shimanuki*, B. Axelrod*"
+      title: "Hardness of Motion Planning with Obstacle Uncertainty in 3 Dimensions"
+      venue: WAFR 2018
+      url: https://luke.shimanuki.cc/papers/shimanuki-wafr-2018.pdf
+
+skills:
+  languages:
+    - C
+    - C++
+    - Python
+  ml_ai:
+    - PyTorch
+    - TensorFlow
+    - ROS
+  tools:
+    - Git
+    - Docker
+    - Linux
+
+activities:
+  - title: Site Manager
+    organization: Food for Free COVID-19 Relief Program
+    date: 2020
+    description: Directed team of 12 volunteers for packing & delivering groceries to ~300 households weekly.
+  - title: Program Director, Head Webmaster
+    organization: MIT Educational Studies Program
+    date: 2017–2020
+    description: Directed educational programs reaching ~3000 MS/HS students, with ~1000 classes taught by ~500 teachers, & run by ~100 volunteers. Mentored 5 future program directors. Maintained website used by ~5000 students.
+  - title: Software Lead
+    organization: AVBotz
+    date: 2012–2016
+    description: Led the software team (~12 members) for fully-autonomous submarine for manipulating objects, aiming & shooting torpedoes, & navigating around obstacles. International finalist (7th Place) at RoboSub 2015.
+  - title: Co-President, HPMS Branch Director
+    organization: ACE Coding
+    date: 2013–2016
+    description: Managed ~16 volunteers to teach weekly programming lessons to ~100 middle school students annually. Organized full-day event attracting ~300 students. Taught machine vision & ML workshops.
+
+awards:
+  - USACO Platinum
+  - Intel STS 2016 Semifinalist
+  - Eagle Scout
+  - MIT Battlecode 2018 Finalist
+
+projects:
+  - language: C++
+    description: Low latency audio streaming to enable remote musicians to play in-sync with under 30ms latency
+  - language: Python
+    description: Musical autocomplete to assist chord & melody composition
+  - language: Python
+    description: Open-source window manager extension enabling grid layout
+  - language: C
+    description: Web browser using Chromium's rendering engine with configurable vi-like key bindings
+  - language: C
+    description: C compiler to convert C code to x86 assembly
+  - language: Java
+    description: Neural network AI for a multiplayer platformer fighting game
+  - language: n/a
+    description: "Inflatable Sailboat: DIY spritsail rigged to an inflatable raft"

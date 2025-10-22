@@ -1,124 +1,113 @@
-import sys
-import json
+#!/usr/bin/env python3
+import yaml
+import textwrap
 
-def toASCII(data):
-	return (
-		"{name}\n\n\n"
-		"{email}\n"
-		"{phone}\n\n"
-		"{website}\n\n\n"
-		"EXPERIENCE\n\n{experience}\n\n"
-		"RESEARCH\n\n{research}\n\n"
-		"EDUCATION\n\n{education}\n\n"
-		"SKILLS\n\n{skills}\n\n"
-		"ACTIVITIES\n\n{activities}\n\n"
-		"AWARDS\n\n{awards}\n\n"
-		"PROJECTS\n\n{projects}\n\n"
-	).format(
-		education = '\n'.join([
-			"{} ({})\n".format(
-				school['school'],
-				school['time'],
-			) +
-			(
-				"{}\n".format(school['field'])
-				if 'field' in school else ''
-			) +
-			(
-				"{}\n".format('\n'.join(school['description'][:-1]))
-				if 'description' in school else ''
-			) +
-			#(
-			#	"Coursework: {}\n".format(', '.join(school['coursework'][:-1]))
-			#	if 'coursework' in school else ''
-			#) +
-			''
-			for school in data['education'] if 'school' in school
-		]),
-		skills = '\n'.join([
-			f'{skill_type}: ' + ', '.join(skills)
-			for skill_type, skills in data['skills'].items()
-		]),
-		experience = '\n'.join([
-			"{} ({})\n{}, {}\n".format(
-				job['role'],
-				job['time'],
-				job['group'],
-				job['city'],
-			) +
-			(
-				'\n'.join([
-					' '.join(statement[:-1])
-					for statement in job['description'] if len(statement) > 0
-				])
-				if 'description' in job else ''
-			) +
-			'\n' +
-			''
-			for job in data['experience'] if len(job) > 0
-		]),
-		research = '\n'.join([
-			"{} {} -- {}\n".format(
-				position['group'],
-				position['note'],
-				position['time'],
-			) +
-			(
-				'\n'.join("{description} -- {published}".format(**project)
-					for project in position['projects']
-					if len(project) > 0
-				)
-			) +
-			'\n' +
-			''
-			for position in data['research'] if len(position) > 0
-		]),
-		activities = '\n'.join([
-			"{} | {} | {}\n".format(
-				group['role'],
-				group['group'],
-				group['time'],
-			) +
-			(
-				'\n'.join([
-					' '.join(statement[:-1])
-					for statement in group['description'] if len(statement) > 0
-				])
-				if 'description' in group else ''
-			) +
-			'\n' +
-			''
-			for group in data['activities'] if len(group) > 0
-		]),
-		awards = ' | '.join([
-			' '.join(achievement[:-1])
-			for achievement in data['achievements'][:-1]
-		]),
-		projects = '\n'.join([
-			(
-				"({}) ".format(project['language'])
-				if 'language' in project else ''
-			) +
-			' '.join(project['description'][:-1])
-			for project in data['projects'] if 'description' in project
-		]),
-		**{
-			key: value
-			for key, value in data.items()
-			if key in (
-				'name',
-				'address',
-				'city',
-				'email',
-				'phone',
-				'website',
-			)
-		},
-	)
+LINE_WIDTH = 100
+
+def wrap_text(text, width=LINE_WIDTH, indent="    "):
+    """Wrap text to specified width with proper indentation for continuation lines."""
+    wrapper = textwrap.TextWrapper(
+        width=width,
+        initial_indent="",
+        subsequent_indent=indent,
+        break_long_words=False,
+        break_on_hyphens=False
+    )
+    return wrapper.fill(text)
 
 def main():
-	sys.stdout.write(toASCII(json.loads(open('resume.json').read())))
+    with open("resume.yaml", "r") as f:
+        data = yaml.safe_load(f)
+
+    pi, edu = data['personal_info'], data['education']
+    lines = []
+
+    # Header
+    lines.append(pi['name'].upper())
+    lines.append(f"{pi['email']}  |  {pi['website']}")
+    lines.append("")
+    lines.append("=" * LINE_WIDTH)
+    lines.append("")
+
+    # Experience
+    lines.append("EXPERIENCE")
+    lines.append("-" * LINE_WIDTH)
+    lines.append("")
+    for job in data['experience']:
+        lines.append(f"{job['company']} | {job['title']}")
+        lines.append(f"{job['date']}")
+        for item in job['description']:
+            wrapped = wrap_text(f"  - {item}", width=LINE_WIDTH, indent="    ")
+            lines.append(wrapped)
+        lines.append("")
+
+    # Education & Research
+    lines.append("EDUCATION & RESEARCH PUBLICATIONS")
+    lines.append("-" * LINE_WIDTH)
+    lines.append("")
+    lines.append(f"{edu['institution']} | {edu['lab']}")
+    lines.append(f"{edu['date']}")
+    for degree in edu['degrees']:
+        gpa_str = f"GPA {degree['gpa']} (out of {degree['gpa_scale']})"
+        if 'notes' in degree:
+            gpa_str += f", {degree['notes']}"
+        concentration = f" ({degree['concentration']})" if 'concentration' in degree else ""
+        degree_text = f"  {degree['type']} {degree['field']}{concentration}, {gpa_str}"
+        wrapped = wrap_text(degree_text, width=LINE_WIDTH, indent="    ")
+        lines.append(wrapped)
+    lines.append("")
+    for pub in edu['publications']:
+        pub_text = f'  {pub["authors"]}, \"{pub["title"]}\", {pub["venue"]}'
+        wrapped = wrap_text(pub_text, width=LINE_WIDTH, indent="    ")
+        lines.append(wrapped)
+    lines.append(f"  {edu['publications_note']}")
+    lines.append("")
+
+    # Skills
+    lines.append("SKILLS")
+    lines.append("-" * LINE_WIDTH)
+    lines.append("")
+    lines.append(f"Languages: {', '.join(data['skills']['languages'])}")
+    lines.append(f"ML/AI: {', '.join(data['skills']['ml_ai'])}")
+    lines.append(f"Tools: {', '.join(data['skills']['tools'])}")
+    lines.append("")
+
+    # Page break
+    lines.append("=" * LINE_WIDTH)
+    lines.append("")
+
+    # Activities
+    lines.append("ACTIVITIES")
+    lines.append("-" * LINE_WIDTH)
+    lines.append("")
+    for activity in data['activities']:
+        lines.append(f"{activity['title']} | {activity['organization']} | {activity['date']}")
+        desc_wrapped = wrap_text(f"  {activity['description']}", width=LINE_WIDTH, indent="  ")
+        lines.append(desc_wrapped)
+        lines.append("")
+
+    # Awards
+    lines.append("AWARDS")
+    lines.append("-" * LINE_WIDTH)
+    lines.append("")
+    lines.append(" | ".join(data['awards']))
+    lines.append("")
+
+    # Projects
+    lines.append("PROJECTS")
+    lines.append("-" * LINE_WIDTH)
+    lines.append("")
+    for project in data['projects']:
+        proj_text = f"{project['language']}: {project['description']}"
+        wrapped = wrap_text(proj_text, width=LINE_WIDTH, indent="    ")
+        lines.append(wrapped)
+    lines.append("")
+
+    text = "\n".join(lines)
+
+    with open("resume.txt", "w") as f:
+        f.write(text)
+    print("✓ Generated resume.txt")
 
 if __name__ == "__main__":
-	main()
-
+    main()
