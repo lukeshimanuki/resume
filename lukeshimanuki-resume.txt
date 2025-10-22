@@ -1,111 +1,114 @@
 LUKE SHIMANUKI
+luke@shimanuki.cc  |  https://luke.shimanuki.cc
 
-
-61 Bishop Allen Dr, Apt 2
-Cambridge, MA 02139
-
-luke@shimanuki.cc
-1-925-331-0577
-
-https://luke.shimanuki.cc
-
+====================================================================================================
 
 EXPERIENCE
+----------------------------------------------------------------------------------------------------
 
-Senior Software Engineer (Motion Planning) (2022 - present)
-Aurora Innovation, Boston, Massachusetts
-Developed models for predicting and planning semantic driving behaviors such as merging and lane changing.
+Aurora Innovation | Senior SWE / Tech Lead (Behavior ML)
+2022–present
+  - Led team of 7 ML engineers to develop & deploy forecasting models, reducing error by 20% on
+    targeted scenarios, resolving 100+ behavioral test failures across 7 safety-critical failure
+    modes, & enabling driverless operations that achieved 100K+ incident-free miles.
+  - Recognized by senior leadership for urgently resolving intersection behavior deficiencies
+    blocking 2 investor showcases central to $800M+ funding round & manufacturing partnership
+    agreement.
+  - Mentored 3 ML engineers, & developed framework accelerating integration of separate model
+    improvements from 1 week to 2 days, enabling the team to double in size while maintaining
+    development velocity.
 
-SDE II --> Senior SDE (Planning & Controls) (2020 - 2022)
-Magna Electronics (formerly Optimus Ride), Boston, Massachusetts
-Designed and implemented probabilistic model for inferring trajectories and interactions between road users.
-Formulated requirements and algorithmic design for ADAS features following auto industry safety standards.
+Magna Electronics (formerly Optimus Ride) | SDE II → Senior SDE (Motion Planning)
+2020–2022
+  - Led 3 engineers to develop probabilistic uncertainty quantification framework & risk-aware
+    motion planner, enabling safe autonomous navigation through contested intersections.
+  - Led cross-functional initiative to redesign prediction-planning interface incorporating
+    probabilistic uncertainty propagation, facilitating risk-aware planning across the autonomous
+    driving stack.
+  - Formulated technical requirements & algorithmic specifications for 2 ADAS features following ISO
+    26262 functional safety standards, resulting in 1 patent filing.
 
-Intern (Prediction) (Summer 2018)
-Cruise Automation (General Motors), San Francisco, California
-Improved model for robotic cars to predict trajectories of other road users, passing 3x as many scenario tests.
+Cruise Automation | Intern (Prediction)
+Summer 2018
+  - Improved forecast dynamic feasibility & intersection reasoning, tripling passing test cases &
+    substantially reducing intersection disengagements.
 
-SWE Intern (Perception) (Summer 2017)
-Optimus Ride, Boston, Massachusetts
-Created system for robotic cars to predict and avoid other vehicles to handle intersections.
+Optimus Ride (Self-driving) | SWE Intern (Perception)
+Summer 2017
+  - Designed & implemented end-to-end perception pipeline from object detection through tracking &
+    forecasting, establishing architecture that integrated with motion planning system.
 
-Intern (Machine Learning / Vision) (January 2017)
-RightHand Robotics, Somerville, Massachusetts
-Designed and implemented deep learning architectures for robotic vision and grasping.
+RightHand Robotics (Robotic Grasping) | Intern (Machine Learning / Vision)
+January 2017
+  - Designed & trained CNN-based grasp prediction model from RGB-D input, improving pick success
+    rate on cluttered bin-packing scenarios.
 
-Developer (2015 - 2016)
-Tanius Technology (proprietary trading), Alamo, California
-Implemented machine learning models and data pipeline to predict market patterns.
+Tanius Technology (Prop Trading) | Developer (ML Modeling)
+2015–2016
+  - Built end-to-end ML system for algorithmic trading: data ingestion, model training, &
+    backtesting infrastructure.
 
+EDUCATION & RESEARCH PUBLICATIONS
+----------------------------------------------------------------------------------------------------
 
-RESEARCH
+Massachusetts Institute of Technology | CSAIL Learning & Intelligent Systems
+2016–2020
+  M.Eng Electrical Engineering & Computer Science (AI Concentration), GPA 5.0 (out of 5.0)
+  S.B. Computer Science + Brain & Cognitive Science, GPA 4.9 (out of 5.0), 5.0 within CS major
 
-MIT CSAIL Learning and Intelligent Systems Group (2017 - 2020)
-Lower bounds for 2D motion planning under obstacle uncertainty -- WAFR 2018 & IJRR 2021
-Fixed-parameter algorithm for motion planning under obstacle uncertainty -- WAFR 2022
-Value functions for guiding task-and-motion planning using graph networks -- CoRL 2019 & IJRR 2021
-Safe control avoiding moving obstacles with unobservable policies -- [unpublished]
-Leveraging hierarchies to efficiently solve robotic planning tasks / POMDPs -- [unpublished]
-
-Stanford Autonomous Systems Laboratory (Summer 2015)
-Efficiency of vehicle routing algorithms based on real-world ride requests -- ICRA 2016
-Vehicle routing algorithm with 10% improvement over state-of-the-art in simulation -- Intel STS 2016
-
-
-EDUCATION
-
-Massachusetts Institute of Technology (2016 - 2020)
-
-M.Eng Electrical Engineering & Computer Science (AI Concentration), GPA 5.0 (out of 5)
-S.B. Double Major in Computer Science and Brain & Cognitive Science, GPA 4.9 (out of 5), 5.0 in-major (CS)
-Coursework: Embedded Systems, Machine Learning (G), Comp. Intelligence (G), Robotics Science & Systems, Quantum Comp. (G), Operating Systems (G), Adv. Data Structures (G), Natural Language Processing, Theory of Comp. (G), Comp. Linguistics (G), Comp. Cognitive Science, Design & Analysis of Algorithms
-
-
-ACTIVITIES
-
-Site Manager (2020)
-Food for Free COVID-19 Relief Program
-Directed team of volunteers for packing and delivering groceries to ~300 households weekly.
-
-Program Director, Head Webmaster (2017 - 2020)
-MIT Educational Studies Program
-Directed educational programs reaching ~3000 MS/HS students with ~1000 classes taught by ~500 teachers and run by ~100 volunteers. Mentored future directors. Maintained website used by ~5000 students.
-
-Software Lead (2012 - 2016)
-AVBotz
-Led the software team (~12 members) for fully-autonomous submarine for manipulating objects, aiming and shooting torpedoes, and navigating around obstacles. International finalist (7th Place) at RoboSub 2015.
-
-Co-President, HPMS Branch Director (2013 - 2016)
-ACE Coding
-Managed ~16 volunteers to teach weekly programming lessons to ~100 middle school students annually.
-Organized ACE Code Day, an 8 hour event attracting ~300 students. Taught machine vision workshop.
-
-Middle School Tutor (2019 - 2020)
-Cambridge School Volunteers
-
-
+  B. Axelrod*, L. Shimanuki*, "Efficient Motion Planning under Obstacle Uncertainty with Local
+    Dependencies", WAFR 2022
+  L. Shimanuki*, B. Axelrod*, "Hardness of Motion Planning with Obstacle Uncertainty in 2
+    Dimensions", IJRR 2021
+  B. Kim*, L. Shimanuki*, et al., "Representation, learning, and planning algorithms for geometric
+    task and motion planning", IJRR 2021
+  B. Kim*, L. Shimanuki*, "Learning value functions with relational state representations for
+    guiding task-and-motion planning", CoRL 2019
+  L. Shimanuki*, B. Axelrod*, "Hardness of Motion Planning with Obstacle Uncertainty in 3
+    Dimensions", WAFR 2018
+  * indicates equal contribution
 
 SKILLS
+----------------------------------------------------------------------------------------------------
 
-Proficient in C, C++, Python, Javascript, Java, UNIX Shell
-Familiar with C#, LabView, Matlab, Simulink, Scala, x86 Assembly
-Libraries: ROS, OpenCV, Theano, PyTorch, ReactJS, TensorFlow
+Languages: C, C++, Python
+ML/AI: PyTorch, TensorFlow, ROS
+Tools: Git, Docker, Linux
 
+====================================================================================================
+
+ACTIVITIES
+----------------------------------------------------------------------------------------------------
+
+Site Manager | Food for Free COVID-19 Relief Program | 2020
+  Directed team of 12 volunteers for packing & delivering groceries to ~300 households weekly.
+
+Program Director, Head Webmaster | MIT Educational Studies Program | 2017–2020
+  Directed educational programs reaching ~3000 MS/HS students, with ~1000 classes taught by ~500
+  teachers, & run by ~100 volunteers. Mentored 5 future program directors. Maintained website used
+  by ~5000 students.
+
+Software Lead | AVBotz | 2012–2016
+  Led the software team (~12 members) for fully-autonomous submarine for manipulating objects,
+  aiming & shooting torpedoes, & navigating around obstacles. International finalist (7th Place) at
+  RoboSub 2015.
+
+Co-President, HPMS Branch Director | ACE Coding | 2013–2016
+  Managed ~16 volunteers to teach weekly programming lessons to ~100 middle school students
+  annually. Organized full-day event attracting ~300 students. Taught machine vision & ML workshops.
 
 AWARDS
+----------------------------------------------------------------------------------------------------
 
-USA Computing Olympiad Platinum Division
-Intel Science Talent Search 2016 Semifinalist
-Eagle Scout
-MIT Battlecode 2018 Finalist (9th place)
-
+USACO Platinum | Intel STS 2016 Semifinalist | Eagle Scout | MIT Battlecode 2018 Finalist
 
 PROJECTS
+----------------------------------------------------------------------------------------------------
 
-(C++) Low latency audio streaming to enable remote musicians to play in-sync
-(C) Web browser using Chromium's rendering engine with configurable vi-like key bindings
-(C) C compiler to convert C code to x86 assembly
-(Java) Neural network AI for a multiplayer platformer fighting game
-(Python) Musical autocomplete to assist chord and melody composition
-(Python) Gridded workspace manager for the i3 Window Manager
-
+C++: Low latency audio streaming to enable remote musicians to play in-sync with under 30ms latency
+Python: Musical autocomplete to assist chord & melody composition
+Python: Open-source window manager extension enabling grid layout
+C: Web browser using Chromium's rendering engine with configurable vi-like key bindings
+C: C compiler to convert C code to x86 assembly
+Java: Neural network AI for a multiplayer platformer fighting game
+n/a: Inflatable Sailboat: DIY spritsail rigged to an inflatable raft
