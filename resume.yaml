@@ -7,21 +7,25 @@ personal_info:
   website: https://luke.shimanuki.cc
 
 experience:
-  - title: Senior SWE / Tech Lead (Behavior ML)
+  - title: Staff ML Eng (prom. from Sr. Eng) (Behavior ML)
     company: Aurora Innovation
     date: 2022–present
     description:
-      - Led team of 7 ML engineers to develop & deploy forecasting models, reducing error by 20% on targeted scenarios, resolving 100+ behavioral test failures across 7 safety-critical failure modes, & enabling driverless operations that achieved 100K+ incident-free miles.
-      - Recognized by senior leadership for urgently resolving intersection behavior deficiencies blocking 2 investor showcases central to $800M+ funding round & manufacturing partnership agreement.
-      - Mentored 3 ML engineers, & developed framework accelerating integration of separate model improvements from 1 week to 2 days, enabling the team to double in size while maintaining development velocity.
+      - Led 7 ML engineers to develop & deploy forecasting models, enabling driverless operations that achieved 250k+ incident-free miles.
+      - Owned scene understanding, goal‑setting, and off‑nominal handling in the behavior model, aligning planning/ML, perception, mapping, routing, and validation so the learned model robustly covers all scenarios in scope for the engineered system it replaces.
+      - Acted as primary technical point of contact for forecasting and interactions in cross‑org launches, demos, and incident reviews; diagnosed on‑road failures, led design and delivery of fixes, and communicated timeline and scope trade‑offs with senior leadership and external‑facing launch/demo teams --- e.g. recognized by senior leadership for urgently resolving intersection behavior deficiencies that were blocking investor showcases central to $800M+ funding round & manufacturing partnership agreement.
+      - Proposed and led black‑box forecasting validation framework that surfaced previously unnoticed safety‑critical failures, prompted mitigations and new test coverage required for driverless launch, and became part of the validation process for every new model release.
+      - Designed and led new process to rapidly integrate multiple model improvements developed by parallel teams, scaling experiment velocity as the org tripled in size while ensuring a stable, steadily progressing baseline.
+      - Proposed and secured executive buy‑in to treat model generalization to new routes as critical to meeting the company's public roadmap, and now lead multi‑functional program across modeling, data, mapping, and vehicle operations to enable operation on new routes without retraining by collecting more diverse data and transitioning to a more invariant model architecture.
+      - Mentored and sponsored 4 ML engineers, creating opportunities for and empowering them to own increasing technical complexity and cross-team/leadership scope by providing design/communication guidance and acting as a safety net for risk-taking; successfully advocated for 1 promotion to senior level and 1 intern-to-full-time conversion.
 
-  - title: SDE II → Senior SDE (Motion Planning)
+  - title: Senior SDE (prom. from SDE II) (Motion Planning)
     company: Magna Electronics (formerly Optimus Ride)
     date: 2020–2022
     description:
       - Led 3 engineers to develop probabilistic uncertainty quantification framework & risk-aware motion planner, enabling safe autonomous navigation through contested intersections.
       - Led cross-functional initiative to redesign prediction-planning interface incorporating probabilistic uncertainty propagation, facilitating risk-aware planning across the autonomous driving stack.
-      - Formulated technical requirements & algorithmic specifications for 2 ADAS features following ISO 26262 functional safety standards, resulting in 1 patent filing.
+      - Formulated technical requirements & algorithmic specifications for 2 ADAS features following ISO 26262 functional safety standards, resulting in a patent filing.
 
   - title: Intern (Prediction)
     company: Cruise Automation
@@ -111,7 +115,7 @@ activities:
   - title: Software Lead
     organization: AVBotz
     date: 2012–2016
-    description: Led the software team (~12 members) for fully-autonomous submarine for manipulating objects, aiming & shooting torpedoes, & navigating around obstacles. International finalist (7th Place) at RoboSub 2015.
+    description: Led the software team (~12 members) for fully-autonomous submarine for manipulating objects, aiming & shooting torpedoes, & navigating around obstacles. International finalist (7th Place) as a HS team at collegiate RoboSub 2015.
   - title: Co-President, HPMS Branch Director
     organization: ACE Coding
     date: 2013–2016
