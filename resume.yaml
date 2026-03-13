@@ -96,7 +96,7 @@ skills:
     - C++
     - Python
   ml_ai:
-    - PyTorch
+    - PyTorch / TRT
     - TensorFlow
     - ROS
   tools:
