@@ -7,45 +7,45 @@ personal_info:
   website: https://luke.shimanuki.cc
 
 experience:
-  - title: Staff ML Eng (prom. from Sr. Eng) (Behavior ML)
+  - title: <b>Staff ML Eng</b> (prom. from Sr. Eng), Behavior ML
     company: Aurora Innovation
     date: 2022–present
     description:
-      - Led 7 ML engineers to develop & deploy forecasting models, enabling driverless operations that achieved 250k+ incident-free miles.
+      - Led 7‑engineer team for the forecasting model enabling 250k+ incident‑free miles of driverless operations.
       - Owned scene understanding, goal‑setting, and off‑nominal handling in the behavior model, aligning planning/ML, perception, mapping, routing, and validation so the learned model robustly covers all scenarios in scope for the engineered system it replaces.
-      - Acted as primary technical point of contact for forecasting and interactions in cross‑org launches, demos, and incident reviews; diagnosed on‑road failures, led design and delivery of fixes, and communicated timeline and scope trade‑offs with senior leadership and external‑facing launch/demo teams --- e.g. recognized by senior leadership for urgently resolving intersection behavior deficiencies that were blocking investor showcases central to $800M+ funding round & manufacturing partnership agreement.
-      - Proposed and led black‑box forecasting validation framework that surfaced previously unnoticed safety‑critical failures, prompted mitigations and new test coverage required for driverless launch, and became part of the validation process for every new model release.
-      - Designed and led new process to rapidly integrate multiple model improvements developed by parallel teams, scaling experiment velocity as the org tripled in size while ensuring a stable, steadily progressing baseline.
-      - Proposed and secured executive buy‑in to treat model generalization to new routes as critical to meeting the company's public roadmap, and now lead multi‑functional program across modeling, data, mapping, and vehicle operations to enable operation on new routes without retraining by collecting more diverse data and transitioning to a more invariant model architecture.
-      - Mentored and sponsored 4 ML engineers, creating opportunities for and empowering them to own increasing technical complexity and cross-team/leadership scope by providing design/communication guidance and acting as a safety net for risk-taking; successfully advocated for 1 promotion to senior level and 1 intern-to-full-time conversion.
+      #- Primary technical point of contact for forecasting and interactions in cross‑org launches, demos, and incident reviews; diagnosed on‑road failures, led design and delivery of fixes, and communicated timeline and scope trade‑offs with senior leadership and external‑facing launch/demo teams.
+      - Recognized by senior leadership for urgently resolving intersection behavior deficiencies that were blocking investor showcases central to $800M+ funding round & manufacturing partnership agreement.
+      #- Proposed and led black‑box forecasting validation framework that surfaced previously unnoticed safety‑critical failures, prompted mitigations and new test coverage required for driverless launch, and became part of the validation process for every new model release.
+      #- Designed and led new process to rapidly integrate multiple model improvements developed by parallel teams, scaling experiment velocity as the org tripled in size while ensuring a stable, steadily progressing baseline.
+      #- Proposed and secured executive buy‑in to treat model generalization to new routes as critical to meeting the company's public roadmap, and now lead multi‑functional program across modeling, data, mapping, and vehicle operations to enable operation on new routes without retraining by collecting more diverse data and transitioning to a more invariant model architecture.
+      - Mentored & sponsored 4 ML engineers, creating opportunities for them to own increasing technical complexity and cross-team/leadership scope by providing design/communication guidance and acting as a safety net to encourage risk-taking; successfully advocated for 1 promotion to senior and 1 intern-to-full-time conversion.
 
-  - title: Senior SDE (prom. from SDE II) (Motion Planning)
-    company: Magna Electronics (formerly Optimus Ride)
+  - title: Senior SDE (prom. from SDE II), Motion Planning
+    company: Magna Electronics / Optimus Ride
     date: 2020–2022
     description:
-      - Led 3 engineers to develop probabilistic uncertainty quantification framework & risk-aware motion planner, enabling safe autonomous navigation through contested intersections.
-      - Led cross-functional initiative to redesign prediction-planning interface incorporating probabilistic uncertainty propagation, facilitating risk-aware planning across the autonomous driving stack.
+      - Led 3 engineers across 2 teams to expand prediction-planning interface and algorithms to produce probability-aware forecasts and plans, enabling safe autonomous navigation through contested intersections.
       - Formulated technical requirements & algorithmic specifications for 2 ADAS features following ISO 26262 functional safety standards, resulting in a patent filing.
 
-  - title: Intern (Prediction)
+  - title: Intern, Prediction
     company: Cruise Automation
     date: Summer 2018
     description:
       - Improved forecast dynamic feasibility & intersection reasoning, tripling passing test cases & substantially reducing intersection disengagements.
 
-  - title: SWE Intern (Perception)
+  - title: SWE Intern, Perception
     company: Optimus Ride (Self-driving)
     date: Summer 2017
     description:
       - Designed & implemented end-to-end perception pipeline from object detection through tracking & forecasting, establishing architecture that integrated with motion planning system.
 
-  - title: Intern (Machine Learning / Vision)
-    company: RightHand Robotics (Robotic Grasping)
+  - title: Intern, Machine Learning / Vision
+    company: RightHand Robotics (Grasping)
     date: January 2017
     description:
       - Designed & trained CNN-based grasp prediction model from RGB-D input, improving pick success rate on cluttered bin-packing scenarios.
 
-  - title: Developer (ML Modeling)
+  - title: Developer, ML Modeling
     company: Tanius Technology (Prop Trading)
     date: 2015–2016
     description:
