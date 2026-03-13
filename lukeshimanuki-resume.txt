@@ -6,44 +6,45 @@ luke@shimanuki.cc  |  https://luke.shimanuki.cc
 EXPERIENCE
 ----------------------------------------------------------------------------------------------------
 
-Aurora Innovation | Senior SWE / Tech Lead (Behavior ML)
+Aurora Innovation | <b>Staff ML Eng</b> (prom. from Sr. Eng), Behavior ML
 2022–present
-  - Led team of 7 ML engineers to develop & deploy forecasting models, reducing error by 20% on
-    targeted scenarios, resolving 100+ behavioral test failures across 7 safety-critical failure
-    modes, & enabling driverless operations that achieved 100K+ incident-free miles.
-  - Recognized by senior leadership for urgently resolving intersection behavior deficiencies
-    blocking 2 investor showcases central to $800M+ funding round & manufacturing partnership
+  - Led 7‑engineer team for the forecasting model enabling 250k+ incident‑free miles of driverless
+    operations.
+  - Owned scene understanding, goal‑setting, and off‑nominal handling in the behavior model,
+    aligning planning/ML, perception, mapping, routing, and validation so the learned model robustly
+    covers all scenarios in scope for the engineered system it replaces.
+  - Recognized by senior leadership for urgently resolving intersection behavior deficiencies that
+    were blocking investor showcases central to $800M+ funding round & manufacturing partnership
     agreement.
-  - Mentored 3 ML engineers, & developed framework accelerating integration of separate model
-    improvements from 1 week to 2 days, enabling the team to double in size while maintaining
-    development velocity.
+  - Mentored & sponsored 4 ML engineers, creating opportunities for them to own increasing technical
+    complexity and cross-team/leadership scope by providing design/communication guidance and acting
+    as a safety net to encourage risk-taking; successfully advocated for 1 promotion to senior and 1
+    intern-to-full-time conversion.
 
-Magna Electronics (formerly Optimus Ride) | SDE II → Senior SDE (Motion Planning)
+Magna Electronics / Optimus Ride | Senior SDE (prom. from SDE II), Motion Planning
 2020–2022
-  - Led 3 engineers to develop probabilistic uncertainty quantification framework & risk-aware
-    motion planner, enabling safe autonomous navigation through contested intersections.
-  - Led cross-functional initiative to redesign prediction-planning interface incorporating
-    probabilistic uncertainty propagation, facilitating risk-aware planning across the autonomous
-    driving stack.
+  - Led 3 engineers across 2 teams to expand prediction-planning interface and algorithms to produce
+    probability-aware forecasts and plans, enabling safe autonomous navigation through contested
+    intersections.
   - Formulated technical requirements & algorithmic specifications for 2 ADAS features following ISO
-    26262 functional safety standards, resulting in 1 patent filing.
+    26262 functional safety standards, resulting in a patent filing.
 
-Cruise Automation | Intern (Prediction)
+Cruise Automation | Intern, Prediction
 Summer 2018
   - Improved forecast dynamic feasibility & intersection reasoning, tripling passing test cases &
     substantially reducing intersection disengagements.
 
-Optimus Ride (Self-driving) | SWE Intern (Perception)
+Optimus Ride (Self-driving) | SWE Intern, Perception
 Summer 2017
   - Designed & implemented end-to-end perception pipeline from object detection through tracking &
     forecasting, establishing architecture that integrated with motion planning system.
 
-RightHand Robotics (Robotic Grasping) | Intern (Machine Learning / Vision)
+RightHand Robotics (Grasping) | Intern, Machine Learning / Vision
 January 2017
   - Designed & trained CNN-based grasp prediction model from RGB-D input, improving pick success
     rate on cluttered bin-packing scenarios.
 
-Tanius Technology (Prop Trading) | Developer (ML Modeling)
+Tanius Technology (Prop Trading) | Developer, ML Modeling
 2015–2016
   - Built end-to-end ML system for algorithmic trading: data ingestion, model training, &
     backtesting infrastructure.
@@ -90,8 +91,8 @@ Program Director, Head Webmaster | MIT Educational Studies Program | 2017–2020
 
 Software Lead | AVBotz | 2012–2016
   Led the software team (~12 members) for fully-autonomous submarine for manipulating objects,
-  aiming & shooting torpedoes, & navigating around obstacles. International finalist (7th Place) at
-  RoboSub 2015.
+  aiming & shooting torpedoes, & navigating around obstacles. International finalist (7th Place) as
+  a HS team at collegiate RoboSub 2015.
 
 Co-President, HPMS Branch Director | ACE Coding | 2013–2016
   Managed ~16 volunteers to teach weekly programming lessons to ~100 middle school students
