@@ -6,11 +6,11 @@ def main():
     with open("resume.yaml", "r") as f:
         data = yaml.safe_load(f)
 
-    html = generate_html(data, split_experience=False)
+    html = generate_html(data, split_experience=True)
 
-    with open("resume.html", "w") as f:
+    with open("resume_split_experience.html", "w") as f:
         f.write(html)
-    print("✓ Generated resume.html")
+    print("✓ Generated resume_split_experience.html")
 
 if __name__ == "__main__":
     main()

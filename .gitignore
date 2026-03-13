@@ -1,0 +1,7 @@
+.repro/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.html
+*.txt

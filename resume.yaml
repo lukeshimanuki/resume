@@ -27,6 +27,7 @@ experience:
       - Led 3 engineers across 2 teams to expand prediction-planning interface and algorithms to produce probability-aware forecasts and plans, enabling safe autonomous navigation through contested intersections.
       - Formulated technical requirements & algorithmic specifications for 2 ADAS features following ISO 26262 functional safety standards, resulting in a patent filing.
 
+early_experience:
   - title: Intern, Prediction
     company: Cruise Automation
     date: Summer 2018
