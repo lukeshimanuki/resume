@@ -8,18 +8,25 @@ EXPERIENCE
 
 Aurora Innovation | <b>Staff ML Eng</b> (prom. from Sr. Eng), Behavior ML
 2022–present
-  - Led 7‑engineer team for the forecasting model enabling 250k+ incident‑free miles of driverless
-    operations.
-  - Owned scene understanding, goal‑setting, and off‑nominal handling in the behavior model,
-    aligning planning/ML, perception, mapping, routing, and validation so the learned model robustly
-    covers all scenarios in scope for the engineered system it replaces.
-  - Recognized by senior leadership for urgently resolving intersection behavior deficiencies that
-    were blocking investor showcases central to $800M+ funding round & manufacturing partnership
-    agreement.
+  - Led 7‑engineer team to deliver forecasting models enabling 250k+ incident‑free miles of
+    driverless operations.
+  - Primary technical point of contact for interaction behavior in cross‑org launches, demos, and
+    incident reviews; diagnosed on‑road failures, led design and delivery of fixes, and communicated
+    timeline and scope trade‑offs with senior leadership and external‑facing launch/demo teams.
+  - Proposed and led black‑box forecasting validation framework that surfaced previously unnoticed
+    safety‑critical failures, prompted mitigations and new test coverage required for driverless
+    launch, and became part of the validation process for every new model release.
+  - Led scene understanding and off‑nominal workstreams for the behavior model, aligning planning,
+    perception, mapping, routing, and validation to ensure safe on-road interactions and
+    fault-response; developed training recipe combining pre‑training, LoRA finetuning, and
+    offline‑RL/DAgger that resolved a large class of long-tail scenarios, including 100+
+    emergency-vehicle and fault-handling tests requiring safe pull-over behavior.
+  - Designed and led new process to rapidly integrate multiple model improvements developed by
+    parallel teams, scaling experiment velocity as the org tripled in size while ensuring a stable,
+    steadily progressing baseline.
   - Mentored & sponsored 4 ML engineers, creating opportunities for them to own increasing technical
     complexity and cross-team/leadership scope by providing design/communication guidance and acting
-    as a safety net to encourage risk-taking; successfully advocated for 1 promotion to senior and 1
-    intern-to-full-time conversion.
+    as a safety net to encourage risk-taking; successfully advocated for 1 promotion to senior.
 
 Magna Electronics / Optimus Ride | Senior SDE (prom. from SDE II), Motion Planning
 2020–2022
@@ -28,26 +35,6 @@ Magna Electronics / Optimus Ride | Senior SDE (prom. from SDE II), Motion Planni
     intersections.
   - Formulated technical requirements & algorithmic specifications for 2 ADAS features following ISO
     26262 functional safety standards, resulting in a patent filing.
-
-Cruise Automation | Intern, Prediction
-Summer 2018
-  - Improved forecast dynamic feasibility & intersection reasoning, tripling passing test cases &
-    substantially reducing intersection disengagements.
-
-Optimus Ride (Self-driving) | SWE Intern, Perception
-Summer 2017
-  - Designed & implemented end-to-end perception pipeline from object detection through tracking &
-    forecasting, establishing architecture that integrated with motion planning system.
-
-RightHand Robotics (Grasping) | Intern, Machine Learning / Vision
-January 2017
-  - Designed & trained CNN-based grasp prediction model from RGB-D input, improving pick success
-    rate on cluttered bin-packing scenarios.
-
-Tanius Technology (Prop Trading) | Developer, ML Modeling
-2015–2016
-  - Built end-to-end ML system for algorithmic trading: data ingestion, model training, &
-    backtesting infrastructure.
 
 EDUCATION & RESEARCH PUBLICATIONS
 ----------------------------------------------------------------------------------------------------
@@ -73,7 +60,7 @@ SKILLS
 ----------------------------------------------------------------------------------------------------
 
 Languages: C, C++, Python
-ML/AI: PyTorch, TensorFlow, ROS
+ML/AI: PyTorch / TRT, TensorFlow, ROS
 Tools: Git, Docker, Linux
 
 ====================================================================================================
@@ -94,10 +81,6 @@ Software Lead | AVBotz | 2012–2016
   aiming & shooting torpedoes, & navigating around obstacles. International finalist (7th Place) as
   a HS team at collegiate RoboSub 2015.
 
-Co-President, HPMS Branch Director | ACE Coding | 2013–2016
-  Managed ~16 volunteers to teach weekly programming lessons to ~100 middle school students
-  annually. Organized full-day event attracting ~300 students. Taught machine vision & ML workshops.
-
 AWARDS
 ----------------------------------------------------------------------------------------------------
 
@@ -110,6 +93,5 @@ C++: Low latency audio streaming to enable remote musicians to play in-sync with
 Python: Musical autocomplete to assist chord & melody composition
 Python: Open-source window manager extension enabling grid layout
 C: Web browser using Chromium's rendering engine with configurable vi-like key bindings
-C: C compiler to convert C code to x86 assembly
 Java: Neural network AI for a multiplayer platformer fighting game
 n/a: Inflatable Sailboat: DIY spritsail rigged to an inflatable raft
