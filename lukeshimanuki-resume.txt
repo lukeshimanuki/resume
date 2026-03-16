@@ -10,20 +10,10 @@ Aurora Innovation | <b>Staff ML Eng</b> (prom. from Sr. Eng), Behavior ML
 2022–present
   - Led 7‑engineer team to deliver forecasting models enabling 250k+ incident‑free miles of
     driverless operations.
-  - Primary technical point of contact for interaction behavior in cross‑org launches, demos, and
-    incident reviews; diagnosed on‑road failures, led design and delivery of fixes, and communicated
-    timeline and scope trade‑offs with senior leadership and external‑facing launch/demo teams.
-  - Proposed and led black‑box forecasting validation framework that surfaced previously unnoticed
-    safety‑critical failures, prompted mitigations and new test coverage required for driverless
-    launch, and became part of the validation process for every new model release.
-  - Led scene understanding and off‑nominal workstreams for the behavior model, aligning planning,
-    perception, mapping, routing, and validation to ensure safe on-road interactions and
-    fault-response; developed training recipe combining pre‑training, LoRA finetuning, and
-    offline‑RL/DAgger that resolved a large class of long-tail scenarios, including 100+
-    emergency-vehicle and fault-handling tests requiring safe pull-over behavior.
-  - Designed and led new process to rapidly integrate multiple model improvements developed by
-    parallel teams, scaling experiment velocity as the org tripled in size while ensuring a stable,
-    steadily progressing baseline.
+  - Served as primary technical point of contact for interaction behavior in cross‑org launches,
+    demos, and incident reviews; diagnosed on‑road failures, led design and delivery of fixes, and
+    communicated timeline and scope trade‑offs with senior leadership and external‑facing
+    launch/demo teams.
   - Mentored & sponsored 4 ML engineers, creating opportunities for them to own increasing technical
     complexity and cross-team/leadership scope by providing design/communication guidance and acting
     as a safety net to encourage risk-taking; successfully advocated for 1 promotion to senior.
