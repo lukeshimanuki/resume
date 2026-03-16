@@ -26,6 +26,27 @@ Magna Electronics / Optimus Ride | Senior SDE (prom. from SDE II), Motion Planni
   - Formulated technical requirements & algorithmic specifications for 2 ADAS features following ISO
     26262 functional safety standards, resulting in a patent filing.
 
+Cruise Automation | Intern, Prediction
+Summer 2018
+  - Made forecasts dynamically feasible & intersection-aware, tripling passing tests & reducing
+    disengagements.
+
+Optimus Ride (Self-driving) | SWE Intern, Perception
+Summer 2017
+  - Designed & implemented end-to-end perception-prediction pipeline from object detection through
+    tracking & forecasting, establishing architecture that interfaces between the raw sensor data
+    and the motion planner.
+
+RightHand Robotics (Grasping) | Intern, Machine Learning / Vision
+January 2017
+  - Designed & trained grasping model from RGB-D input, improving pick success rate from cluttered
+    boxes.
+
+Tanius Technology (Prop Trading) | Developer, ML Modeling
+2015–2016
+  - Built end-to-end ML system for algorithmic trading: data ingestion, model training, &
+    backtesting infrastructure.
+
 EDUCATION & RESEARCH PUBLICATIONS
 ----------------------------------------------------------------------------------------------------
 
