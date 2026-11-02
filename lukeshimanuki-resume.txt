@@ -6,19 +6,30 @@ luke@shimanuki.cc  |  https://luke.shimanuki.cc
 EXPERIENCE
 ----------------------------------------------------------------------------------------------------
 
-Aurora Innovation | <b>Staff ML Eng</b> (prom. from Sr. Eng), Behavior ML
+Aurora Innovation | Sr. MLE --> Staff MLE --> <b>Staff TLM</b>, Behavior ML
 2022–present
-  - Led 7‑engineer team to deliver forecasting models enabling 250k+ incident‑free miles of
-    driverless operations.
-  - Served as primary technical point of contact for interaction behavior in cross‑org launches,
-    demos, and incident reviews; diagnosed on‑road failures, led design and delivery of fixes, and
-    communicated timeline and scope trade‑offs with senior leadership and external‑facing
+  - <b>Led the 16-engineer post-training effort</b> to improve driving performance of the behavior
+    model and enable on-road deployment. Triaged and prioritized failure modes remaining after
+    pre-training, defined the remediation roadmap, and built a repeatable SFT and DAgger workflow
+    that has enabled the team to triple in size by onboarding traditional software engineers into ML
+    development.
+  - <b>Led 6-engineer scene understanding workstream for behavior model pre-training</b>, aligning
+    planning, perception, mapping, routing, and validation teams to ensure safe on-road interactions
+    and fault-response.
+  - <b>Led 7‑engineer team to deploy motion forecasting models</b> enabling 500k+ incident‑free
+    driverless miles. Worked with product and downstream consumers to identify and schedule
+    improvements, led interface and architecture design, and ensured on-time delivery unblocking 5
+    company-wide releases.
+  - <b>Served as primary technical point of contact for interaction behavior</b> in cross‑org
+    launches, demos, and incident reviews; diagnosed on‑road failures, led design and delivery of
+    fixes, and communicated timeline and scope trade‑offs with senior leadership and external‑facing
     launch/demo teams.
-  - Mentored & sponsored 4 ML engineers, creating opportunities for them to own increasing technical
-    complexity and cross-team/leadership scope by providing design/communication guidance and acting
-    as a safety net to encourage risk-taking; successfully advocated for 1 promotion to senior.
+  - <b>Mentored & sponsored 6 ML engineers</b>, creating opportunities for them to own increasing
+    technical complexity and cross-team/leadership scope by providing design/communication guidance
+    and acting as a safety net to encourage risk-taking; successfully advocated for 1 promotion to
+    senior.
 
-Magna Electronics / Optimus Ride | Senior SDE (prom. from SDE II), Motion Planning
+Magna Electronics / Optimus Ride | SDE II --> Sr. SDE, Motion Planning
 2020–2022
   - Led 3 engineers across 2 teams to expand prediction-planning interface and algorithms to produce
     probability-aware forecasts and plans, enabling safe autonomous navigation through contested
@@ -101,8 +112,8 @@ PROJECTS
 ----------------------------------------------------------------------------------------------------
 
 C++: Low latency audio streaming to enable remote musicians to play in-sync with under 30ms latency
-Python: Musical autocomplete to assist chord & melody composition
-Python: Open-source window manager extension enabling grid layout
+Python: Musical autocomplete to accompany player with auto-generated chords & melodies in real-time
+Python: Extension enabling grid layout for i3, an open-source window manager
 C: Web browser using Chromium's rendering engine with configurable vi-like key bindings
 Java: Neural network AI for a multiplayer platformer fighting game
 n/a: Inflatable Sailboat: DIY spritsail rigged to an inflatable raft
