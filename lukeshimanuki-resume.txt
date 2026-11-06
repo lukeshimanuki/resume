@@ -11,7 +11,7 @@ Aurora Innovation | Sr. MLE --> Staff MLE --> <b>Staff TLM</b>, Behavior ML
   - <b>Led the 16-engineer post-training effort</b> to improve driving performance of the behavior
     model and enable on-road deployment. Triaged and prioritized failure modes remaining after
     pre-training, defined the remediation roadmap, and built a repeatable SFT and DAgger workflow
-    that has enabled the team to triple in size by onboarding traditional software engineers into ML
+    that enabled the team to triple in size by onboarding traditional software engineers into ML
     development.
   - <b>Led 6-engineer scene understanding workstream for behavior model pre-training</b>, aligning
     planning, perception, mapping, routing, and validation teams to ensure safe on-road interactions
