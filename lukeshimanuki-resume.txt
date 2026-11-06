@@ -107,13 +107,3 @@ AWARDS
 ----------------------------------------------------------------------------------------------------
 
 USACO Platinum | Intel STS 2016 Semifinalist | Eagle Scout | MIT Battlecode 2018 Finalist
-
-PROJECTS
-----------------------------------------------------------------------------------------------------
-
-C++: Low latency audio streaming to enable remote musicians to play in-sync with under 30ms latency
-Python: Musical autocomplete to accompany player with auto-generated chords & melodies in real-time
-Python: Extension enabling grid layout for i3, an open-source window manager
-C: Web browser using Chromium's rendering engine with configurable vi-like key bindings
-Java: Neural network AI for a multiplayer platformer fighting game
-n/a: Inflatable Sailboat: DIY spritsail rigged to an inflatable raft
